@@ -17,6 +17,8 @@ Linien: Wandspiegel, Salzlampen, Bilderrahmen, Plissees. Kanäle: Amazon, Otto, 
 - Nach Weihnachten (Woche 13) fällt der Kernwert auf ca. 550–650 € zurück, der Restbestand auf ca. 200 €, also ca. 750–850 €/Tag gesamt (Rahmenlos-Rahmen sind nicht betrachtet).
 - Das 5.000-€-Ziel bleibt mit vier Linien nur an Spitzentagen möglich, ein Wochenschnitt braucht zusätzliche Produkte.
 
+- Ein höheres Ambitionsszenario (Kern ca. 1.400 €, gesamt ca. 1.650 € in Woche 10) mit den nötigen Voraussetzungen steht in `docs/ambitionsszenario.md`.
+
 ## 2. Maßnahmen je Linie und Kanal
 
 ### Wandspiegel (eigene Produktion, Farben/Größen/Formen bleiben)
