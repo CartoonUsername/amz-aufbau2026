@@ -21,10 +21,10 @@ Basis sind die Werte aus `docs/plan_4_linien.md`. Das Ambitionsszenario setzt di
 | Wandspiegel | ca. 1,63 € (135 € bei ca. 83 Sessions/Tag) | bei 2,50 € durch Sets ca. 180 Sessions/Tag | 2,2× |
 | Salzlampen | ca. 1,29 € (90 € bei ca. 70 Sessions/Tag) | bei 2,00 € durch Geschenksets ca. 225 Sessions/Tag | 3,2× |
 | Trikotrahmen | Otto 11 € pro Visit (2.580 € bei 228 Visits), Amazon ca. 4,60 € pro Session | Otto 15 Visits/Tag (ca. 165 €) und Amazon 40 Sessions/Tag (ca. 185 €) | Otto 2×, Amazon über 25× |
-| Plissees | keine Daten | bei 25 € Warenkorb und 4 % Conversion ca. 150 Sessions/Tag, ca. 6 Verkäufe/Tag | von null, StoffTex verkauft ca. 20/Tag |
+| Plissees | keine Daten | bei 25 € Warenkorb und 4 % Conversion ca. 150 Sessions/Tag, ca. 6 Verkäufe/Tag | von null, StoffTex verkauft mindestens ca. 20/Tag (zwei Varianten) und vermutlich über 50/Tag über alle 16 Kombinationen |
 
 - Die Trikotrahmen sind der größte Hebel: Otto verdient 11 € pro Visit bei nur ca. 8 Visits am Tag, schon wenige Besucher mehr bringen viel, auf Amazon haben sie kaum Sessions (13, 6, 4, 3, 5 in 30 Tagen) bei 7,7 % Conversion.
-- Bei den Plissees ist die Annahme am unsichersten, weil Bewertungen, Marge und die Lieferantenvorgabe offen sind.
+- Bei den Plissees ist die Annahme am unsichersten, weil Bewertungen, Marge und die Lieferantenvorgabe offen sind, der Markt ist aber größer als zunächst angenommen (siehe `docs/plissee_entwuerfe.md`, Korrektur der Verkaufsschätzung).
 
 ## 3. Hebel, die die Ambition tragen können
 

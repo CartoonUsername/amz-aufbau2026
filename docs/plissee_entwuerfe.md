@@ -81,3 +81,11 @@ Annahmen: Einkaufspreis ca. 30 % unter dem StoffTex-Amazon-Preis (ungeprüft), E
 - Folge: Wettbewerb nur über Service (Lieferzeit, Farbkarte, Bilder, Videos, Bewertungen), nicht über den Preis, und die Marge ist durch Einkaufspreis und Gebühren begrenzt.
 - Hinweis: Mindestpreisvorgaben des Lieferanten an Händler sind im EU-Wettbewerbsrecht meist problematisch, das sollte im Zweifel rechtlich geprüft werden (keine Rechtsberatung).
 - Priorität im Plan: niedrig, bis Händlerpreisliste und Versandkosten bekannt sind, Fokus bis Weihnachten bleibt auf Salzlampen und Spiegel-Sets.
+
+## Korrektur der Verkaufsschätzung (8.10.2026)
+
+- Die Schätzung „StoffTex verkauft ca. 20 pro Tag“ stammte nur aus den zwei geöffneten Varianten („400+“ und „200+ gekauft im letzten Monat“, Untergrenzen).
+- Laut Aussage haben die weiteren Größenoptionen und beide Montagearten jeweils ebenfalls über 100 Verkäufe pro Monat, bei 16 Kombinationen sind das mindestens ca. 1.600 Stück pro Monat, also mindestens ca. 53 pro Tag.
+- Bei ca. 20 € Durchschnittswarenkorb (Ab-Preis 9,49–12,34 € plus Aufschläge, ungeprüft) wären das mindestens ca. 1.000 €/Tag Marktvolumen, 10–15 % davon wären ca. 100–150 €/Tag.
+- Die Zahl muss je Variante bestätigt werden, dafür für jede der 16 Kombinationen die Angabe „gekauft im letzten Monat“ notieren.
+- Mehr Volumen ändert nichts an der Marge: Bei ca. 0–1,70 € Rest pro Stück vor Versand bringt das Volumen Umsatz, aber kaum Gewinn.
