@@ -45,3 +45,7 @@ Der Bestseller Spiegel Weiß hat 6,5 % Conversion und 32 Sessions/Tag, Sets hebe
 - Mindestens 0,3 Einheiten/Tag je Set-Listing und Conversion ≥ 6 %.
 - Umsatz pro Bestellung steigt im Spiegel-Segment von ca. 25 € auf ≥ 35 €.
 - Retourenquote unter 8 %, besonders bei Mehrfach-Sets (Bruchrisiko beim Versand).
+
+## Hinweis zum Montage-Set (8.10.2026)
+
+- Aufhänger und Schrauben liegen den Spiegeln bereits bei, das separate Montage-Set (Z01) sollte deshalb Zusatzzubehör enthalten (z. B. Dübel für verschiedene Wände, Wasserwaage, Klebepads für Mietwohnungen), sonst gibt es keinen Grund, es zu kaufen.
