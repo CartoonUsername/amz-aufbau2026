@@ -3,6 +3,8 @@
 
   python3 scripts/ean_tools.py check 4255822600181
   python3 scripts/ean_tools.py used  data/otto_performance_2026-10-08.csv
+  python3 scripts/ean_tools.py next --register data/gtin_register.csv
+  python3 scripts/ean_tools.py assign --register data/gtin_register.csv --listing data/spiegel_sets_texte_charge1.csv [weitere.csv ...]
   python3 scripts/ean_tools.py propose --prefix 4255822 --csvs data/otto_performance_2026-10-08.csv \
          --skus data/spiegel_sets_texte_charge1.csv data/salzlampen_geschenksets_texte.csv --out data/ean_vorschlaege.csv
 
@@ -34,9 +36,52 @@ def read_used(paths, prefix):
     return used
 
 
+def load_register(path):
+    with open(path, encoding="utf-8", newline="") as f:
+        return list(csv.DictReader(f))
+
+
+def run_register(a):
+    reg = load_register(a.register)
+    prefix = a.prefix
+    used = {r["gtin"] for r in reg}
+    refs = [int(r["gtin"][len(prefix):12]) for r in reg if r["gtin"].startswith(prefix)]
+    nxt = max(refs) + 1
+    if a.cmd == "next":
+        print(f"Höchste vergebene Artikelnummer: {max(refs)}, nächste freie: {nxt} ({len(reg)} Nummern im Register)")
+        return
+    width = 12 - len(prefix)
+    new_reg = []
+    for path in a.listing:
+        with open(path, encoding="utf-8", newline="") as f:
+            rows = list(csv.reader(f))
+        head = rows[0]
+        gi, si = head.index("gtin_ean"), head.index("sku")
+        ti = head.index("titel") if "titel" in head else None
+        for r in rows[1:]:
+            if re.fullmatch(r"\d{13}", r[gi] or "") and valid(r[gi]):
+                continue
+            base = prefix + str(nxt).zfill(width)
+            gtin = base + str(check_digit(base))
+            assert gtin not in used and valid(gtin)
+            r[gi] = gtin
+            used.add(gtin)
+            new_reg.append({"gtin": gtin, "artikelnummer": str(nxt).zfill(width), "sku": r[si],
+                            "produkt": (r[ti] if ti is not None else "")[:70], "quelle": path, "status": "vergeben"})
+            nxt += 1
+        with open(path, "w", encoding="utf-8", newline="") as f:
+            csv.writer(f).writerows(rows)
+    with open(a.register, "a", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=["gtin", "artikelnummer", "sku", "produkt", "quelle", "status"])
+        w.writerows(new_reg)
+    print(f"{len(new_reg)} GTINs vergeben, nächste freie Artikelnummer: {nxt}")
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["check", "used", "propose"])
+    ap.add_argument("cmd", choices=["check", "used", "propose", "next", "assign"])
+    ap.add_argument("--register", default="data/gtin_register.csv")
+    ap.add_argument("--listing", nargs="*", default=[])
     ap.add_argument("args", nargs="*")
     ap.add_argument("--prefix", default="4255822")
     ap.add_argument("--csvs", nargs="*", default=[])
@@ -47,6 +92,10 @@ def main():
     if a.cmd == "check":
         for e in a.args:
             print(e, "gültig" if valid(e) else "UNGÜLTIG (Prüfziffer " + str(check_digit(e[:12])) + ")")
+        return
+
+    if a.cmd in ("next", "assign"):
+        run_register(a)
         return
 
     paths = a.args if a.cmd == "used" else a.csvs

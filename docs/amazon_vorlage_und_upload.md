@@ -62,7 +62,7 @@ Das Prüfskript meldet bei allen drei Chargen Platzhalter (EAN, Bestand, Bügel-
 
 ### Noch offen vor dem Upload
 
-1. EANs der 10 Sets (Art der Produkt-ID und Produkt-ID), alternativ GTIN-Freistellung nur, wenn sie für die Marke genehmigt ist.
+1. ~~EANs der 10 Sets~~ erledigt am 8.10.2026: GTINs 4255822601829 bis 4255822601911 (Artikelnummern 60182 bis 60191) sind in Tabelle und Entwurf eingetragen, Regeln in `docs/gtin_regeln.md`.
 2. Paketlänge, -breite, -höhe und -gewicht je Set (die Profilwerte gelten für einen einzelnen Spiegel und sind bewusst leer).
 3. Bestand bei FBM oder Versandvorlage („Prime Mustervorlage“, „Schneller Versand“, „Standardvorlage Amazon“ und weitere in deinem Konto), bei FBA stattdessen die Sendung.
 4. Bild-URLs (`scripts/fill_image_urls.py`, dann die Vorlage neu füllen).
@@ -75,6 +75,6 @@ Hochladen: Seller Central → Produkte hinzufügen → Tabelle → Datei hochlad
 
 - Eure vorhandenen GTINs beginnen mit 4255822 (74 genutzte Nummern, Artikelnummern 60006 bis 60181, alle mit korrekter Prüfziffer), das ist eure GS1-Basisnummer.
 - Jedes Set braucht eine neue GTIN, denn ein 2er- oder 3er-Set ist ein anderes Produkt als der Einzelspiegel und darf die EAN des Einzelartikels nicht übernehmen.
-- `scripts/ean_tools.py` prüft die Prüfziffer (`check`), zählt genutzte Nummern (`used`) und macht Vorschläge für freie Nummern (`propose`), die Vorschläge für die 10 Spiegel-Sets und die 8 Salzlampen-Sets stehen in `data/ean_vorschlaege.csv` (ab Artikelnummer 60182).
-- Die Vorschläge sind noch nicht in die Listing-Tabellen eingetragen: Zuerst im GS1-Portal prüfen, ob die Nummern in eurem lizenzierten Bereich liegen und frei sind, und sie dort den Produkten (Name, Marke EmsCraft24, Inhalt) zuordnen, denn Amazon gleicht GTIN und Marke mit dem GS1-Register ab.
+- `scripts/ean_tools.py` prüft die Prüfziffer (`check`), zählt genutzte Nummern (`used`) und macht Vorschläge für freie Nummern (`propose`), die Vorschläge für die 10 Spiegel-Sets und die 8 Salzlampen-Sets stehen in `data/gtin_register.csv`.
+- Die Nummern wurden bestätigt (genug freie Nummern vorhanden) und über `ean_tools.py assign` vergeben und im Register eingetragen, im GS1-Portal sind sie noch den Produkten (Name, Marke EmsCraft24, Inhalt) zuzuordnen, denn Amazon gleicht GTIN und Marke mit dem GS1-Register ab.
 - Danach die bestätigten Nummern in die Spalte `gtin_ean` der Listing-Tabelle übernehmen und die Amazon-Vorlage neu füllen.

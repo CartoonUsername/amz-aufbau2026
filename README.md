@@ -17,6 +17,7 @@ Der Plan rechnet ohne Einkaufs-/Herstellkosten; Preise werden bis dahin nicht ge
 
 ## Dateien
 
+- `docs/gtin_regeln.md` und `data/gtin_register.csv` – GS1-Nummern: Reihenfolge, Register, nächste freie Artikelnummer 60200 (Befehl `python3 scripts/ean_tools.py next`)
 - `docs/amazon_vorlage_und_upload.md` und `upload/amazon/README.md` – Amazon-Upload in Maßen (Chargen, Vorlagen, Prüfung mit `scripts/validate_listings.py`)
 - `docs/bilder_im_upload.md` – Bilder beim Upload mitgeben (URLs, Namensschema, Skript `scripts/fill_image_urls.py`)
 - `docs/texte_trikotrahmen.md` – Texte für 5 Trikotrahmen auf Amazon (Update) und eBay (neu), Otto-Hinweise, vollständig in `data/trikotrahmen_texte.csv`
