@@ -17,10 +17,10 @@ Quelle: Seller Central → Entwürfe fertigstellen (16 nicht übermittelt, 2 mit
 
 1. SKU-Namen: Drei SKUs wurden automatisch erzeugt (P9-EHYA-FUPU, DY-3E4L-IT5F, K8-4SA3-G1D1), und `PLI-PL-B22-120-H25-130-ZB` gehört zum Titel „Wabenplissee“, das ist ein Zuordnungsfehler.
 2. Der Entwurf `PLI-WP-B22-120-H25-130-OB` hat keinen Beschreibungs-/Bullet-Text und muss ergänzt werden.
-3. Größenbereiche: Der Preis eines Listings gilt für den ganzen Bereich (z. B. 22–120 cm), also für die größte Fläche, sonst entsteht bei großen Maßen Verlust (ohne Herstellkosten noch nicht berechenbar).
+3. Preis: Amazon erlaubt bei „Anpassen“ Preisaufschläge je Breite, Höhe und Option (StoffTex nutzt +7 € bis +10 € in den ersten Breitenstufen), damit lässt sich der Preis je Maß an den Einkaufspreis koppeln und ein Pauschalpreis je Bereich entfällt.
 4. Maßanfertigung: Das Programm „Angebot für personalisierbares Produkt“ (wie beim Passepartout) erlaubt dem Kunden, Breite und Höhe exakt einzugeben, das sollte für die Plissees genutzt werden.
 5. Versand: Maßanfertigungen laufen über FBM, die Bearbeitungszeit muss die Produktionsdauer abdecken.
-6. Farben: Die Titel nennen keine Farbe, falls es Farben gibt, gehören sie als Variation oder eigenes Listing dazu.
+6. Farben: Farbe gehört in die Anpassung („Anpassen“-Auswahl, StoffTex bietet 32–34 Farben), nicht in eigene Listings.
 7. Variationen: Statt 16 Einzel-Listings sind zwei Familien (Plissee, Wabenplissee) mit den Kindern Montage und Größenbereich übersichtlicher und bündeln Bewertungen.
 8. Einschränkungen: Die zwei übermittelten Entwürfe mit „Einschränkungen überprüfen“ zuerst öffnen.
 
@@ -35,8 +35,29 @@ Quelle: Seller Central → Entwürfe fertigstellen (16 nicht übermittelt, 2 mit
 - Preis, Herstellkosten und Produktionsdauer sind noch offen.
 - Wabenplissees sind wegen der Wärmedämmung auch ein Argument im Winter (vor Veröffentlichung prüfen).
 
-## Lieferant und Anpassung (Stand 8.10.2026)
+## Vergleich: StoffTex auf Amazon (Lieferant = Wettbewerber)
 
-- Lieferant: Stofftex (https://stofftex.com/de/plissees/plissee-20.html), jedes Plissee ist in Maß und Farbe anpassbar, die Seite war vom Arbeitsrechner aus nicht erreichbar und wurde nicht ausgewertet.
-- Offen: Preismatrix des Lieferanten (Einkaufspreis je Breite × Höhe und Stoff), Farbliste, Lieferzeit, Direktversand an Kunden oder Wareneingang bei EmsCraft24, Rückgabe bei Maßanfertigung.
-- Die Farben vervielfachen die Listings (16 Entwürfe × Farben), deshalb zuerst mit den 5–8 stärksten Farben starten und Farbe als Variation unter zwei Familien führen.
+Quelle: Screenshots der Listings „StoffTex Plissee zum Bohren / ohne Bohren nach Maß 34 Farben“ (8.10.2026).
+
+| Merkmal | StoffTex |
+|---|---|
+| Struktur | Eine Familie: „Farbe“ = Montage (zum Bohren / ohne Bohren), „Material“ = 8 Kombinationen aus Plissee/Wabenplissee, B22–120/B121–150 und H25–130/H131–230, also genau die 16 Entwürfe |
+| Ab-Preis | zum Bohren 9,49 € (7,30 €/Meter), ohne Bohren 12,34 € (9,49 €/Meter), jeweils für die kleinste Größe |
+| Aufschläge | Breite +7 € (23 cm) bis +10 € (31 cm) und Höhe +7–8 € in den ersten Stufen, 99 Breiten und 100 Höhen wählbar |
+| Anpassung | 32–34 Farben, Profilfarbe, Breite (cm und mm), Höhe (cm) |
+| Mengenrabatt | 5 % ab 4, 8 % ab 8, 10 % ab 12, 13 % ab 16 Stück |
+| Bewertungen | zum Bohren 4,6 Sterne (1.114), ohne Bohren 4,4 Sterne (390) |
+| Verkäufe | „400+ gekauft im letzten Monat“ (zum Bohren), „200+“ (ohne Bohren) |
+| Lieferung | gratis, ca. 7 Tage (Do. 15.10. bei Bestellung am 8.10.) |
+| Bilder | 7+ Bilder (Lifestyle, Farbkarten „Castello 101…“) und 2 Videos |
+| Titel | Plissee … nach Maß 34 Farben, Zusatz „Plisseerollo, Faltrollo, Sonnenschutz, Klemmträger, Fenster, Türen“ |
+
+## Folgen für den Plan
+
+- Nachfrage: Mindestens ca. 600 Einheiten im Monat bei StoffTex zeigen einen großen Markt, dieser Wettbewerber hat aber über 1.500 Bewertungen, EmsCraft24 startet bei null.
+- Annahme alt: 16 Listings × 0,4 Einheiten/Tag × 35 € = ca. 225 €/Tag. Annahme neu: 3–5 Einheiten/Tag × ca. 20 € = ca. 100 €/Tag (60–150 €) nach 6 Monaten, ein Viertel des Wettbewerbers.
+- Titel und Bullets sollten Plisseerollo, Faltrollo, Sonnenschutz, Klemmträger und die Zahl der Farben enthalten.
+- Bilder: 7+ Bilder, eine Farbkarte und mindestens ein Video (Montage).
+- Mengenrabatt (5–13 %) lässt sich als Business-Preis/Staffel kopieren und hebt den Warenkorb.
+- Der Lieferant verkauft selbst auf Amazon, deshalb Preis und Lieferzeit gegen sein Angebot prüfen (Einkaufspreis plus 15 % Verkaufsgebühr).
+- Offen: Einkaufspreis je Maß und Stoff, Direktversand ja/nein, Lieferzeit, Rückgabe bei Maßanfertigung.
