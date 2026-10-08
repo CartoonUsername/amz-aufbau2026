@@ -25,10 +25,10 @@ Ziel: ≥ 5.000 € Umsatz/Tag. Ausgangswert: ca. 324 €/Tag (7-Tage-Schnitt), 
 ## 3. Phase 0 – Grundlagen (Woche 1–2)
 
 1. Einbruch 1.–4. Okt. klären (Buy-Box-Quote, Lager, Preisänderungen, Listing-Unterdrückung) über Seller Central → Berichte → Business Reports.
-2. Doppelte FBA/FBM-SKUs je ASIN bereinigen (15 ASINs) und pro ASIN einen einheitlichen Preis festlegen.
+2. FBA/FBM-Doppel-SKUs je ASIN (15 ASINs) behalten, FBM dient als Rückfall bei FBA-Ausverkauf, der FBM-Preis liegt gleich oder höher als der FBA-Preis.
 3. FBA-Bestand der Bestseller auffüllen: Spiegel-Weiß (13), Spiegel-Schwarz (33), Eiche Catania (22), Salzlampen 1–2 kg und 2–3 kg (5/0).
 4. Warnung „Risiko zur Angebotsentfernung“ bei den Rollrosten (B08T17HG4G, B08T1FKJJF) beheben.
-5. SKU-Namen vereinheitlichen (`FBA_` ohne FBA-Bestand umbenennen) und Altlasten `AMZDE_…`, `EBAYD_…` löschen.
+5. Falsch benannte SKUs (z. B. `FBA_…` mit FBM-Bestand) bleiben bestehen, weil SKUs in Seller Central nicht umbenannt werden können, die Zuordnung FBA/FBM steht in der CSV; Altlasten `AMZDE_…`, `EBAYD_…` löschen.
 6. Fehlende Daten nachziehen: Einkaufspreise (für Preisuntergrenzen), FBA-Gebühren, Business Report Sessions/Buy-Box je ASIN.
 
 ## 4. Phase 1 – Organische Sichtbarkeit (Woche 3–8)

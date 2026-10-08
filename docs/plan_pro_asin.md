@@ -69,7 +69,7 @@ Spiegel Weiß und Salzlampe 1–2 kg müssen also vor Woche 8 nachbestellt werde
 
 | Woche | Aufgaben |
 |---|---|
-| 1 | Preisverlauf der Spiegel/Salzlampen prüfen, Doppel-SKUs bereinigen, Rollrost-Warnung und Buy Box prüfen, Nachbestellung Spiegel Weiß und Salzlampe 1–2 kg anstoßen |
+| 1 | Preisverlauf der Spiegel/Salzlampen prüfen, FBA/FBM-Doppel-SKUs prüfen (FBM bleibt als Rückfall, Preis gleich oder höher als FBA), Rollrost-Warnung und Buy Box prüfen, Nachbestellung Spiegel Weiß und Salzlampe 1–2 kg anstoßen |
 | 2 | FBA-Sendung 1: Spiegel Weiß/Schwarz/Eiche Catania, Salzlampe 1–2 und 2–3 kg |
 | 3–4 | Titel, Suchbegriffe, Bilder, A+ für Stufe A; Stufe D neu texten und bebildern; Rollroste als Familie neu aufsetzen |
 | 5–6 | Variationsfamilien Spiegel und Salzlampen; Vine für Stufe A; erste Charge neuer Listings (10) |
