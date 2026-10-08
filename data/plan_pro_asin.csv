@@ -1,24 +1,33 @@
-prioritaet,asin,produkt,preis_ziel_eur,einheiten_tag_ist,ziel_woche8,ziel_monat4,ziel_monat8,bestand_fba,bestand_fbm,reichweite_tage_bei_ziel_woche8,massnahmen
-A,B0H1GVXBR4,Wandspiegel 60x40 Weiß,29.99,1.97,4,6,8,13,87,25,"Einen Preis 29.99 (FBA-SKU verkaufte 40 zu 29.99, FBM 19 zu 24.99); FBM-Bestand nach FBA; Nachbestellung jetzt; Bilder/A+ neu"
-A,B0H1HHQ6RM,Wandspiegel 60x40 Schwarz,29.99,1.07,2.5,4,5,33,82,46,"Einen Preis 29.99 (FBA 29 zu 29.99, FBM 3 zu 34.99); FBM nach FBA; Listing/Bilder"
-A,B0HC7G12XQ,Bilderrahmen 59x84,21.99,1.27,2.5,3.5,5,0,60,24,Auf FBA umstellen (aktuell nur FBM); Nachbestellung jetzt; Set-Variante prüfen
-A,B0H6K8ZY9P,Salzlampe 1-2 kg,19.9,1.4,3,4,5,5,90,32,"Einen Preis 19.90 (FBM 36 zu 19.90, FBA 6 zu 19.50); FBM nach FBA; Angebotsdaten verbessern; Variationsfamilie anlegen"
-A,B0HC3LRZVM,Bilderrahmen 21x29 (5er-Set),13.99,1.4,3,4,5,0,51,17,Auf FBA umstellen; Nachbestellung jetzt; Multipack als Bundle
-B,B0H1GVQGK5,Wandspiegel 60x40 Eiche Catania,29.99,0.5,1.5,2.5,3,22,0,15,FBM-SKU mit 92 Stück nach FBA; Variationsfamilie Spiegel
-B,B0HFJLKKJF,Wandspiegel 60x40 Eiche Natur,29.99,0.37,1.5,2.5,3,0,77,51,Auf FBA umstellen; Variationsfamilie Spiegel
-B,B0HC7LTTR4,Bilderrahmen 42x59,14.99,0.77,1.5,2.5,3,0,72,48,Auf FBA umstellen; Rahmen-Variationsfamilie
-B,B0HC7L8SZ8,Bilderrahmen 50x70,14.99,0.63,1.5,2.5,3,0,77,51,Auf FBA umstellen; FBM-SKU mit 23.99 prüfen; Variationsfamilie
-B,B0HC7KZQHN,Bilderrahmen 20x30,8.99,0.47,1,1.5,2,0,86,86,Nur als Add-on/Set bewerben (niedriger Preis); Variationsfamilie
-B,B0H6KHBWC7,Salzlampe 2-3 kg,28.99,0.3,1,2,3,0,87,87,"Einen Preis 28.99; FBA-SKU hat Bestand 0, FBM nach FBA; Angebotsdaten verbessern"
-C,B08T17HG4G,CLAMARO Rollrost 140x200,89.0,0.23,0.7,1.5,2.5,0,131,187,Warnung Angebotsentfernung beheben; FBA/Prime prüfen (Größe/Gebühren); A+ Content
-C,B08T1FKJJF,Rollrost Lattenrost 90x200,59.99,0.2,0.7,1.5,2.5,0,184,263,Warnung Angebotsentfernung beheben; Variationsfamilie mit 140x200/120x200
-C,B08T1DP91M,Rollrost 120x200,74.99,0,0.5,1.2,2,0,96,192,Listing prüfen/optimieren; in Rollrost-Familie einordnen
-C,B0HF51T81T,Cityroller Kickscooter,29.99,0.3,1,1.5,2,0,97,97,Angebotsdaten verbessern; Variation mit Sidekick-ASINs prüfen
-C,B0HGRD35L5,TrikotFrame Eiche Natur,59.99,0,0.4,1,1.5,0,99,248,Listing/Bilder/A+; als Variationsfamilie mit Gold/Nussbaum/Schwarz/Weiß; FBA-Test mit 30 Stück
-C,B0HGRH93DF,TrikotFrame Gold,59.99,0,0.4,1,1.5,0,100,250,Siehe TrikotFrame-Familie
-C,B0HGR7T9LX,TrikotFrame Nussbaum,59.99,0,0.4,1,1.5,0,100,250,Siehe TrikotFrame-Familie
-C,B0H26JXWW4,TrikotFrame Schwarz,59.99,0,0.4,1,1.5,0,96,240,Siehe TrikotFrame-Familie
-C,B0HGRLMQGZ,TrikotFrame Weiß,59.99,0,0.4,1,1.5,0,100,250,Siehe TrikotFrame-Familie
-C,B0HFW4BWXB,Panda Beistellbett,59.9,0,0.4,1,1.5,0,100,250,Listing prüfen/optimieren; FBA-Test
-C,B08T1JJQMY,JC-1IVM-5WM9 (109 €),109.0,0,0.3,0.8,1.5,0,126,420,"Produkt identifizieren, Listing prüfen; FBA-Test"
-C,B0GG4K46V8,B0GG4K46V8 (89 €),89.0,0,0.3,0.8,1.5,0,89,297,"Produkt identifizieren, Listing prüfen"
+prioritaet,asin,produkt,preis_realisiert_eur,sessions_tag_ist,conversion_prozent,buybox_prozent,einheiten_tag_ist,einheiten_tag_woche8,einheiten_tag_monat4,einheiten_tag_monat8,bestand_fbm_gesamt,sessions_tag_ziel_monat8,massnahmen
+A,B0H1GVXBR4,Wandspiegel 60x40 cm Hoch- und Querformat Weiß Matt - Kunsts,24.67,31.8,6.5,99.92,2.07,4.14,7.24,12.41,87,191.0,"FBM-Bestand nach FBA; Preisverlauf prüfen, dann einen Preis; Titel/Bilder/A+; Variationsfamilie; Nachbestellung"
+A,B0H1HHQ6RM,Wandspiegel 60x40 cm Hoch- und Querformat Schwarz Matt - Kun,24.62,14.5,7.8,100.0,1.13,2.27,3.96,6.8,82,87.0,"FBM nach FBA; Preisverlauf prüfen, einen Preis; Variationsfamilie"
+A,B0HC7G12XQ,"EmsCraft24 Bilderrahmen rahmenlos DIN A1 59,4x84,1 cm Clipra",20.49,4.9,26.7,97.81,1.3,2.6,4.55,7.8,60,29.0,"Auf FBA umstellen; Suchbegriffe/Titel ausbauen (Conversion 26,7 %); Nachbestellung"
+A,B0HC3LRZVM,"EmsCraft24 Bilderrahmen rahmenlos DIN A4 5er Set, Cliprahmen",13.61,8.8,17.7,94.36,1.57,3.13,5.48,9.4,51,53.0,Auf FBA umstellen; Suchbegriffe ausbauen; Nachbestellung; Multipack/Bundle
+A,B0HC7LTTR4,"EmsCraft24 Bilderrahmen rahmenlos DIN A2 42x59,4 cm, Cliprah",13.76,2.7,32.9,97.3,0.9,1.8,3.15,5.4,72,16.0,"Auf FBA umstellen; Suchbegriffe ausbauen (Conversion 32,9 %, nur 2,7 Sessions/Tag)"
+A,B0HC7L8SZ8,EmsCraft24 Bilderrahmen rahmenlos 50x70 cm Cliprahmen Acrylg,15.01,4.8,16.0,100.0,0.77,1.53,2.68,4.6,77,29.0,Auf FBA umstellen; Suchbegriffe ausbauen; Variationsfamilie
+A,B0H6K8ZY9P,EmsCraft24 Salzlampe aus der Salt Range Pakistan Nachtlicht ,16.81,23.5,6.7,98.84,1.57,3.13,5.49,9.4,90,141.0,FBM nach FBA; Angebotsdaten verbessern; Variationsfamilie Salzlampen
+B,B0H1GVQGK5,Wandspiegel 60x40 cm Hoch- und Querformat Eiche Catania - Ku,24.4,9.8,6.1,99.76,0.6,0.9,1.5,2.4,92,39.0,
+B,B0HFJLKKJF,Wandspiegel 60x40 cm Hoch- und Querformat Eiche Natur - Kuns,24.72,8.0,6.2,99.0,0.5,0.75,1.25,2.0,77,32.0,
+B,B0H6KHBWC7,EmsCraft24 Salzlampe aus der Salt Range Pakistan Nachtlicht ,24.99,6.0,6.6,99.62,0.4,0.6,1.0,1.6,87,24.0,
+B,B0HC7KZQHN,EmsCraft24 Bilderrahmen rahmenlos 20x30 cm Cliprahmen Acrylg,8.5,1.6,28.6,93.33,0.47,0.7,1.17,1.87,86,7.0,
+B,B0HC7DTH7D,"EmsCraft24 Bilderrahmen rahmenlos DIN A3 29,7x42 cm, Cliprah",9.99,1.8,13.0,100.0,0.23,0.35,0.58,0.93,93,7.0,
+B,B0HC7QQYDV,EmsCraft24 Bilderrahmen rahmenlos 40x60 cm Cliprahmen Acrylg,14.87,1.4,11.9,98.21,0.17,0.25,0.42,0.67,95,6.0,
+B,B0HGRDN9PK,"EmsCraft24 Bilderrahmen rahmenlos DIN A3 5er Set, Cliprahmen",18.85,0.7,22.7,94.29,0.17,0.25,0.42,0.67,94,3.0,
+B,B0HHDN6FVZ,EmsCraft24 Kinderspiegel Wandspiegel 60x40 cm Eiche Natur Ku,24.99,2.5,6.8,100.0,0.17,0.25,0.42,0.67,95,10.0,
+B,B0HHDWN5XD,EmsCraft24 Kinderspiegel Wandspiegel 60x40 cm Weiß Matt Kuns,24.99,0.9,11.5,100.0,0.1,0.15,0.25,0.4,97,3.0,
+B,B0HJCKKP71,EmsCraft24 Salzlampe aus der Salt Range Pakistan Nachtlicht ,32.95,1.1,8.8,100.0,0.1,0.15,0.25,0.4,16,5.0,
+B,B0H6K63JP4,EmsCraft24 Salzlampe aus der Salt Range Pakistan Nachtlicht ,29.9,2.6,3.8,98.06,0.1,0.15,0.25,0.4,94,11.0,
+C,B08T17HG4G,"CLAMARO Rollrost 140x200 cm, 22 Leisten, Multiplex Birkenhol",89.0,3.3,7.1,92.42,0.23,0.47,0.93,1.63,131,23.0,
+C,B08T1FKJJF,"Rollrost Lattenrost 90x200 cm, 22 Leisten, Multiplex Birkenh",59.99,2.2,9.0,69.64,0.2,0.4,0.8,1.4,184,16.0,
+C,B08T1JJQMY,"CLAMARO Rollrost 160x200 cm, 22 Leisten, Multiplex Birkenhol",109.0,2.0,5.1,75.68,0.1,0.2,0.4,0.7,126,14.0,
+C,B08T1PSK64,"Rollrost Lattenrost 100x200 cm, 22 Leisten, Multiplex Birken",69.99,1.4,9.5,89.29,0.13,0.27,0.53,0.93,95,10.0,
+C,B08T1DP91M,"Rollrost Lattenrost 120x200 cm, 22 Leisten, Multiplex Birken",74.99,1.1,2.9,93.48,0.03,0.07,0.13,0.23,96,8.0,
+C,B0HF51T81T,"Cityroller Kickscooter 205mm gefedert klappbar bis 100kg, (S",34.9,7.7,3.9,94.32,0.3,0.6,1.2,2.1,97,54.0,
+C,B07RL3665T,"Clamaro 'Sidekick' 205mm Cityroller Tretroller gefedert, bis",31.63,0.9,10.7,100.0,0.1,0.2,0.4,0.7,4,7.0,
+C,B07YSTRMDD,Cityroller Kickscooter (Grün/Schwarz) 205mm gefedert klappba,29.99,1.7,4.0,95.31,0.07,0.13,0.27,0.47,128,12.0,
+C,B0GLGTBP9K,Katzenbaum DeluxePet XXL Kratzbaum Athen EmsCraft24 – 240–27,129.99,4.6,1.4,90.81,0.07,0.13,0.27,0.47,0,32.0,
+C,B0HGRD35L5,Trikotrahmen 63x83cm mit Bügel Schablone Fan Rahmen Bilderra,59.99,0.4,7.7,100.0,0.03,0.07,0.13,0.23,99,3.0,
+D,B0H6KF29TN,EmsCraft24 Salzlampe aus der Salt Range Pakistan Nachtlicht ,37.99,2.5,4.0,98.88,0.0,0.15,0.2,0.3,35,7.0,
+D,B0H6KJ19QH,EmsCraft24 Salzlampe aus der Salt Range Pakistan Nachtlicht ,47.5,2.3,4.0,97.7,0.0,0.14,0.19,0.28,34,7.0,
+D,B0HF88TJHN,EmsCraft24 Salzlampe aus der Salt Range Pakistan Nachtlicht ,44.9,1.6,4.0,98.41,0.0,0.1,0.13,0.19,9,5.0,
+D,B0HCC4PDML,EmsCraft24 Salzlampe aus der Salt Range Pakistan Nachtlicht ,30.05,4.7,4.0,96.13,0.13,0.28,0.38,0.56,96,14.0,

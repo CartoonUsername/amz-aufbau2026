@@ -1,5 +1,7 @@
 # EmsCraft24 – Wachstumsplan ohne Werbung (Entwurf v1)
 
+> Stand v2: Die ASIN-Ziele stehen in `docs/plan_pro_asin.md` (mit Business-Report-Daten) und ersetzen die Zahlen in Abschnitt 2 dieser Datei, Hauptergebnis: ca. 1.930 €/Tag in Monat 8 aus den 33 Kern-ASINs, Rest über neue Listings.
+
 Rahmen: **Keine Amazon-Werbung** (kein Sponsored Products/Brands/Display, keine DSP), keine Marge-/Gebührendaten, Basis sind Umsatz, Preise und Bestand aus `docs/analyse_2026-10-08.md`.
 Ziel: ≥ 5.000 € Umsatz/Tag. Ausgangswert: ca. 324 €/Tag (7-Tage-Schnitt), ca. 13 Einheiten/Tag auf 101 aktiven Listings.
 
