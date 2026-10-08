@@ -17,6 +17,7 @@ Der Plan rechnet ohne Einkaufs-/Herstellkosten; Preise werden bis dahin nicht ge
 
 ## Dateien
 
+- `docs/texte_spiegel_sets_charge1.md` – Texte für 10 Spiegel-Sets (2er/3er in 5 Farben), vollständig in `data/spiegel_sets_texte_charge1.csv`
 - `docs/tagesplan_woche1.md` – Tagesplan 8.–18.10.2026 (Amazon, Otto, Shopify, Social parallel)
 - `docs/plan_4_linien.md` – Plan für die vier Kernlinien (Spiegel, Salzlampen, Rahmen, Plissees) nach Kanal und Woche
 - `docs/kernsortiment_2026-10-08.md` – Kernsortiment (Spiegel, Salzlampen, Bilderrahmen, Plissees) und Restbestand, Basis ca. 400–475 €/Tag
