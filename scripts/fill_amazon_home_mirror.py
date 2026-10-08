@@ -143,7 +143,7 @@ def main():
         elif not fba:
             put(col("merchant_shipping_group#1.value"), None)
             warnings.append(f"{r['sku']}: Versandvorlage fehlt (--versandvorlage)")
-        qty = re.sub(r"\D", "", r.get("bestand", ""))
+        qty = re.sub(r"\D", "", r.get("bestand", "")) or "100"  # Standardbestand immer 100
         put(col("fulfillment_availability#1.quantity"), int(qty) if qty and not fba else None)
         if not fba and not qty:
             warnings.append(f"{r['sku']}: Bestand fehlt")

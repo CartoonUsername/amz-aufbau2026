@@ -100,7 +100,7 @@ def main():
             offen.append(f"{r['sku']}: GTIN fehlt")
         if not o["bild_1"]:
             offen.append(f"{r['sku']}: Hauptbild-URL fehlt")
-        offen.append(f"{r['sku']}: Bestand/Menge fehlt")
+        o["bestand"] = "100"  # Standardbestand immer 100
         out.append(o)
 
     path = os.path.join(out_dir, f"listing_{a.channel}.csv")
