@@ -1,0 +1,24 @@
+prioritaet,asin,produkt,preis_ziel_eur,einheiten_tag_ist,ziel_woche8,ziel_monat4,ziel_monat8,bestand_fba,bestand_fbm,reichweite_tage_bei_ziel_woche8,massnahmen
+A,B0H1GVXBR4,Wandspiegel 60x40 Weiß,29.99,1.97,4,6,8,13,87,25,"Einen Preis 29.99 (FBA-SKU verkaufte 40 zu 29.99, FBM 19 zu 24.99); FBM-Bestand nach FBA; Nachbestellung jetzt; Bilder/A+ neu"
+A,B0H1HHQ6RM,Wandspiegel 60x40 Schwarz,29.99,1.07,2.5,4,5,33,82,46,"Einen Preis 29.99 (FBA 29 zu 29.99, FBM 3 zu 34.99); FBM nach FBA; Listing/Bilder"
+A,B0HC7G12XQ,Bilderrahmen 59x84,21.99,1.27,2.5,3.5,5,0,60,24,Auf FBA umstellen (aktuell nur FBM); Nachbestellung jetzt; Set-Variante prüfen
+A,B0H6K8ZY9P,Salzlampe 1-2 kg,19.9,1.4,3,4,5,5,90,32,"Einen Preis 19.90 (FBM 36 zu 19.90, FBA 6 zu 19.50); FBM nach FBA; Angebotsdaten verbessern; Variationsfamilie anlegen"
+A,B0HC3LRZVM,Bilderrahmen 21x29 (5er-Set),13.99,1.4,3,4,5,0,51,17,Auf FBA umstellen; Nachbestellung jetzt; Multipack als Bundle
+B,B0H1GVQGK5,Wandspiegel 60x40 Eiche Catania,29.99,0.5,1.5,2.5,3,22,0,15,FBM-SKU mit 92 Stück nach FBA; Variationsfamilie Spiegel
+B,B0HFJLKKJF,Wandspiegel 60x40 Eiche Natur,29.99,0.37,1.5,2.5,3,0,77,51,Auf FBA umstellen; Variationsfamilie Spiegel
+B,B0HC7LTTR4,Bilderrahmen 42x59,14.99,0.77,1.5,2.5,3,0,72,48,Auf FBA umstellen; Rahmen-Variationsfamilie
+B,B0HC7L8SZ8,Bilderrahmen 50x70,14.99,0.63,1.5,2.5,3,0,77,51,Auf FBA umstellen; FBM-SKU mit 23.99 prüfen; Variationsfamilie
+B,B0HC7KZQHN,Bilderrahmen 20x30,8.99,0.47,1,1.5,2,0,86,86,Nur als Add-on/Set bewerben (niedriger Preis); Variationsfamilie
+B,B0H6KHBWC7,Salzlampe 2-3 kg,28.99,0.3,1,2,3,0,87,87,"Einen Preis 28.99; FBA-SKU hat Bestand 0, FBM nach FBA; Angebotsdaten verbessern"
+C,B08T17HG4G,CLAMARO Rollrost 140x200,89.0,0.23,0.7,1.5,2.5,0,131,187,Warnung Angebotsentfernung beheben; FBA/Prime prüfen (Größe/Gebühren); A+ Content
+C,B08T1FKJJF,Rollrost Lattenrost 90x200,59.99,0.2,0.7,1.5,2.5,0,184,263,Warnung Angebotsentfernung beheben; Variationsfamilie mit 140x200/120x200
+C,B08T1DP91M,Rollrost 120x200,74.99,0,0.5,1.2,2,0,96,192,Listing prüfen/optimieren; in Rollrost-Familie einordnen
+C,B0HF51T81T,Cityroller Kickscooter,29.99,0.3,1,1.5,2,0,97,97,Angebotsdaten verbessern; Variation mit Sidekick-ASINs prüfen
+C,B0HGRD35L5,TrikotFrame Eiche Natur,59.99,0,0.4,1,1.5,0,99,248,Listing/Bilder/A+; als Variationsfamilie mit Gold/Nussbaum/Schwarz/Weiß; FBA-Test mit 30 Stück
+C,B0HGRH93DF,TrikotFrame Gold,59.99,0,0.4,1,1.5,0,100,250,Siehe TrikotFrame-Familie
+C,B0HGR7T9LX,TrikotFrame Nussbaum,59.99,0,0.4,1,1.5,0,100,250,Siehe TrikotFrame-Familie
+C,B0H26JXWW4,TrikotFrame Schwarz,59.99,0,0.4,1,1.5,0,96,240,Siehe TrikotFrame-Familie
+C,B0HGRLMQGZ,TrikotFrame Weiß,59.99,0,0.4,1,1.5,0,100,250,Siehe TrikotFrame-Familie
+C,B0HFW4BWXB,Panda Beistellbett,59.9,0,0.4,1,1.5,0,100,250,Listing prüfen/optimieren; FBA-Test
+C,B08T1JJQMY,JC-1IVM-5WM9 (109 €),109.0,0,0.3,0.8,1.5,0,126,420,"Produkt identifizieren, Listing prüfen; FBA-Test"
+C,B0GG4K46V8,B0GG4K46V8 (89 €),89.0,0,0.3,0.8,1.5,0,89,297,"Produkt identifizieren, Listing prüfen"
