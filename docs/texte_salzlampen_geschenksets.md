@@ -63,7 +63,16 @@ Die Mini-Sets nennen statt der großen Technik „Echtes Himalaya-Salzkristall, 
 - Struktur: Eine Variantenfamilie mit zwei Merkmalen, „Maße“ (Rosa, Weiß) und „Ausführung“ (1–2, 2–3, 3–5, 4–6, 5–7, 6–9 kg und Luna), bei Weiß sind 4–6 kg, 6–9 kg und Luna ausgegraut (nicht verfügbar).
 - Merkmalsfehler: „Maße“ enthält Farben (Rosa, Weiß), das Merkmal sollte „Farbe“ heißen, denn Otto filtert und sortiert nach Farbe und Maßen, das verbessert die Auffindbarkeit.
 - Preis: Weiß 2–3 kg kostet 24,95 € mit UVP 34,99 € (−29 %) inklusive MwSt. zuzüglich Versandkosten, auf Amazon liegt dieselbe Lampe (B0HJQGS2HV) ebenfalls bei 24,95 € zuzüglich 2,99 € Versand.
-- UVP: Die Rabattanzeige hängt am UVP, der UVP muss ein tatsächlich empfohlener Preis sein, sonst droht Ärger wegen irreführender Preisangaben.
+- UVP: Die Rabattanzeige (−29 %) hängt an einem UVP von 34,99 €, der laut Aussage nur zur Conversion-Steigerung gesetzt wurde und nicht der tatsächlich empfohlene oder früher verlangte Preis ist, das ist als irreführende Preiswerbung (Abmahn- und Sperrrisiko bei Otto und Amazon) problematisch, der UVP sollte entfernt oder auf einen echten Wert gesetzt werden (siehe Abschnitt 7).
 - Bilder: Das Listing zeigt Produkt, Lifestyle-Szene, Kristalle in Händen und den Karton mit Lieferumfang, das ist die Vorlage für die Set-Bilder.
 - Otto-Kampagnen: Oben stehen „Mind. 20 % Extra auf viele Möbel“ (bis So. 11.10.) und „10 € Gutschein für die erste Bestellung“, Spiegel laufen in der Provisionsgruppe Möbel, ob sie an solchen Kampagnen teilnehmen können, prüft man in Otto Partner Connect unter Marketing.
 - Sets auf Otto: Als zusätzliche „Ausführung“ (z. B. „2er Set 2–3 kg“) in dieser Familie bündeln sie Bewertungen, als eigene Produkte starten sie bei null.
+
+## 7. Preisangaben und Rabatte (Regel für alle Kanäle)
+
+- Ein UVP oder Streichpreis darf nur gesetzt werden, wenn er tatsächlich empfohlen oder zuvor verlangt wurde, bei Preisermäßigungen gilt in Deutschland zusätzlich die Angabe des niedrigsten Preises der letzten 30 Tage.
+- Alle Listings mit erfundenem UVP prüfen und den UVP entfernen oder korrigieren (Otto-Familien der Salzlampen und Spiegel, ggf. Amazon-Referenzpreise, eBay).
+- Wenn die Rabattoptik gewünscht ist: zuerst den höheren Preis nachweislich verlangen (mindestens einige Wochen), danach als echte Aktion senken, oder die Aktion über Coupons und Kampagnen der Plattform laufen lassen.
+- Rechtliche Einschätzung bitte vor dem Weihnachtsgeschäft mit einem Anwalt oder dem Händlerbund klären, das ist keine Rechtsberatung.
+
+Legale Hebel für mehr Conversion ohne UVP: Preis inklusive Versand (Versandkosten sind der häufigste Kaufabbruchgrund), Sets mit Mengenvorteil, Coupons, bessere Bilder, Bewertungen, Prime/Schnellversand.
