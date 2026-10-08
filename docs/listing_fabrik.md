@@ -13,7 +13,7 @@ Ziel: Sortiment von 101 auf mehr verkaufsfähige ASINs ausbauen, jedes Listing m
 
 | Prio | Quelle | Beispiele |
 |---|---|---|
-| 1 | Neue Größen/Farben/Formen bestehender Bestseller | Spiegel (Größen, Formen, Kinder), Salzlampen, Rollroste |
+| 1 | Sets/Bundles, Zubehör und lokalisierte Listings der bestehenden Bestseller (Farben, Größen und Formen der Spiegel bleiben unverändert) | Spiegel-Sets, Montage-Zubehör, Listings für weitere Marktplätze |
 | 2 | Bundles/Sets aus vorhandenen Artikeln | Spiegel-Sets, Spiegel + Zubehör, Lampe + Sockel |
 | 3 | Vorhandene Ware ohne Listing/Verkäufe | Artikel mit Bestand 90–100 Stück |
 | 4 | Neue Produkte aus der gleichen Welt (Wohnen/Deko) | nach Lieferantenliste |
@@ -32,7 +32,7 @@ Ziel: Sortiment von 101 auf mehr verkaufsfähige ASINs ausbauen, jedes Listing m
 
 | Charge | Umfang | Inhalt |
 |---|---|---|
-| 1 (Woche 3–4) | 10 Listings | Neue Spiegel-Größen/Farben, Spiegel-Sets, Salzlampen-Bundles |
+| 1 (Woche 3–4) | 10 Listings | Spiegel-Sets, Spiegel + Zubehör, Salzlampen-Bundles |
 | 2 (Woche 5–6) | 15 Listings | Variationsfamilien (Spiegel, Salzlampen, Rollroste) |
 | 3 (Woche 7–8) | 20 Listings | Weitere Sets, Hochpreis-Artikel, erste lokalisierte Listings (IT, FR, ES, PL) |
 | ab Monat 3 | 20–30 pro Monat | Nur Formate, die die Prüfung bestanden haben |
