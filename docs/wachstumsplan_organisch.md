@@ -69,3 +69,9 @@ Umsatz/Tag, Einheiten/Tag, € pro Einheit, Sessions, Conversion, Buy-Box-Quote,
 - Margen sind unbekannt; Preissenkungen/Aktionen erst nach Margencheck.
 - Annahme: Bestand im Bericht (5.851 FBM-Einheiten) kann großteils nach FBA eingelagert werden.
 - Die Auszahlung (1 % vom Umsatz) beträgt beim Ziel ca. 50 €/Tag, bei Zwischenzielen entsprechend weniger.
+
+## 10. Bekannte Kosten (Stand 8.10.2026)
+
+- Amazon-Verkaufsgebühr: 8–15 % des Gesamtverkaufspreises (inkl. Versandkosten und Geschenkverpackung), je Kategorie.
+- Noch unbekannt: Einkaufspreise, FBA-Versand-/Lagergebühren, sonstige Kosten (Retouren, Verpackung, Steuern).
+- Beim Zielumsatz 5.000 €/Tag entspricht die Verkaufsgebühr ca. 400–750 €/Tag, bevor Einkauf und FBA-Gebühren abgezogen sind.
