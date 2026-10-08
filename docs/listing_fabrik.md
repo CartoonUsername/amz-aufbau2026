@@ -1,11 +1,11 @@
 # Listing-Fabrik – viele saubere Listings ohne Werbung
 
-Ziel: Sortiment von 101 auf mehr verkaufsfähige ASINs ausbauen, jedes Listing mindestens so gut wie die heutigen Bestseller. Vorlage: `data/listing_vorlage.csv`.
+Ziel: Sortiment von 101 auf mehr verkaufsfähige ASINs ausbauen, jedes Listing mindestens so gut wie die heutigen Bestseller. Vorlage: `data/listing_vorlage.csv`. Bilderrahmen sind ausgenommen.
 
 ## Grundsätze
 
 1. Menge allein reicht nicht: Die 101 Listings verkaufen heute im Schnitt nur 0,13 Einheiten/Tag, entscheidend ist also die Qualität je Listing.
-2. Jedes neue Listing wird nach dem Muster der Bestseller gebaut (Spiegel Weiß 60×40: ca. 5 % Conversion bei 1.178 Aufrufen).
+2. Jedes neue Listing wird nach dem Muster der Bestseller gebaut (Spiegel Weiß 60×40: 6,5 % Conversion bei 953 Sessions).
 3. Hochgeladen wird in Chargen und nach jeder Charge geprüft, bevor die nächste folgt.
 4. Kein Listing ohne GTIN/EAN (oder Befreiung), Bestand und Preis, damit es sofort kaufbar ist.
 
@@ -13,8 +13,8 @@ Ziel: Sortiment von 101 auf mehr verkaufsfähige ASINs ausbauen, jedes Listing m
 
 | Prio | Quelle | Beispiele |
 |---|---|---|
-| 1 | Neue Größen/Farben/Formen bestehender Bestseller | Spiegel (Größen, Rahmen, Kinder), Salzlampen, Rahmen |
-| 2 | Bundles/Sets aus vorhandenen Artikeln | Rahmen-Sets, Spiegel + Zubehör, Lampe + Sockel |
+| 1 | Neue Größen/Farben/Formen bestehender Bestseller | Spiegel (Größen, Formen, Kinder), Salzlampen, Rollroste |
+| 2 | Bundles/Sets aus vorhandenen Artikeln | Spiegel-Sets, Spiegel + Zubehör, Lampe + Sockel |
 | 3 | Vorhandene Ware ohne Listing/Verkäufe | Artikel mit Bestand 90–100 Stück |
 | 4 | Neue Produkte aus der gleichen Welt (Wohnen/Deko) | nach Lieferantenliste |
 
@@ -32,8 +32,8 @@ Ziel: Sortiment von 101 auf mehr verkaufsfähige ASINs ausbauen, jedes Listing m
 
 | Charge | Umfang | Inhalt |
 |---|---|---|
-| 1 (Woche 3–4) | 10 Listings | Neue Spiegel-Größen/Farben, Rahmen-Sets, Salzlampen-Bundles |
-| 2 (Woche 5–6) | 15 Listings | Variationsfamilien (Spiegel, Rahmen, Salzlampen) und Trikot-Rahmen |
+| 1 (Woche 3–4) | 10 Listings | Neue Spiegel-Größen/Farben, Spiegel-Sets, Salzlampen-Bundles |
+| 2 (Woche 5–6) | 15 Listings | Variationsfamilien (Spiegel, Salzlampen, Rollroste) |
 | 3 (Woche 7–8) | 20 Listings | Weitere Sets, Hochpreis-Artikel, erste lokalisierte Listings (IT, FR, ES, PL) |
 | ab Monat 3 | 20–30 pro Monat | Nur Formate, die die Prüfung bestanden haben |
 
@@ -44,7 +44,7 @@ Zwischen den Chargen: Konto-Zustand, Listing-Qualitätswarnungen und Buy-Box-Quo
 | Kennzahl | Mindestwert |
 |---|---|
 | Listing aktiv und kaufbar (keine Unterdrückung) | 100 % |
-| Conversion | ≥ 5 % (Wert des Bestsellers) |
+| Conversion | ≥ 6 % (Wert des Spiegel-Bestsellers) |
 | Einheiten/Tag nach 28 Tagen | ≥ 0,5 |
 | Bewertung | ≥ 4,0 Sterne |
 | Retourenquote | < 8 % |
