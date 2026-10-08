@@ -17,6 +17,7 @@ Der Plan rechnet ohne Einkaufs-/Herstellkosten; Preise werden bis dahin nicht ge
 
 ## Dateien
 
+- `docs/otto_analyse_2026-10-08.md` – Otto: Umsatz nach Produktgruppe, 58 nicht verkaufsfähige SKUs, Dreisatz und Maßnahmen
 - `docs/otto_und_shopify_hebel.md` – Otto-Ausbau (Dreisatz je Produkt), Shopify-Traffic ohne Werbung und Wirtschaftlichkeit
 - `docs/kanaele_gesamtuebersicht.md` – Amazon, Otto, eBay im Vergleich, Gesamt-Dreisatz und Szenarien
 - `docs/brand_analytics_social_newsletter.md` – Brand Analytics, Social Media und Newsletter ohne Werbung
