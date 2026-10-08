@@ -2,11 +2,11 @@
 """EAN-13 Hilfen für GS1-Nummern.
 
   python3 scripts/ean_tools.py check 4255822600181
-  python3 scripts/ean_tools.py used  data/otto_performance_2026-10-08.csv
-  python3 scripts/ean_tools.py next --register data/gtin_register.csv
-  python3 scripts/ean_tools.py assign --register data/gtin_register.csv --listing data/spiegel_sets_texte_charge1.csv [weitere.csv ...]
-  python3 scripts/ean_tools.py propose --prefix 4255822 --csvs data/otto_performance_2026-10-08.csv \
-         --skus data/spiegel_sets_texte_charge1.csv data/salzlampen_geschenksets_texte.csv --out data/ean_vorschlaege.csv
+  python3 scripts/ean_tools.py used  daten/otto/performance_2026-10-08.csv
+  python3 scripts/ean_tools.py next --register register/gtin_register.csv
+  python3 scripts/ean_tools.py assign --register register/gtin_register.csv --listing produkte/spiegel/sets_charge1_fbm.csv [weitere.csv ...]
+  python3 scripts/ean_tools.py propose --prefix 4255822 --csvs daten/otto/performance_2026-10-08.csv \
+         --skus produkte/spiegel/sets_charge1_fbm.csv produkte/salzlampen/geschenksets_fbm.csv --out /pfad/vorschlaege.csv
 
 propose vergibt nur VORSCHLÄGE ab der ersten Nummer nach der höchsten bereits genutzten. Ob die Nummern in deinem
 bei GS1 lizenzierten Bereich liegen und frei sind, muss im GS1-Portal geprüft werden, bevor sie bei Amazon eingetragen werden.
@@ -80,7 +80,7 @@ def run_register(a):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("cmd", choices=["check", "used", "propose", "next", "assign"])
-    ap.add_argument("--register", default="data/gtin_register.csv")
+    ap.add_argument("--register", default="register/gtin_register.csv")
     ap.add_argument("--listing", nargs="*", default=[])
     ap.add_argument("args", nargs="*")
     ap.add_argument("--prefix", default="4255822")

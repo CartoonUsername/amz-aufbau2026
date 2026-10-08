@@ -3,9 +3,9 @@
 
 Aufruf:
   python3 scripts/fill_amazon_home_mirror.py \
-      --template templates/amazon/home_mirror.xlsm \
-      --csv data/spiegel_sets_texte_charge1.csv \
-      --out upload/amazon/charge_01_spiegel_sets/amazon_upload_ENTWURF.xlsm
+      --template kanaele/amazon/vorlagen/home_mirror.xlsm \
+      --csv produkte/spiegel/sets_charge1_fbm.csv \
+      --out kanaele/amazon/chargen/charge_01_spiegel_sets/amazon_upload_ENTWURF.xlsm
 
 Die Vorlage bleibt unverändert, Kopfzeilen 1 bis 7 werden nicht angefasst. Ab Zeile 8 steht je Set eine Zeile.
 Werte aus der von Amazon vorausgefüllten Profilzeile (Zeile 8) werden für alle Zeilen übernommen und nur
@@ -83,9 +83,9 @@ def main():
 
     with open(a.csv, encoding="utf-8", newline="") as f:
         rows = list(csv.DictReader(f))
-    # bestätigte Zuordnungen "deine Angabe" -> Dropdown-Wert (data/amazon_wertezuordnung.csv)
+    # bestätigte Zuordnungen "deine Angabe" -> Dropdown-Wert (register/amazon_wertezuordnung.csv)
     try:
-        with open("data/amazon_wertezuordnung.csv", encoding="utf-8", newline="") as f:
+        with open("register/amazon_wertezuordnung.csv", encoding="utf-8", newline="") as f:
             for z in csv.DictReader(f):
                 if z["bestaetigt"].strip().lower() == "ja" and z["dropdown_wert"]:
                     ZUORDNUNG[(z["feld"], z["deine_angabe"])] = z["dropdown_wert"]

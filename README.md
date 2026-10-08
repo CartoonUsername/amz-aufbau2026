@@ -1,51 +1,37 @@
-# EmsCraft24 – Aufbauplan 2026 (ohne Werbung, ohne Marge-Daten)
+# EmsCraft24 – Aufbauplan 2026 (ohne Werbung)
 
-Ziel: 5.000 € Umsatz/Tag über alle Kanäle. Stand 8.10.2026: Gesamt ca. 700–900 €/Tag (ohne die auslaufenden Akustikpaneele auf Otto ca. 615–640 €/Tag, nur Kernsortiment ca. 400–475 €/Tag) (Amazon ca. 324 €, Otto ca. 495 €, eBay ca. 76 € pro Tag, 7-Tage-Werte), Amazon: ca. 194 Sessions/Tag, 7,3 % Conversion (siehe `docs/kanaele_gesamtuebersicht.md`).
+Ziel: 5.000 € Umsatz/Tag über alle Kanäle. Das Repo ist nach Zweck getrennt, jeder Ordner hat eine eigene README.
 
-## Plan in Zahlen (Umsatz/Tag)
+## Aufbau
 
-| Baustein | Heute | Woche 8 | Monat 4 | Monat 8 |
-|---|---|---|---|---|
-| 23 Kern-ASINs (Spiegel, Salzlampen, Rollroste, Cityroller; ohne Bilderrahmen) | 239 € | 471 € | 846 € | 1.440 € |
-| Spiegel-Sets und Zubehör (15 Listings, Annahme) | – | – | – | ca. 320 € |
-| Plissees (16 Entwürfe, Annahme, `docs/plissee_entwuerfe.md`) | – | – | – | ca. 100 € |
-| Noch offen: andere neue Listings/Produktlinien | | | | ca. 3.140 € |
+| Ordner | Inhalt |
+|---|---|
+| `planung/` | Strategie, Pläne, Szenarien, Analysen (Kernsortiment, 4-Linien-Plan, Ambitionsszenario, Wochenpläne) |
+| `produkte/` | Produktdaten je Linie, unabhängig vom Kanal: Spiegel, Salzlampen, Trikotrahmen, Plissee, Auslaufware, Listing-Vorlage |
+| `kanaele/` | Je Verkaufskanal getrennt: `amazon/`, `otto/`, `ebay/`, `shopify/` (Vorlagen, Chargen, Uploads, Analysen) |
+| `daten/` | Rohdaten und Exporte, getrennt nach Quelle (`amazon/`, `otto/`) |
+| `register/` | Stammregister: GTIN-Register, Wertezuordnung für Dropdown-Felder, Feldliste der Amazon-Vorlage |
+| `anleitungen/` | Regeln und Anleitungen (keine erfundenen Daten, GTIN-Regeln, Bilder beim Upload) |
+| `scripts/` | Werkzeuge: GTIN vergeben, Prüfen, FBA-Kopie, Amazon-Vorlage füllen, Bild-URLs eintragen, Charge bauen |
 
-Bis Weihnachten sind Salzlampen und Spiegel-Sets das Hauptgeschäft, Black Friday ist am 27.11.2026, die FBA-Einlagerung sollte deshalb spätestens Mitte November abgeschlossen sein.
+## Stand 8.10.2026
 
-Der Plan rechnet ohne Einkaufs-/Herstellkosten; Preise werden bis dahin nicht gesenkt.
+- Gesamtumsatz ca. 700–900 €/Tag (7-Tage-Werte: Amazon ca. 324 €, Otto ca. 495 €, eBay ca. 76 €), davon liegt ein großer Teil auf auslaufenden Linien (`planung/kernsortiment_2026-10-08.md`).
+- Kernsortiment: Wandspiegel, Salzlampen, Trikotrahmen, Plissees; Basis ca. 315 €/Tag (`planung/plan_4_linien.md`).
+- Ziele bis 14.12.: Basis ca. 1.070 €/Tag gesamt, Ambition ca. 1.650 €/Tag (`planung/ambitionsszenario.md`); 5.000 €/Tag nur als Spitzentag (Black Friday 27.11., Cyber Monday 30.11.).
+- Erste Charge: 10 Spiegel-Sets (`kanaele/amazon/chargen/charge_01_spiegel_sets/`), offen sind Bestand, Versandvorlage, Paketmaße und -gewicht, Bilder.
 
-## Regel
+## Regeln
 
-Keine erfundenen Produktdaten: Größen, Farben, Maße, Materialien und Preise kommen nur vom Betreiber oder aus bestehenden Listings, siehe `docs/regeln_keine_erfindungen.md`.
+1. Keine erfundenen Produktdaten (`anleitungen/regeln_keine_erfindungen.md`).
+2. FBM zuerst, FBA nur als Kopie mit SKU `FBA_…` und derselben GTIN (`kanaele/amazon/massenupload_workflow.md`).
+3. GTINs nur über das Register vergeben, nächste freie Artikelnummer 60200 (`anleitungen/gtin_regeln.md`).
+4. Höchstens 20 Listings pro Charge, Prüfung vor dem Upload (`kanaele/amazon/README.md`).
 
-## Dateien
+## Schnellstart neue Charge
 
-- `docs/massenupload_workflow.md` – Massenupload: FBM zuerst, FBA als Kopie, ein Befehl pro Charge (`scripts/build_amazon_batch.py`)
-- `docs/gtin_regeln.md` und `data/gtin_register.csv` – GS1-Nummern: Reihenfolge, Register, nächste freie Artikelnummer 60200 (Befehl `python3 scripts/ean_tools.py next`)
-- `docs/amazon_vorlage_und_upload.md` und `upload/amazon/README.md` – Amazon-Upload in Maßen (Chargen, Vorlagen, Prüfung mit `scripts/validate_listings.py`)
-- `docs/bilder_im_upload.md` – Bilder beim Upload mitgeben (URLs, Namensschema, Skript `scripts/fill_image_urls.py`)
-- `docs/texte_trikotrahmen.md` – Texte für 5 Trikotrahmen auf Amazon (Update) und eBay (neu), Otto-Hinweise, vollständig in `data/trikotrahmen_texte.csv`
-- `docs/ambitionsszenario.md` – höhere Ziele bis 14.12. (Kern ca. 1.400 €/Tag) und was dafür stimmen muss
-- `docs/texte_salzlampen_geschenksets.md` – Texte für 8 Salzlampen-Geschenksets, vollständig in `data/salzlampen_geschenksets_texte.csv`
-- `docs/texte_spiegel_sets_charge1.md` – Texte für 10 Spiegel-Sets (2er/3er in 5 Farben), vollständig in `data/spiegel_sets_texte_charge1.csv`
-- `docs/tagesplan_woche1.md` – Tagesplan 8.–18.10.2026 (Amazon, Otto, Shopify, Social parallel)
-- `docs/plan_4_linien.md` – Plan für die vier Kernlinien (Spiegel, Salzlampen, Rahmen, Plissees) nach Kanal und Woche
-- `docs/kernsortiment_2026-10-08.md` – Kernsortiment (Spiegel, Salzlampen, Bilderrahmen, Plissees) und Restbestand, Basis ca. 400–475 €/Tag
-- `docs/auslaufware_akustik_lamellen.md` – Auslaufware (Akustikpaneele, Lamellenwände): Bestand, Optionen, Aufräumen
-- `docs/otto_analyse_2026-10-08.md` – Otto: Umsatz nach Produktgruppe, 58 nicht verkaufsfähige SKUs, Dreisatz und Maßnahmen
-- `docs/otto_und_shopify_hebel.md` – Otto-Ausbau (Dreisatz je Produkt), Shopify-Traffic ohne Werbung und Wirtschaftlichkeit
-- `docs/kanaele_gesamtuebersicht.md` – Amazon, Otto, eBay im Vergleich, Gesamt-Dreisatz und Szenarien
-- `docs/brand_analytics_social_newsletter.md` – Brand Analytics, Social Media und Newsletter ohne Werbung
-- `docs/organischer_traffic_und_masse.md` – Was Masse-Upload bringt, organische Traffic-Hebel, aggressives Szenario und 5.000-€-Spitzentag
-- `docs/plan_bis_januar_2027.md` – 13-Wochen-Plan bis Anfang Januar 2027 mit Szenarien, Wochenaufgaben und Kurzfassung für die Geschäftsführung
-- `docs/masterplan_dreisatz.md` – Gesamtplan im großen Stil mit Dreisatz-Rechnungen und Maßnahmenpaketen
-- `docs/plan_pro_asin.md` – Plan pro ASIN (v3), Ziele in `data/plan_pro_asin.csv`
-- `docs/sets_zubehoer_spiegel.md` – Sets und Zubehör für Wandspiegel (`data/sets_zubehoer_spiegel.csv`)
-- `docs/listing_fabrik.md` – Ablauf für neue Listings in Chargen
-- `docs/wachstumsplan_organisch.md` – Gesamtplan ohne Werbung
-- `docs/analyse_2026-10-08.md` – Erste Analyse; Rohdaten in `data/`
+```
+python3 scripts/build_amazon_batch.py --batch charge_NN_name --listing produkte/<linie>/<datei>_fbm.csv --versandvorlage "<Name>"
+```
 
-## Offene Daten
-
-Herstellkosten/Einkaufspreise, FBA-Gebühren, FBA-Bestandsbericht, Umsatz nach Marktplatz, weitere Produktlinien neben den Wandspiegeln.
+Ergebnis liegt in `kanaele/amazon/chargen/charge_NN_name/`.

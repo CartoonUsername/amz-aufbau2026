@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Prüft Listing-CSVs vor dem Amazon-Upload (Format: data/listing_vorlage.csv).
+"""Prüft Listing-CSVs vor dem Amazon-Upload (Format: produkte/_vorlage/listing_vorlage.csv).
 
-Aufruf: python3 scripts/validate_listings.py [--nur-neu] data/spiegel_sets_texte_charge1.csv [weitere.csv ...]
+Aufruf: python3 scripts/validate_listings.py [--nur-neu] produkte/spiegel/sets_charge1_fbm.csv [weitere.csv ...]
 
 --nur-neu: Amazon-Zeilen müssen in der Spalte asin_oder_neu den Wert "neu" haben (keine Updates bestehender ASINs).
 

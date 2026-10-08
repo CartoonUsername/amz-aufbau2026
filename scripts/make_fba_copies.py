@@ -5,7 +5,7 @@ FBM-Tabelle = Hauptversion (SKU ohne Präfix, fulfillment = FBM, Bestand = Eigen
 FBA-Kopie   = gleiche Zeilen mit SKU "FBA_<SKU>", fulfillment = FBA, ohne Bestand, mit DERSELBEN GTIN
               (derselbe Artikel, dieselbe Produktseite, ein zweites Angebot).
 
-Aufruf: python3 scripts/make_fba_copies.py --in data/spiegel_sets_texte_charge1.csv --out data/spiegel_sets_texte_charge1_fba.csv
+Aufruf: python3 scripts/make_fba_copies.py --in produkte/spiegel/sets_charge1_fbm.csv --out kanaele/amazon/chargen/charge_01_spiegel_sets/listing_fba.csv
 """
 import argparse
 import csv

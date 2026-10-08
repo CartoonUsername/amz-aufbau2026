@@ -1,0 +1,78 @@
+# Texte für die Salzlampen-Geschenksets
+
+Acht Sets mit vollständigen Texten in `produkte/salzlampen/geschenksets_fbm.csv` (Format der Listing-Vorlage). Preise: Summe der Einzelpreise, ohne Rabatt, bis Marge und Gebühren bekannt sind.
+
+## 1. Die 8 Sets
+
+| SKU (Vorschlag) | Inhalt | Preis | Benchmark-ASIN |
+|---|---|---|---|
+| GS01-SALZ-DUO-1-2KG | 2 × Salzlampe 1–2 kg | 39,90 € | B0H6K8ZY9P |
+| GS02-SALZ-DUO-2-3KG | 2 × Salzlampe 2–3 kg | 49,99 € | B0H6KHBWC7 |
+| GS03-SALZ-DUO-3-5KG | 2 × Salzlampe 3–5 kg | 59,90 € | B0H6K63JP4 |
+| GS04-SALZ-DUO-WEISS-2-3KG | 2 × weiße Salzlampe 2–3 kg | 49,90 € | B0HJQGS2HV |
+| GS05-SALZ-MINI-TRIO | 3 × Mini (Herz, Mond, Salzstein) | 44,99 € | B0HG9JKTLY |
+| GS06-SALZ-MINI-MOND-DUO | 2 × Mini (Mond und Mond RGB) | 29,99 € | B0HG9BFJJQ |
+| GS07-SALZ-1-2KG-PLUS-MINI | Salzlampe 1–2 kg + Mini Herz | 34,99 € | B0H6K8ZY9P |
+| GS08-SALZ-2-3KG-PLUS-MINI | Salzlampe 2–3 kg + Mini Mond | 39,99 € | B0H6KHBWC7 |
+
+Titel 121–138 Zeichen, Backend-Suchbegriffe 140 Bytes, längster Bullet 302 Zeichen.
+
+## 2. Beispiel: GS01 (2 × Salzlampe 1–2 kg)
+
+**Titel:** EmsCraft24 Salzlampe Set 2er (je 1-2 kg) | Nachtlicht Himalaya Salzkristall | Geschenkidee Weihnachten Geburtstag
+
+**Bullets:**
+1. SET MIT ZWEI SALZLAMPEN (JE 1-2 KG): fertig zusammengestellt, eine passende Geschenkidee zu Weihnachten, Geburtstag, Einweihung oder Muttertag
+2. NATURPRODUKT MIT SPEZIFIKATION: Naturkristall aus der Salt Range in Pakistan, handgefertigt, auf Naturholzsockel, mit 230V-Netzstecker (EU) und austauschbarer 15W-Glühbirne
+3. WARMES, GEDÄMPFTES LICHT: als Nachtlicht und Stimmungslicht geeignet für Wohnzimmer, Schlafzimmer, Büro oder als Pärchen-Geschenk
+4. KABEL MIT SCHALTER UND GLÜHBIRNE INKLUSIVE: jede Lampe wird mit Kabel (mit Schalter) und Glühbirne geliefert, Versand im Karton ohne Geschenkverpackung
+5. VON EMSCRAFT24: jeder Kristall ist ein Unikat, Form, Färbung und Gewicht können leicht von den Bildern abweichen
+
+**Beschreibung:** Das Set besteht aus zwei Salzlampen (je 1-2 kg). Jede Lampe ist ein Naturprodukt, deshalb sieht jeder Kristall anders aus. Technik: Naturkristall aus der Salt Range in Pakistan, handgefertigt, auf Naturholzsockel, mit 230V-Netzstecker (EU) und austauschbarer 15W-Glühbirne. Das warme Licht passt als Nachtlicht und Stimmungslicht zu Wohnzimmer, Schlafzimmer, Büro oder als Pärchen-Geschenk. Das Set ist sofort einsatzbereit und eignet sich als Geschenkidee für Familie, Freunde und Kollegen (Lieferung im Karton, ohne Geschenkverpackung).
+
+**Backend-Suchbegriffe:** Salzlampe Set Geschenkset Himalaya Salzkristall Nachtlicht Stimmungslicht Tischlampe Geschenkidee Weihnachtsgeschenk Dekolampe Kristalllampe
+
+Die Mini-Sets nennen statt der großen Technik „Echtes Himalaya-Salzkristall, handpoliert, auf Holzsockel, warmweißes LED-Licht, ca. 1 m USB-Kabel, ca. 650 g“ (aus euren Mini-Listings).
+
+## 3. Regeln für die Texte
+
+- Keine Gesundheitsversprechen (Luftreinigung, Ionisierung, besserer Schlaf), die Amazon und Otto bei Salzlampen häufig beanstanden.
+- Nur Eigenschaften, die in euren bestehenden Listings stehen.
+- Bei Naturprodukten den Hinweis auf Abweichungen in Form und Farbe behalten (weniger Retouren).
+
+## 4. Noch zu ergänzen und zu klären
+
+- Bei den Mini-Sets (GS05, GS06) und den Kombis (GS07, GS08) nennt Bullet 4 das USB-Kabel und die LED aus den Mini-Listings, das bitte bestätigen, die Lieferung erfolgt im Karton ohne Geschenkverpackung, deshalb heißen die Listings „Set“ mit „Geschenkidee“ im Titel statt „Geschenkset“.
+- EAN je Set, Gewicht und Maße der Pakete, Bestand und FBA/FBM.
+- Ob die Weiß-Lampen (Bialy) und die Minis auf Amazon fehlerfrei und aktiv sind: Die drei Mini-Lampen haben dort „Problem mit dem Angebot beheben“, das zuerst beheben, sonst können die Mini-Sets nicht live gehen.
+- Otto: Die Salzlampen-SKUs (S02JD0D2 und die LampeSet-SKUs) sind teilweise nicht verkaufsfähig, vor den Sets reparieren.
+- Zeitplan: Live bis 2.11., damit die Sets zu Black Friday (27.11.) und Weihnachten Rang und Bewertungen haben.
+
+## 5. Bilder
+
+1. Hauptbild: alle Lampen des Sets nebeneinander auf weißem Hintergrund.
+2. Lampen im Raum mit eingeschaltetem Licht (Abend, Wohnzimmer, Nachttisch).
+3. Größenvergleich der Lampen (kg und Höhe).
+4. Technik: Kabel, Schalter, Birne.
+5. Lieferung im Karton (ehrliche Darstellung ohne Geschenkverpackung), optional Geschenkoptik mit Schleife als Deko, die nicht mitgeliefert wird und im Bild entsprechend gekennzeichnet sein muss.
+6. Detail Kristall und Sockel.
+7. Optional: Video mit Lichtwechsel (RGB beim Mond).
+
+## 6. Beobachtungen am Otto-Listing „Nachttischlampe Kristall-Tischlampe Natürliches Licht Himalaya“ (8.10.2026)
+
+- Struktur: Eine Variantenfamilie mit zwei Merkmalen, „Maße“ (Rosa, Weiß) und „Ausführung“ (1–2, 2–3, 3–5, 4–6, 5–7, 6–9 kg und Luna), bei Weiß sind 4–6 kg, 6–9 kg und Luna ausgegraut (nicht verfügbar).
+- Merkmalsfehler: „Maße“ enthält Farben (Rosa, Weiß), das Merkmal sollte „Farbe“ heißen, denn Otto filtert und sortiert nach Farbe und Maßen, das verbessert die Auffindbarkeit.
+- Preis: Weiß 2–3 kg kostet 24,95 € mit UVP 34,99 € (−29 %) inklusive MwSt. zuzüglich Versandkosten, auf Amazon liegt dieselbe Lampe (B0HJQGS2HV) ebenfalls bei 24,95 € zuzüglich 2,99 € Versand.
+- UVP: Die Rabattanzeige (−29 %) hängt an einem UVP von 34,99 €, der laut Aussage nur zur Conversion-Steigerung gesetzt wurde und nicht der tatsächlich empfohlene oder früher verlangte Preis ist, das ist als irreführende Preiswerbung (Abmahn- und Sperrrisiko bei Otto und Amazon) problematisch, der UVP sollte entfernt oder auf einen echten Wert gesetzt werden (siehe Abschnitt 7).
+- Bilder: Das Listing zeigt Produkt, Lifestyle-Szene, Kristalle in Händen und den Karton mit Lieferumfang, das ist die Vorlage für die Set-Bilder.
+- Otto-Kampagnen: Oben stehen „Mind. 20 % Extra auf viele Möbel“ (bis So. 11.10.) und „10 € Gutschein für die erste Bestellung“, Spiegel laufen in der Provisionsgruppe Möbel, ob sie an solchen Kampagnen teilnehmen können, prüft man in Otto Partner Connect unter Marketing.
+- Sets auf Otto: Als zusätzliche „Ausführung“ (z. B. „2er Set 2–3 kg“) in dieser Familie bündeln sie Bewertungen, als eigene Produkte starten sie bei null.
+
+## 7. Preisangaben und Rabatte (Regel für alle Kanäle)
+
+- Ein UVP oder Streichpreis darf nur gesetzt werden, wenn er tatsächlich empfohlen oder zuvor verlangt wurde, bei Preisermäßigungen gilt in Deutschland zusätzlich die Angabe des niedrigsten Preises der letzten 30 Tage.
+- Alle Listings mit erfundenem UVP prüfen und den UVP entfernen oder korrigieren (Otto-Familien der Salzlampen und Spiegel, ggf. Amazon-Referenzpreise, eBay).
+- Wenn die Rabattoptik gewünscht ist: zuerst den höheren Preis nachweislich verlangen (mindestens einige Wochen), danach als echte Aktion senken, oder die Aktion über Coupons und Kampagnen der Plattform laufen lassen.
+- Rechtliche Einschätzung bitte vor dem Weihnachtsgeschäft mit einem Anwalt oder dem Händlerbund klären, das ist keine Rechtsberatung.
+
+Legale Hebel für mehr Conversion ohne UVP: Preis inklusive Versand (Versandkosten sind der häufigste Kaufabbruchgrund), Sets mit Mengenvorteil, Coupons, bessere Bilder, Bewertungen, Prime/Schnellversand.

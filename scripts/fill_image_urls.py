@@ -5,9 +5,9 @@ Namensschema der Bilddateien: <slug-der-sku>_01.jpg (Hauptbild), _02.jpg ... _07
 Beispiel: S02-KLARO-WEISS-MATT-60x40 -> s02-klaro-weiss-matt-60x40_01.jpg
 
 Aufruf:
-  python3 scripts/fill_image_urls.py --csv data/spiegel_sets_texte_charge1.csv \
+  python3 scripts/fill_image_urls.py --csv produkte/spiegel/sets_charge1_fbm.csv \
       --base-url https://cdn.shopify.com/s/files/1/XXXX/files \
-      --images-dir /pfad/zu/den/bildern --out data/spiegel_sets_mit_bildern.csv
+      --images-dir /pfad/zu/den/bildern --out kanaele/amazon/chargen/charge_01_spiegel_sets/listing_fbm_mit_bildern.csv
 
 Ohne --images-dir werden alle 7 URLs eingetragen, mit --images-dir nur die Bilder, die als Datei existieren.
 """
