@@ -17,9 +17,9 @@ Quelle: Seller Central → Produkte verwalten (85 sichtbare Zeilen von 181 Angeb
 
 ## Ausverkauft (Nicht vorrätig)
 
-- Treppenschutzgitter B0DZ2PGF8K: Verkaufsrang 25.691 in Baby, ein starker Rang, deshalb zuerst nachproduzieren.
-- Katzenbaum DeluxePet B0GLGTBP9K: Rang 45.171 in Haustier, seit 7.10. nicht vorrätig.
-- Sandkästen: Beach 150/170/190 (179 €, 199,99 €, 219,90 €) und Basic (5 Varianten), Amazon schätzt bis ca. 1.360 €/Monat je Beach-Größe bei FBA.
+- Treppenschutzgitter B0DZ2PGF8K: aus dem Sortiment genommen, das Listing wird nicht nachproduziert (bis dahin inaktiv lassen oder löschen).
+- Katzenbaum DeluxePet B0GLGTBP9K: Rang 45.171 in Haustier, seit 7.10. nicht vorrätig, Nachproduktion offen.
+- Sandkästen (Beach 150/170/190, Basic): Frühjahrsprodukt, Neustart im Frühjahr 2027, bis dahin Listings inaktiv lassen (nicht löschen, damit Rang und Bewertungen bleiben).
 - FBA-Wandspiegel 70×50 (5 Farben) und FBA-Rahmen sind in FBA ausverkauft, die FBM-Angebote laufen weiter.
 
 ## Gebühren (Seller Central, „Gebühren insgesamt“)
