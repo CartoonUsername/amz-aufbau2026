@@ -34,3 +34,9 @@ Quelle: Seller Central → Entwürfe fertigstellen (16 nicht übermittelt, 2 mit
 - Annahme: 16 Listings × 0,4 Einheiten/Tag × ca. 35 € = ca. 225 €/Tag nach 4–6 Monaten (ohne Datenbasis).
 - Preis, Herstellkosten und Produktionsdauer sind noch offen.
 - Wabenplissees sind wegen der Wärmedämmung auch ein Argument im Winter (vor Veröffentlichung prüfen).
+
+## Lieferant und Anpassung (Stand 8.10.2026)
+
+- Lieferant: Stofftex (https://stofftex.com/de/plissees/plissee-20.html), jedes Plissee ist in Maß und Farbe anpassbar, die Seite war vom Arbeitsrechner aus nicht erreichbar und wurde nicht ausgewertet.
+- Offen: Preismatrix des Lieferanten (Einkaufspreis je Breite × Höhe und Stoff), Farbliste, Lieferzeit, Direktversand an Kunden oder Wareneingang bei EmsCraft24, Rückgabe bei Maßanfertigung.
+- Die Farben vervielfachen die Listings (16 Entwürfe × Farben), deshalb zuerst mit den 5–8 stärksten Farben starten und Farbe als Variation unter zwei Familien führen.
