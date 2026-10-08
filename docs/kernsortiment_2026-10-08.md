@@ -41,3 +41,9 @@ Kernsortiment: Bilderrahmen (inkl. Trikotrahmen), Wandspiegel, Salzlampen und di
 1. Welche Produkte kommen als nächstes dazu, denn mit vier Linien ist 5.000 €/Tag ohne Werbung kaum erreichbar?
 2. Welche Kanäle außer Amazon, Otto, eBay und Shopify gibt es noch?
 3. Wie sieht die Linienverteilung auf eBay aus?
+
+## 5. Update 8.10.2026: Rahmenlos-Rahmen vorerst nicht im Plan
+
+- Die rahmenlosen Bilderrahmen (A-Größen, auf Amazon 8 ASINs mit ca. 2.513 € in 30 Tagen, ca. 84 €/Tag) werden nicht weiter aufgebaut, laufen aber mit vorhandenem Bestand weiter.
+- Im Kernsortiment bleiben Wandspiegel, Salzlampen, Trikotrahmen und Plissees, die Kernbasis sinkt damit auf ca. 315 €/Tag.
+- Dreisatz: 5.000 € ÷ 315 € ≈ 16-faches Wachstum der Kernlinien.

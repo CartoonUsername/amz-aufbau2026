@@ -7,14 +7,15 @@ Linien: Wandspiegel, Salzlampen, Bilderrahmen, Plissees. Kanäle: Amazon, Otto, 
 | Linie | Heute | Woche 4 (2.11.) | Woche 8 (30.11.) | Woche 10 (14.12.) | Hebel |
 |---|---|---|---|---|---|
 | Wandspiegel | ca. 135 € | 170 € | 230 € | 300 € | Sets, Otto-Auffindbarkeit, Marktplätze |
-| Bilderrahmen | ca. 174 € | 200 € | 280 € | 330 € | Suchbegriffe, Rahmenlos-Größen auf Otto/eBay, Trikotrahmen auf allen Kanälen |
-| Salzlampen | ca. 90 € | 130 € | 220 € | 300 € | Otto-Fehler beheben, Geschenksets, Weihnachten |
+| Trikotrahmen | ca. 90 € | 100 € | 130 € | 150 € | Otto (6–25 % Conversion), Amazon und eBay ergänzen |
+| Salzlampen | ca. 90 € | 130 € | 220 € | 300 € | Otto-Fehler beheben, Sets, Weihnachten |
 | Plissees | 0 € | 0 € | 30 € | 70 € | 2–4 Test-Listings, Marge klären |
-| Summe Kern | ca. 400 € | 500 € | 760 € | 1.000 € | |
+| Summe Kern | ca. 315 € | 400 € | 610 € | 820 € | |
+| Rahmenlos-Rahmen (nicht im Plan, läuft ohne Aufwand) | ca. 84 € | 80 € | 70 € | 60 € | nur Bestand |
 | Restbestand (sinkend) | ca. 380 € | 350 € | 300 € | 250 € | Abverkauf ohne Aufwand |
-| Gesamt | ca. 780 € | 850 € | 1.060 € | 1.250 € | |
+| Gesamt | ca. 780 € | 830 € | 980 € | 1.130 € | |
 
-- Nach Weihnachten (Woche 13) fällt der Kernwert auf ca. 700–800 € zurück und der Restbestand auf ca. 200 €, also ca. 900–1.000 €/Tag gesamt.
+- Nach Weihnachten (Woche 13) fällt der Kernwert auf ca. 550–650 € zurück, Rahmenlos und Restbestand auf zusammen ca. 250 €, also ca. 800–900 €/Tag gesamt.
 - Das 5.000-€-Ziel bleibt mit vier Linien nur an Spitzentagen möglich, ein Wochenschnitt braucht zusätzliche Produkte.
 
 ## 2. Maßnahmen je Linie und Kanal
@@ -35,13 +36,13 @@ Linien: Wandspiegel, Salzlampen, Bilderrahmen, Plissees. Kanäle: Amazon, Otto, 
 | eBay | Geschenksets |
 | Shopify | Geschenkideen-Seite, Pinterest/Instagram-Inhalte |
 
-### Bilderrahmen (inkl. Trikotrahmen)
+### Trikotrahmen (Rahmenlos-Rahmen sind vorerst nicht im Plan)
 | Kanal | Maßnahme |
 |---|---|
-| Amazon | 7 Stufe-A/B-Größen auf FBA, Titel und Suchbegriffe (Conversion 12–33 % bei 1–9 Sessions/Tag), Nachbestellung 21×29 und 59×84 |
-| Otto | Rahmenlos-Größen (auf Otto bisher nicht gelistet) ergänzen, Trikotrahmen (6–25 % Conversion) ausbauen |
-| eBay | Rahmenlos-Größen und Trikotrahmen listen |
-| Shopify | Sets und Größenführer |
+| Otto | Trikotrahmen (6–25 % Conversion, 19 % des Otto-Umsatzes) pflegen und alle Farben verkaufsfähig halten |
+| Amazon | Trikotrahmen-Familie (5 Farben) mit Titeln und Bildern aufbauen |
+| eBay | Trikotrahmen listen |
+| Shopify | Trikotrahmen in den Shop |
 
 ### Plissees
 | Kanal | Maßnahme |
@@ -53,10 +54,10 @@ Linien: Wandspiegel, Salzlampen, Bilderrahmen, Plissees. Kanäle: Amazon, Otto, 
 
 | Woche | Amazon | Otto | eBay/Shopify |
 |---|---|---|---|
-| 1 (12.10.) | Sofort-Fixes (inaktive, ausgeblendete, 17 Akustik-/Lamellen-ASINs schließen), Preisverlauf, Nachbestellung Spiegel Weiß/Rahmen 21×29/59×84/Salzlampe 1–2 kg, Brand Analytics Top-Suchbegriffe | Gründe für 58 „nicht verkaufsfähig“, zuerst die 29 SKUs mit Bestand, 16 Salzlampen-SKUs, Retourenbearbeitung | eBay: Entscheidung zur Werbung, Shopify: Google Merchant Center und Newsletter-Formular |
-| 2 (19.10.) | FBA-Sendung 1, Titel/Bullets/Backend der Top-10, 18 Entwürfe fertigstellen | Merkmale der Spiegel und Salzlampen, Rahmenlos-Größen vorbereiten | Pinterest-Katalog, Content-Kalender |
-| 3 (26.10.) | 10 Spiegel-Sets live, Vine für Top-ASINs | Rahmenlos-Größen und Spiegel-Sets live | Social startet, Newsletter |
-| 4 (2.11.) | Salzlampen-Geschenksets, Variationsfamilien, B2B-Staffeln, Plissee-Entscheidung | Salzlampen-Geschenksets | eBay-Listings Sets und Rahmen |
+| 1 (12.10.) | Sofort-Fixes (inaktive, ausgeblendete, 17 Akustik-/Lamellen-ASINs schließen), Preisverlauf, Nachbestellung Spiegel Weiß/Salzlampe 1–2 kg, Brand Analytics Top-Suchbegriffe | Gründe für 58 „nicht verkaufsfähig“, zuerst die 29 SKUs mit Bestand, 16 Salzlampen-SKUs, Retourenbearbeitung | eBay: Entscheidung zur Werbung, Shopify: Google Merchant Center und Newsletter-Formular |
+| 2 (19.10.) | FBA-Sendung 1, Titel/Bullets/Backend der Top-10, 18 Entwürfe fertigstellen | Merkmale der Spiegel, Salzlampen und Trikotrahmen | Pinterest-Katalog, Content-Kalender |
+| 3 (26.10.) | 10 Spiegel-Sets live, Vine für Top-ASINs | Spiegel-Sets live | Social startet, Newsletter |
+| 4 (2.11.) | Salzlampen-Geschenksets, Variationsfamilien, B2B-Staffeln, Plissee-Entscheidung | Salzlampen-Geschenksets | eBay-Listings Sets und Trikotrahmen |
 
 Weitere Wochen siehe `docs/plan_bis_januar_2027.md` (Black Friday 27.11., Cyber Monday 30.11., Weihnachtswoche).
 
@@ -66,11 +67,11 @@ Weitere Wochen siehe `docs/plan_bis_januar_2027.md` (Black Friday 27.11., Cyber 
 |---|---|---|
 | Wandspiegel | ca. 30 (Sets, Zubehör, Kinder, Otto/eBay-Ergänzung) | `data/sets_zubehoer_spiegel.csv` |
 | Salzlampen | ca. 25 (Geschenksets, Mini, Otto-Reparatur) | Otto-SKUs, Amazon-Entwürfe |
-| Bilderrahmen | ca. 25 (Otto/eBay-Rahmenlos, Sets) | vorhandene ASINs |
+| Trikotrahmen | ca. 10 (Amazon-Familie, eBay) | vorhandene Produkte |
 | Plissees | 2–4 (Test) | 16 Entwürfe, davon Auswahl |
-| Summe | ca. 80–85 | |
+| Summe | ca. 65–70 | |
 
-- Bei 1,5 Stunden pro Listing sind das ca. 125 Stunden, also ca. 3 Wochen Vollzeit, die Bilderproduktion kommt zusätzlich.
+- Bei 1,5 Stunden pro Listing sind das ca. 100 Stunden, also ca. 2,5 Wochen Vollzeit, die Bilderproduktion kommt zusätzlich.
 
 ## 5. Kennzahlen (wöchentlich)
 

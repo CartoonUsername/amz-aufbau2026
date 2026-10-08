@@ -6,7 +6,7 @@ Kapazität: Vollzeit plus Abendstunden (ca. 50–60 Stunden pro Woche). Zeit ist
 
 - Brand Analytics öffnen: Top-10-Suchbegriffe der Bestseller exportieren.
 - Otto: Liste „nicht verkaufsfähig“ öffnen und die Fehlergründe für die 29 SKUs mit Bestand notieren.
-- Kostenzahlen sammeln: Herstellkosten Spiegel, Einkaufspreise Salzlampen und Rahmen, Fixkosten (Gehalt, Tools).
+- Kostenzahlen sammeln: Herstellkosten Spiegel, Einkaufspreise Salzlampen und Plissees, Fixkosten (Gehalt, Tools).
 
 ## Freitag 9.10.
 
@@ -19,7 +19,7 @@ Kapazität: Vollzeit plus Abendstunden (ca. 50–60 Stunden pro Woche). Zeit ist
 
 ## Samstag 10.10.
 
-- Nachbestellung/Nachproduktion anstoßen: Spiegel Weiß, Salzlampe 1–2 kg, Rahmen 21×29 und 59×84.
+- Nachbestellung/Nachproduktion anstoßen: Spiegel Weiß, Salzlampe 1–2 kg.
 - FBA-Sendung 1 planen (Spiegel Weiß/Schwarz/Eiche Catania, Salzlampe 1–2 und 2–3 kg).
 - Bilder-Briefing: Spiegel-Sets (2er/3er), Salzlampen-Geschenksets, Plissee-Maßanleitung.
 
@@ -38,12 +38,12 @@ Kapazität: Vollzeit plus Abendstunden (ca. 50–60 Stunden pro Woche). Zeit ist
 ## Dienstag 13.10.
 
 - Otto: Merkmale der Spiegel (60×40, 70×50) und der Salzlampen nach der Auffindbarkeitsseite pflegen (21 Produkte).
-- Otto: Rahmenlos-Größen (8) als neue Produkte vorbereiten (EAN, Maße, Bilder).
+- Otto: Merkmale der Trikotrahmen pflegen und alle Farben verkaufsfähig machen.
 - Plissee: Händlerpreisliste bei StoffTex anfordern.
 
 ## Mittwoch 14.10.
 
-- Amazon: Titel/Bullets für Rahmen 21×29, 59×84, 42×59, 50×70 neu, Brand Analytics Begriffe einbauen.
+- Amazon: Titel/Bullets für Salzlampe 2–3 kg und Spiegel Eiche Catania neu, Brand Analytics Begriffe einbauen.
 - Amazon: Rollrost-Warnungen lesen (Restbestand, nur beheben, wenn wenig Aufwand).
 - Social: erste 10 Pins und 3 Reels vorproduzieren.
 
@@ -55,8 +55,8 @@ Kapazität: Vollzeit plus Abendstunden (ca. 50–60 Stunden pro Woche). Zeit ist
 
 ## Freitag 16.10.
 
-- Otto: Rahmenlos-Größen und Spiegel-Sets einstellen.
-- eBay: Entscheidung zur Werbung, Rahmen und Sets listen.
+- Otto: Spiegel-Sets einstellen.
+- eBay: Entscheidung zur Werbung, Spiegel-Sets listen.
 - Wochenauswertung: Sessions, Visits, Conversion, Umsatz pro Linie.
 
 ## Wochenende 17./18.10.
