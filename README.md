@@ -8,7 +8,10 @@ Ziel: 5.000 € Umsatz/Tag. Stand 8.10.2026: ca. 324 €/Tag (7-Tage-Schnitt), c
 |---|---|---|---|---|
 | 23 Kern-ASINs (Spiegel, Salzlampen, Rollroste, Cityroller; ohne Bilderrahmen) | 239 € | 471 € | 846 € | 1.440 € |
 | Spiegel-Sets und Zubehör (15 Listings, Annahme) | – | – | – | ca. 320 € |
-| Noch offen: andere neue Listings/Produktlinien | | | | ca. 3.240 € |
+| Plissees (16 Entwürfe, Annahme, `docs/plissee_entwuerfe.md`) | – | – | – | ca. 225 € |
+| Noch offen: andere neue Listings/Produktlinien | | | | ca. 3.015 € |
+
+Bis Weihnachten sind Salzlampen und Spiegel-Sets das Hauptgeschäft, Black Friday ist am 27.11.2026, die FBA-Einlagerung sollte deshalb spätestens Mitte November abgeschlossen sein.
 
 Der Plan rechnet ohne Einkaufs-/Herstellkosten; Preise werden bis dahin nicht gesenkt.
 
