@@ -74,3 +74,10 @@ Annahmen: Einkaufspreis ca. 30 % unter dem StoffTex-Amazon-Preis (ungeprüft), E
 - Bei Preisen knapp über dem Wettbewerber bleibt höchstens 0–1,70 € pro Stück, und mit Versandkosten wird es negativ.
 - Die Marge steigt nur über die Aufschläge für größere Maße und Sonderfarben, die Prozentwerte bleiben ähnlich.
 - Entscheidung: Erst die Händlerpreisliste von StoffTex einholen und die Versandkosten klären, bevor die 16 Entwürfe übermittelt werden, notfalls mit 2–4 Listings als Test starten.
+
+## Lieferanten-Vorgabe (8.10.2026)
+
+- Vorgabe von StoffTex: EmsCraft24 darf den StoffTex-Preis auf Amazon nicht unterbieten, also bleibt der Verkaufspreis mindestens auf dem Preis des Lieferanten.
+- Folge: Wettbewerb nur über Service (Lieferzeit, Farbkarte, Bilder, Videos, Bewertungen), nicht über den Preis, und die Marge ist durch Einkaufspreis und Gebühren begrenzt.
+- Hinweis: Mindestpreisvorgaben des Lieferanten an Händler sind im EU-Wettbewerbsrecht meist problematisch, das sollte im Zweifel rechtlich geprüft werden (keine Rechtsberatung).
+- Priorität im Plan: niedrig, bis Händlerpreisliste und Versandkosten bekannt sind, Fokus bis Weihnachten bleibt auf Salzlampen und Spiegel-Sets.
