@@ -101,7 +101,10 @@ def main():
             put(col("amzn1.volt.ca.product_id_type"), None)
             put(col("amzn1.volt.ca.product_id_value"), None)
             warnings.append(f"{sku}: EAN fehlt")
-        warnings.append(f"{sku}: Stöbern-Kategorie (Browse Node) eintragen")
+        # Kategorie aus der Listing-Tabelle ("Beleuchtung > Tischlampen") -> Eintrag der Vorlage-Dropdown-Liste
+        bn = col("recommended_browse_nodes#1.value")
+        match = [x for x in sorted(allowed.get(bn, [])) if x.startswith("Beleuchtung > Innenbeleuchtung > Tisch- & Stehleuchten > Tischlampen (")]
+        put_dd(bn, match[0] if match and "Tischlampen" in r.get("kategorie", "") else "", "Stöbern-Kategorie")
         for k in range(1, 6):
             put(col(f"bullet_point#{k}.value"), r[f"bullet_{k}"])
         put(col("product_description#1.value"), r["beschreibung_a_plus"])
@@ -109,9 +112,11 @@ def main():
         put(col("number_of_items#1.value"), n)
         put(col("condition_type#1.value"), "Neu")
         # Profilwerte einer Einzellampe, die bei Sets nicht gelten
-        put(col("color#1.value"), r.get("farbe") or None)
-        if not r.get("farbe"):
-            warnings.append(f"{sku}: Farbe fehlt (Profilwert wurde entfernt)")
+        # Farbe: weiße Lampen (Bialy) "Weiß", sonst Profilfarbe deiner Lampen
+        if "WEISS" in sku.upper():
+            put(col("color#1.value"), "Weiß")
+        elif r.get("farbe"):
+            put(col("color#1.value"), r["farbe"])
         for name in ("item_depth_width_height#1.depth.value", "item_depth_width_height#1.depth.unit",
                      "item_depth_width_height#1.height.value", "item_depth_width_height#1.height.unit",
                      "item_depth_width_height#1.width.value", "item_depth_width_height#1.width.unit"):
