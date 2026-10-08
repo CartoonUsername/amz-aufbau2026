@@ -54,7 +54,7 @@ Umsatz/Tag, Einheiten/Tag, Sessions, Conversion, Buy-Box-Quote, Lagerreichweite 
 
 ## 6. Kurzfassung für die Geschäftsführung
 
-- Heute: ca. 340 €/Tag, 194 Sessions/Tag, 7,3 % Conversion, 8 von 10 Bestsellern mit Reichweite nur ca. 14–29 Tage.
+- Heute: ca. 340 €/Tag, 194 Sessions/Tag, 7,3 % Conversion, die drei Bestseller (Spiegel Weiß/Schwarz, Salzlampe 1–2 kg) haben nur ca. 14–29 Tage Reichweite.
 - Weg: Bestand und Fixes, Sets zu Weihnachten, 250 saubere Listings, Variationen, Bewertungen, später Marktplätze.
 - Ergebnis bis Januar: ca. 700–1.100 €/Tag (Ziel), Spitzen im Dezember.
-- Für 5.000 €/Tag: Roadmap bis ca. Mitte 2028 ohne Werbung oder deutlich früher mit Werbebudget und zweiter Produktlinie.
+- Für 5.000 €/Tag: Roadmap bis ca. Anfang 2028 (15–18 Monate) ohne Werbung oder deutlich früher mit Werbebudget und zweiter Produktlinie.
