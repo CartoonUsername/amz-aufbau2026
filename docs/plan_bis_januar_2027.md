@@ -1,5 +1,7 @@
 # EmsCraft24 – 13-Wochen-Plan bis Anfang Januar 2027 (ohne Werbung)
 
+> Hinweis (8.10.2026): Die Zielwerte pro Linie stehen jetzt in `docs/plan_4_linien.md`, der Wochenplan ab Woche 5 bleibt gültig.
+
 Frist: Anfang Januar 2027 (ca. 13 Wochen ab 12.10.2026). Ausgangswert: ca. 340 €/Tag (7-Tage-Schnitt ca. 324 €, letzte 3 Tage ca. 576 €).
 
 ## 1. Ehrliche Einordnung (Dreisatz)

@@ -1,5 +1,7 @@
 # EmsCraft24 – Masterplan im großen Stil (Dreisatz, ohne Werbung)
 
+> Hinweis (8.10.2026): Für die Planung gilt jetzt `docs/plan_4_linien.md` (Kernsortiment: Spiegel, Salzlampen, Bilderrahmen, Plissees). Die Stufen C/D und die zweite Produktlinie unten sind überholt.
+
 Ziel: 5.000 € Umsatz/Tag ohne Amazon-Werbung, über Masse an sauberen Listings, Prime/FBA, Sets, mehr Marktplätze und höhere Warenkörbe. Alle Rechnungen sind Dreisatz auf Basis der Daten vom 8.10.2026, Annahmen sind als solche markiert.
 
 ## 1. Ausgangslage (Daten)
