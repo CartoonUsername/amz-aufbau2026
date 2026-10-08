@@ -1,0 +1,16 @@
+id,typ,name,basis,inhalt,preis_vorschlag_eur,annahme_einheiten_tag_monat8,annahme_umsatz_tag_eur,charge
+S01,Set,Wandspiegel 2er-Set Weiß Matt 60x40,B0H1GVXBR4,2 Spiegel Weiß Matt,49.99,0.5,25,1
+S02,Set,Wandspiegel 2er-Set Schwarz Matt 60x40,B0H1HHQ6RM,2 Spiegel Schwarz Matt,49.99,0.5,25,1
+S03,Set,Wandspiegel 2er-Set Eiche Catania 60x40,B0H1GVQGK5,2 Spiegel Eiche Catania,49.99,0.5,25,1
+S04,Set,Wandspiegel 2er-Set Eiche Natur 60x40,B0HFJLKKJF,2 Spiegel Eiche Natur,49.99,0.5,25,1
+S05,Set,Wandspiegel 2er-Set Gold Glänzend 60x40,B0HFJPFLW8,2 Spiegel Gold Glänzend,49.99,0.5,25,1
+S06,Set,Wandspiegel 3er-Set Weiß Matt 60x40,B0H1GVXBR4,3 Spiegel Weiß Matt,74.99,0.3,22,1
+S07,Set,Wandspiegel 3er-Set Schwarz Matt 60x40,B0H1HHQ6RM,3 Spiegel Schwarz Matt,74.99,0.3,22,1
+S08,Set,Wandspiegel 3er-Set Eiche Catania 60x40,B0H1GVQGK5,3 Spiegel Eiche Catania,74.99,0.3,22,1
+S09,Set,Wandspiegel 3er-Set Eiche Natur 60x40,B0HFJLKKJF,3 Spiegel Eiche Natur,74.99,0.3,22,1
+S10,Set,Wandspiegel 3er-Set Gold Glänzend 60x40,B0HFJPFLW8,3 Spiegel Gold Glänzend,74.99,0.3,22,1
+S11,Set,Spiegelwand-Set 3er gemischt (vorhandene Farben),mehrere,"je 1 Spiegel Weiß, Schwarz, Eiche Natur",74.99,0.5,37,2
+S12,Set,Kinderspiegel 2er-Set 60x40,B0HHDN6FVZ,2 Kinderspiegel,49.99,0.3,15,2
+Z01,Zubehör,Montage-Set für Kunststoffspiegel,Zubehör,"Klebepads, Schrauben/Dübel, Wasserwaage-Aufkleber",12.99,0.8,10,2
+Z02,Zubehör,Reinigungs-Set für Kunststoffspiegel,Zubehör,"Mikrofasertuch, Pflegespray",9.99,0.5,5,2
+Z03,Set,Spiegel + Montage-Set (Bundle),B0H1GVXBR4,1 Spiegel Weiß + Montage-Set,34.99,0.5,17,3
