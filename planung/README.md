@@ -19,3 +19,5 @@ Strategie, Pläne und Analysen, nach Aktualität geordnet.
 | `listing_fabrik.md` | Ablauf für neue Listings in Chargen |
 | `wachstumsplan_organisch.md` | Gesamtplan ohne Werbung (erste Fassung) |
 | `analyse_2026-10-08.md` | Erste Analyse der Amazon-Zahlen |
+| `gewinnanalyse_2026-10-08.md` | Gewinnanalyse 30 Tage: Gebühren, Werbekosten, FBA-Wirkung |
+| `asin_analyse_jul_sep_2026.md` | ASIN-Zuordnung und Bestelltrend Juli–September |
