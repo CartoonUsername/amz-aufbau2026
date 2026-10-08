@@ -70,3 +70,11 @@ Das Prüfskript meldet bei allen drei Chargen Platzhalter (EAN, Bestand, Bügel-
 6. Prüfung mit `python3 scripts/validate_listings.py --nur-neu data/spiegel_sets_texte_charge1.csv` ohne Fehler.
 
 Hochladen: Seller Central → Produkte hinzufügen → Tabelle → Datei hochladen → „Produkte übermitteln“, danach Uploadstatus prüfen.
+
+## EANs über GS1 (8.10.2026)
+
+- Eure vorhandenen GTINs beginnen mit 4255822 (74 genutzte Nummern, Artikelnummern 60006 bis 60181, alle mit korrekter Prüfziffer), das ist eure GS1-Basisnummer.
+- Jedes Set braucht eine neue GTIN, denn ein 2er- oder 3er-Set ist ein anderes Produkt als der Einzelspiegel und darf die EAN des Einzelartikels nicht übernehmen.
+- `scripts/ean_tools.py` prüft die Prüfziffer (`check`), zählt genutzte Nummern (`used`) und macht Vorschläge für freie Nummern (`propose`), die Vorschläge für die 10 Spiegel-Sets und die 8 Salzlampen-Sets stehen in `data/ean_vorschlaege.csv` (ab Artikelnummer 60182).
+- Die Vorschläge sind noch nicht in die Listing-Tabellen eingetragen: Zuerst im GS1-Portal prüfen, ob die Nummern in eurem lizenzierten Bereich liegen und frei sind, und sie dort den Produkten (Name, Marke EmsCraft24, Inhalt) zuordnen, denn Amazon gleicht GTIN und Marke mit dem GS1-Register ab.
+- Danach die bestätigten Nummern in die Spalte `gtin_ean` der Listing-Tabelle übernehmen und die Amazon-Vorlage neu füllen.
