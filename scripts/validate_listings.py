@@ -39,6 +39,9 @@ def check_file(path, nur_neu=False):
         seen.add(sku)
         if nur_neu and "amazon" in r.get("marktplatz", "").lower() and r.get("asin_oder_neu", "").strip().lower() != "neu":
             errors.append(f"{tag}: ist kein neues Listing (asin_oder_neu = {r.get('asin_oder_neu', '')})")
+        fk = r.get("fulfillment", "").upper()
+        if fk.startswith("FBA") != sku.startswith("FBA_"):
+            errors.append(f"{tag}: SKU-Präfix FBA_ und fulfillment passen nicht zusammen ({fk})")
         title = r.get("titel", "")
         if not title:
             errors.append(f"{tag}: Titel fehlt")

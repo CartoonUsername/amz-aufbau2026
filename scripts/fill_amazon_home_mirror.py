@@ -33,6 +33,7 @@ def main():
     ap.add_argument("--template", required=True)
     ap.add_argument("--csv", required=True)
     ap.add_argument("--out", required=True)
+    ap.add_argument("--versandvorlage", help="Name der Versandvorlage für FBM-Zeilen, z. B. \"Schneller Versand\"")
     a = ap.parse_args()
 
     wb = openpyxl.load_workbook(a.template, keep_vba=True)
@@ -93,6 +94,11 @@ def main():
         put(price_col, r["preis_eur"])
         fba = r.get("fulfillment", "").upper().startswith("FBA")
         put(col("fulfillment_availability#1.fulfillment_channel_code"), "Versand durch Amazon (EU)" if fba else "Versand durch Händler (Standard)")
+        if not fba and a.versandvorlage:
+            put(col("merchant_shipping_group#1.value"), a.versandvorlage)
+        elif not fba:
+            put(col("merchant_shipping_group#1.value"), None)
+            warnings.append(f"{r['sku']}: Versandvorlage fehlt (--versandvorlage)")
         qty = re.sub(r"\D", "", r.get("bestand", ""))
         put(col("fulfillment_availability#1.quantity"), int(qty) if qty and not fba else None)
         if not fba and not qty:

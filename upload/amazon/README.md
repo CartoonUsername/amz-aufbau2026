@@ -9,7 +9,8 @@ templates/amazon/                 Amazon-Vorlagen je Kategorie (.xlsm), aus Sell
 upload/amazon/charge_NN_name/
   listings.csv                    Listing-Tabelle der Charge (Format data/listing_vorlage.csv), max. 20 Zeilen
   bilder/                         Bilddateien (nur zur Ablage, hochgeladen wird über Shopify-URLs)
-  amazon_upload.xlsm              ausgefüllte Amazon-Vorlage
+  amazon_upload_FBM.xlsm          ausgefüllte Amazon-Vorlage (Hauptversion, Eigenversand)
+  amazon_upload_FBA.xlsm          FBA-Kopie (SKU FBA_..., dieselbe GTIN), erst nach der FBM-Datei hochladen
   pruefung.txt                    Ausgabe von scripts/validate_listings.py
   notizen.md                      Besonderheiten, Fehler von Amazon, Ergebnis nach 14 und 28 Tagen
 ```
@@ -27,8 +28,10 @@ upload/amazon/charge_NN_name/
 
 | Charge | Inhalt | Texte | Status |
 |---|---|---|---|
-| 01 | 10 Spiegel-Sets (2er/3er) | `data/spiegel_sets_texte_charge1.csv`, Entwurf `charge_01_spiegel_sets/amazon_upload_ENTWURF.xlsm` | EANs, Paketmaße und -gewicht, Bestand oder Versandvorlage, Bilder offen |
+| 01 | 10 Spiegel-Sets (2er/3er) | `data/spiegel_sets_texte_charge1.csv`, Entwürfe `charge_01_spiegel_sets/amazon_upload_FBM.xlsm` und `..._FBA.xlsm` | Paketmaße und -gewicht, Bestand und Versandvorlage (FBM), Bilder offen, EANs vergeben |
 | 02 | 8 Salzlampen-Sets | `data/salzlampen_geschenksets_texte.csv` | EANs, Bestand, Bilder, Mini-Fehler offen |
 | 03 | Trikotrahmen: derzeit nur Updates der 5 bestehenden ASINs, kein neues Listing, deshalb nicht in diesem Ordner | `data/trikotrahmen_texte.csv` | neue Trikot-Listings (z. B. Sets) noch zu definieren |
 
 Bild-URLs eintragen: `scripts/fill_image_urls.py` (siehe `docs/bilder_im_upload.md`).
+
+Ablauf mit einem Befehl: `docs/massenupload_workflow.md`.

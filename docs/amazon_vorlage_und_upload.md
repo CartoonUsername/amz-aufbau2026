@@ -42,7 +42,7 @@ Das Prüfskript meldet bei allen drei Chargen Platzhalter (EAN, Bestand, Bügel-
 
 - Datei: `templates/amazon/home_mirror.xlsm` (Amazon.de, 325 Spalten in Blatt „Vorlage“, Zeile 4 Bezeichnung, Zeile 5 technischer Name, Daten ab Zeile 8). Alle Felder mit Pflichtstatus und Beispiel stehen in `data/amazon_home_mirror_felder.csv`.
 - Von Amazon vorausgefüllte Profilzeile (Zeile 8): Marke und Hersteller EmsCraft24, Größe „Mittelgroße“, Montage „Ja“, Ursprungsland Deutschland, Batterien „Nein“, Gefahrgut „Nicht zutreffend“, Artikelmaße 60 × 40 cm.
-- Entwurf: `upload/amazon/charge_01_spiegel_sets/amazon_upload_ENTWURF.xlsm` mit den 10 Spiegel-Sets, erzeugt mit `scripts/fill_amazon_home_mirror.py` aus `data/spiegel_sets_texte_charge1.csv`. Die Kopfzeilen 1 bis 7 sind unverändert, die Dropdown-Prüfungen (650) und Namen (1.081) sind erhalten.
+- Entwürfe: `upload/amazon/charge_01_spiegel_sets/amazon_upload_FBM.xlsm` und `amazon_upload_FBA.xlsm` (Ablauf in `docs/massenupload_workflow.md`) mit den 10 Spiegel-Sets, erzeugt mit `scripts/fill_amazon_home_mirror.py` aus `data/spiegel_sets_texte_charge1.csv`. Die Kopfzeilen 1 bis 7 sind unverändert, die Dropdown-Prüfungen (650) und Namen (1.081) sind erhalten.
 - Einschränkung: Beim Speichern gingen 21 Beispielbilder im Blatt „Bilder“ (nur Anleitung) verloren, das hat keinen Einfluss auf die Tabelle, ob Amazon die Datei annimmt, zeigt der Upload unter „Uploadstatus überprüfen“.
 
 ### Wie die Felder gefüllt sind
