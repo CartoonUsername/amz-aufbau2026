@@ -1,0 +1,3 @@
+feld,deine_angabe,dropdown_wert,bestaetigt,anmerkung
+rahmenmaterial,MDF,Holzwerkstoff,nein,"Vorschlag: MDF ist ein Holzwerkstoff, in der Dropdown-Liste gibt es kein MDF; bitte bestätigen"
+material,Kunststoffspiegel,,nein,Dropdown-Liste hat u. a. Kunststoff und Acryl; Wert aus dem bestehenden Listing entnehmen

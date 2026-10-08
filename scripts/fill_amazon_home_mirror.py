@@ -31,6 +31,9 @@ def norm(t):
 def put_checked(values, c, value, feld, sku, warnings):
     """Trägt nur Werte ein, die in der Tabelle stehen UND in der Dropdown-Liste der Vorlage vorkommen."""
     value = (value or "").strip()
+    mapped = ZUORDNUNG.get((feld, value))
+    if mapped:
+        value = mapped
     allowed = ALLOWED.get(c)
     if not value:
         values[c] = None
@@ -43,6 +46,7 @@ def put_checked(values, c, value, feld, sku, warnings):
 
 
 ALLOWED = {}
+ZUORDNUNG = {}
 
 
 def main():
@@ -80,6 +84,14 @@ def main():
 
     with open(a.csv, encoding="utf-8", newline="") as f:
         rows = list(csv.DictReader(f))
+    # bestätigte Zuordnungen "deine Angabe" -> Dropdown-Wert (data/amazon_wertezuordnung.csv)
+    try:
+        with open("data/amazon_wertezuordnung.csv", encoding="utf-8", newline="") as f:
+            for z in csv.DictReader(f):
+                if z["bestaetigt"].strip().lower() == "ja" and z["dropdown_wert"]:
+                    ZUORDNUNG[(z["feld"], z["deine_angabe"])] = z["dropdown_wert"]
+    except FileNotFoundError:
+        pass
 
     warnings = []
     for i, r in enumerate(rows):
@@ -112,6 +124,8 @@ def main():
         put(col("color#1.value"), r["farbe"])
         put_checked(values, col("item_shape#1.value"), r.get("form"), "form", r["sku"], warnings)
         put_checked(values, col("material#1.value"), r.get("material"), "material", r["sku"], warnings)
+        for fc in by_norm.get("frame#1.material#1.value", []) + by_norm.get("frame_material#1.value", []):
+            put_checked(values, fc, r.get("rahmenmaterial"), "rahmenmaterial", r["sku"], warnings)
         put(col("unit_count#1.value"), f"{n}.0")
         put(col("unit_count#1.type.value") if "unit_count#1.type.value" in by_norm else col("unit_count#1.type#1.value"), "stück")
         put(col("included_components#1.value"), f"{n} Spiegel, Aufhängeset (Aufhänger, Schrauben, Dübel)")
