@@ -36,7 +36,7 @@ Sessions dieser 23 ASINs: heute 137/Tag, Ziel Monat 8: ca. 752/Tag.
 
 ## Die Lücke zu 5.000 €/Tag
 
-Nach Monat 8 fehlen ca. 3.560 €/Tag, die aus neuen Listings kommen müssen.
+Nach Monat 8 fehlen ca. 3.560 €/Tag, davon sollen ca. 320 €/Tag aus Spiegel-Sets und Zubehör kommen (`docs/sets_zubehoer_spiegel.md`, Annahme), der Rest von ca. 3.240 €/Tag aus anderen neuen Listings.
 
 | Szenario für die Lücke | Bedarf |
 |---|---|
