@@ -4,6 +4,7 @@ Strategie, Pläne und Analysen, nach Aktualität geordnet.
 
 | Datei | Inhalt |
 |---|---|
+| `monatsvergleich_amazon_2026-04_bis_09.md` | Amazon Monatsvergleich April bis September (Umsatz pro Einheit fiel von 59 € auf 24 €) |
 | `kernsortiment_2026-10-08.md` | Kernlinien gegenüber Restbestand, Basis ca. 315 €/Tag |
 | `plan_4_linien.md` | Plan für Spiegel, Salzlampen, Trikotrahmen, Plissees nach Kanal und Woche |
 | `ambitionsszenario.md` | Höhere Ziele bis 14.12. und was dafür stimmen muss |
