@@ -49,6 +49,7 @@ def main():
     ap.add_argument("--channel", choices=["otto", "ebay"], required=True)
     ap.add_argument("--batch", required=True)
     ap.add_argument("--listing", required=True)
+    ap.add_argument("--provisionsgruppe", default=OTTO_PROVISIONSGRUPPE, help="Otto, z. B. \"Lampen & Leuchten\" (aus bestehenden Otto-Lampen-SKUs)")
     a = ap.parse_args()
 
     with open(os.path.join(ROOT, a.listing), encoding="utf-8", newline="") as f:
@@ -84,7 +85,7 @@ def main():
         if a.channel == "otto":
             o.update({
                 "titel": f"EmsCraft24 Wandspiegel {n}er Set 60x40 cm {r['farbe']} Hoch- und Querformat Kunststoffspiegel",
-                "provisionsbereich": OTTO_PROVISIONSBEREICH, "provisionsgruppe": OTTO_PROVISIONSGRUPPE,
+                "provisionsbereich": OTTO_PROVISIONSBEREICH, "provisionsgruppe": a.provisionsgruppe,
                 "versandprofil": OTTO_VERSANDPROFIL, "raumtyp": r.get("raumtyp", ""), "beschreibung": desc,
             })
             for k in range(1, 6):
@@ -100,7 +101,7 @@ def main():
             offen.append(f"{r['sku']}: GTIN fehlt")
         if not o["bild_1"]:
             offen.append(f"{r['sku']}: Hauptbild-URL fehlt")
-        o["bestand"] = "100"  # Standardbestand immer 100
+        o["menge" if a.channel == "ebay" else "bestand"] = "100"  # Standardbestand immer 100
         out.append(o)
 
     path = os.path.join(out_dir, f"listing_{a.channel}.csv")

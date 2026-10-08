@@ -38,3 +38,4 @@ Die Hauptversion der Listing-Tabelle (FBM) liegt bei der Produktlinie, z. B. `pr
 | 01 | 10 Spiegel-Sets (2er/3er, 5 Farben) | `../../produkte/spiegel/sets_charge1_fbm.csv` | GTINs, Material, Kategorien gefüllt; offen: Bestand, Versandvorlage, Paketmaße und -gewicht, Bilder |
 | 02 | 8 Salzlampen-Sets | `../../produkte/salzlampen/geschenksets_fbm.csv` | Amazon-Vorlage Tischlampe fehlt, Mini-Lampen-Fehler beheben |
 | – | Trikotrahmen: nur Updates der 5 bestehenden ASINs, kein neues Listing | `../../produkte/trikotrahmen/texte.csv` | Angaben zu Bügel und Maßen offen |
+- `chargen/charge_02_salzlampen_sets/`: Entwurf (FBA-Kopie), Upload-Datei fehlt bis zur Tischlampen-Vorlage.
