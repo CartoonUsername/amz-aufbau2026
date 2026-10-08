@@ -1,6 +1,6 @@
 # EmsCraft24 – Aufbauplan 2026 (ohne Werbung, ohne Marge-Daten)
 
-Ziel: 5.000 € Umsatz/Tag. Stand 8.10.2026: ca. 324 €/Tag (7-Tage-Schnitt), ca. 194 Sessions/Tag, 7,3 % Conversion.
+Ziel: 5.000 € Umsatz/Tag über alle Kanäle. Stand 8.10.2026: Gesamt ca. 700–900 €/Tag (Amazon ca. 324 €, Otto ca. 495 €, eBay ca. 76 € pro Tag, 7-Tage-Werte), Amazon: ca. 194 Sessions/Tag, 7,3 % Conversion (siehe `docs/kanaele_gesamtuebersicht.md`).
 
 ## Plan in Zahlen (Umsatz/Tag)
 
@@ -17,6 +17,7 @@ Der Plan rechnet ohne Einkaufs-/Herstellkosten; Preise werden bis dahin nicht ge
 
 ## Dateien
 
+- `docs/kanaele_gesamtuebersicht.md` – Amazon, Otto, eBay im Vergleich, Gesamt-Dreisatz und Szenarien
 - `docs/brand_analytics_social_newsletter.md` – Brand Analytics, Social Media und Newsletter ohne Werbung
 - `docs/organischer_traffic_und_masse.md` – Was Masse-Upload bringt, organische Traffic-Hebel, aggressives Szenario und 5.000-€-Spitzentag
 - `docs/plan_bis_januar_2027.md` – 13-Wochen-Plan bis Anfang Januar 2027 mit Szenarien, Wochenaufgaben und Kurzfassung für die Geschäftsführung
