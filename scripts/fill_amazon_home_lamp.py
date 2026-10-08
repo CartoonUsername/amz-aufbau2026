@@ -33,6 +33,21 @@ def count_of(sku):
     return 2  # DUO, MOND-DUO, PLUS-MINI: jeweils zwei Lampen
 
 
+# Lampengewichte in kg je Set. Große Lampen: oberer Wert der kg-Spanne aus dem SKU-Namen, Mini: ca. 650 g (Mini-Listings).
+# Paketgewicht = Summe der Lampen + 0,5 kg (Angabe des Nutzers).
+LAMPEN_KG = {
+    "GS01-SALZ-DUO-1-2KG": [2, 2],
+    "GS02-SALZ-DUO-2-3KG": [3, 3],
+    "GS03-SALZ-DUO-3-5KG": [5, 5],
+    "GS04-SALZ-DUO-WEISS-2-3KG": [3, 3],
+    "GS05-SALZ-MINI-TRIO": [0.65] * 3,
+    "GS06-SALZ-MINI-MOND-DUO": [0.65] * 2,
+    "GS07-SALZ-1-2KG-PLUS-MINI": [2, 0.65],
+    "GS08-SALZ-2-3KG-PLUS-MINI": [3, 0.65],
+}
+VERPACKUNG_KG = 0.5
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--template", required=True)
@@ -133,7 +148,13 @@ def main():
             put(col(f"other_product_image_locator_{k}#1.media_location"), r.get(f"bild_{k + 1}") or None)
         if not r.get("bild_haupt"):
             warnings.append(f"{sku}: Hauptbild-URL fehlt")
-        warnings.append(f"{sku}: Paketmaße und Paketgewicht eintragen")
+        lamps = LAMPEN_KG.get(sku.replace("FBA_", "", 1))
+        if lamps:
+            put(col("item_package_weight#1.value"), round(sum(lamps) + VERPACKUNG_KG, 2))
+            put(col("item_package_weight#1.unit"), "Kilogramm")
+        else:
+            warnings.append(f"{sku}: Paketgewicht eintragen (Lampengewichte unbekannt)")
+        warnings.append(f"{sku}: Paketmaße eintragen")
         for c, val in v.items():
             ws.cell(row=row, column=c).value = val
 
