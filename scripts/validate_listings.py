@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Prüft Listing-CSVs vor dem Amazon-Upload (Format: data/listing_vorlage.csv).
 
-Aufruf: python3 scripts/validate_listings.py data/spiegel_sets_texte_charge1.csv [weitere.csv ...]
+Aufruf: python3 scripts/validate_listings.py [--nur-neu] data/spiegel_sets_texte_charge1.csv [weitere.csv ...]
+
+--nur-neu: Amazon-Zeilen müssen in der Spalte asin_oder_neu den Wert "neu" haben (keine Updates bestehender ASINs).
 
 Prüft: Titel-Länge, Bullets, Backend-Suchbegriffe, Preis, Platzhalter in eckigen Klammern,
 https-Bild-URLs, doppelte SKUs und die Chargengröße (max. 20 Zeilen je Datei).
@@ -20,7 +22,7 @@ IMAGES = ["bild_haupt", "bild_2", "bild_3", "bild_4", "bild_5", "bild_6", "bild_
 PLACEHOLDER = re.compile(r"\[[^\]]+\]")
 
 
-def check_file(path):
+def check_file(path, nur_neu=False):
     errors, warnings = [], []
     with open(path, encoding="utf-8", newline="") as f:
         rows = list(csv.DictReader(f))
@@ -35,6 +37,8 @@ def check_file(path):
         elif sku in seen:
             errors.append(f"{tag}: SKU doppelt")
         seen.add(sku)
+        if nur_neu and "amazon" in r.get("marktplatz", "").lower() and r.get("asin_oder_neu", "").strip().lower() != "neu":
+            errors.append(f"{tag}: ist kein neues Listing (asin_oder_neu = {r.get('asin_oder_neu', '')})")
         title = r.get("titel", "")
         if not title:
             errors.append(f"{tag}: Titel fehlt")
@@ -67,11 +71,13 @@ def check_file(path):
 
 
 def main():
-    if len(sys.argv) < 2:
+    args = [a for a in sys.argv[1:] if a != "--nur-neu"]
+    nur_neu = "--nur-neu" in sys.argv[1:]
+    if not args:
         sys.exit(__doc__)
     failed = False
-    for p in sys.argv[1:]:
-        n, errors, warnings = check_file(p)
+    for p in args:
+        n, errors, warnings = check_file(p, nur_neu)
         print(f"\n{p}: {n} Zeilen, {len(errors)} Fehler, {len(warnings)} Hinweise")
         for e in errors[:15]:
             print("  FEHLER", e)

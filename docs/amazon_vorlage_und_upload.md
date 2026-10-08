@@ -29,3 +29,11 @@ Die Struktur und die Chargenregeln stehen in `upload/amazon/README.md`: höchste
 ## Stand der Prüfung heute
 
 Das Prüfskript meldet bei allen drei Chargen Platzhalter (EAN, Bestand, Bügel-Angaben bei den Trikotrahmen) und fehlende Bilder, die Texte selbst sind innerhalb der Längengrenzen.
+
+## Nur neue Listings (8.10.2026)
+
+- Die Chargen im Upload-Ordner enthalten nur neue Listings mit neuer SKU, neuer EAN und neuer Produktseite.
+- Neu sind: Spiegel-Sets (2er/3er), Salzlampen-Sets, später Zubehör oder neue Bündel, denn ein Set ist ein anderes Produkt als der Einzelartikel.
+- Nicht neu sind die Trikotrahmen auf Amazon: Es gibt die 5 Farben schon als ASINs, ein zweites Listing desselben Rahmens würde als doppelte Produktseite gelten, deshalb sind die Texte in `data/trikotrahmen_texte.csv` Updates der bestehenden Seiten (Amazon) und neue Listings nur bei eBay.
+- Für neue Trikot-Listings auf Amazon braucht es ein anderes Produkt, zum Beispiel ein 2er-Set oder ein Set mit zwei Farben.
+- `python3 scripts/validate_listings.py --nur-neu <datei>` meldet Amazon-Zeilen, die kein neues Listing sind.
