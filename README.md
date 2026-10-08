@@ -15,6 +15,10 @@ Bis Weihnachten sind Salzlampen und Spiegel-Sets das Hauptgeschäft, Black Frida
 
 Der Plan rechnet ohne Einkaufs-/Herstellkosten; Preise werden bis dahin nicht gesenkt.
 
+## Regel
+
+Keine erfundenen Produktdaten: Größen, Farben, Maße, Materialien und Preise kommen nur vom Betreiber oder aus bestehenden Listings, siehe `docs/regeln_keine_erfindungen.md`.
+
 ## Dateien
 
 - `docs/massenupload_workflow.md` – Massenupload: FBM zuerst, FBA als Kopie, ein Befehl pro Charge (`scripts/build_amazon_batch.py`)

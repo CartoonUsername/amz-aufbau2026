@@ -28,6 +28,23 @@ def norm(t):
     return t
 
 
+def put_checked(values, c, value, feld, sku, warnings):
+    """Trägt nur Werte ein, die in der Tabelle stehen UND in der Dropdown-Liste der Vorlage vorkommen."""
+    value = (value or "").strip()
+    allowed = ALLOWED.get(c)
+    if not value:
+        values[c] = None
+        warnings.append(f"{sku}: {feld} fehlt (kein Wert in der Listing-Tabelle)")
+    elif allowed is not None and value not in allowed:
+        values[c] = None
+        warnings.append(f"{sku}: {feld} \"{value}\" steht nicht in der Dropdown-Liste der Vorlage")
+    else:
+        values[c] = value
+
+
+ALLOWED = {}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--template", required=True)
@@ -51,6 +68,15 @@ def main():
 
     price_col = next(c for c, t in tech.items() if t and "audience=ALL" in t and "our_price" in t and t.endswith("value_with_tax"))
     defaults = {c: ws.cell(row=FIRST_DATA_ROW, column=c).value for c in range(1, ws.max_column + 1)}
+    # Dropdown-Listen aus dem Blatt "Gültige Werte" (Zeile = Feld, Werte ab Spalte 3)
+    labels = {c: ws.cell(row=4, column=c).value for c in range(1, ws.max_column + 1)}
+    for r in wb["Gültige Werte"].iter_rows(min_row=1, values_only=True):
+        name = re.sub(r"\s*-\s*\[.*$", "", str(r[1] or "")).strip()
+        if name:
+            vals = {str(v) for v in r[2:] if v not in (None, "")}
+            for c, lab in labels.items():
+                if lab == name and vals:
+                    ALLOWED.setdefault(c, set()).update(vals)
 
     with open(a.csv, encoding="utf-8", newline="") as f:
         rows = list(csv.DictReader(f))
@@ -84,12 +110,12 @@ def main():
         put(col("generic_keyword#1.value"), r["suchbegriffe"])
         put(col("number_of_items#1.value"), n)
         put(col("color#1.value"), r["farbe"])
-        put(col("item_shape#1.value"), "Rechteckig")
-        put(col("material#1.value"), "Kunststoff")
+        put_checked(values, col("item_shape#1.value"), r.get("form"), "form", r["sku"], warnings)
+        put_checked(values, col("material#1.value"), r.get("material"), "material", r["sku"], warnings)
         put(col("unit_count#1.value"), f"{n}.0")
         put(col("unit_count#1.type.value") if "unit_count#1.type.value" in by_norm else col("unit_count#1.type#1.value"), "stück")
         put(col("included_components#1.value"), f"{n} Spiegel, Aufhängeset (Aufhänger, Schrauben, Dübel)")
-        put(col("mounting_type#1.value"), "Wandmontage")
+        put_checked(values, col("mounting_type#1.value"), r.get("montageart"), "montageart", r["sku"], warnings)
         put(col("condition_type#1.value"), "Neu")
         put(price_col, r["preis_eur"])
         fba = r.get("fulfillment", "").upper().startswith("FBA")
