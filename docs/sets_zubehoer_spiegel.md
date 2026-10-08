@@ -48,4 +48,4 @@ Der Bestseller Spiegel Weiß hat 6,5 % Conversion und 32 Sessions/Tag, Sets hebe
 
 ## Hinweis zum Montage-Set (8.10.2026)
 
-- Aufhänger und Schrauben liegen den Spiegeln bereits bei, das separate Montage-Set (Z01) sollte deshalb Zusatzzubehör enthalten (z. B. Dübel für verschiedene Wände, Wasserwaage, Klebepads für Mietwohnungen), sonst gibt es keinen Grund, es zu kaufen.
+- Ein komplettes Aufhängeset (Aufhänger, Schrauben, Dübel) liegt den Spiegeln bereits bei, ein separates Montage-Set (Z01) lohnt sich nur mit echtem Zusatznutzen (z. B. Wasserwaage, Klebepads für Mietwohnungen, Dübel für Spezialwände) und ist niedrig priorisiert, Bundle Z03 (Spiegel + Montage-Set) entfällt dann.

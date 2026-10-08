@@ -27,7 +27,7 @@ Titel sind 128–132 Zeichen lang, die Backend-Suchbegriffe 144 Bytes (Grenze ca
 1. 2er SPIEGEL IM SET: Zwei Wandspiegel in Weiß Matt, je 60 x 40 cm, einheitlich in einer Farbe, ideal für eine Spiegelgruppe im Flur, Wohnzimmer, Schlafzimmer oder Bad
 2. BRUCHSICHER UND SPLITTERFREI: Kunststoffspiegel statt Glas, leicht, robust und langlebig, kein Glasbruch beim Transport und bei der Montage
 3. HOCH- ODER QUERFORMAT: jeder Spiegel misst 60 x 40 cm und lässt sich senkrecht oder waagerecht anbringen, so entsteht eine hell und freundliche Wandgestaltung, die zu skandinavischen, hellen und modernen Einrichtungen passt
-4. MONTAGE INKLUSIVE: Aufhänger und Schrauben liegen bei [weiteres Zubehör ergänzen, z. B. Dübel], die Spiegel werden an der Wand befestigt und sind für Hoch- und Querformat geeignet
+4. KOMPLETTES AUFHÄNGESET INKLUSIVE: Aufhänger, Schrauben und Dübel liegen bei, die Spiegel werden an der Wand befestigt und sind für Hoch- und Querformat geeignet
 5. HANDGEFERTIGT IN DEUTSCHLAND: gefertigt von EmsCraft24, mit dem Anspruch an saubere Kanten und eine gleichmäßige Spiegelfläche
 
 **Beschreibung:** Mit dem 2er Set Wandspiegel 60x40 cm in Weiß Matt gestaltest du eine Spiegelwand aus zwei gleichen Spiegeln. Die Spiegel bestehen aus bruchsicherem, splitterfreiem Kunststoff und sind deutlich leichter als Glasspiegel. Jeder Spiegel passt hochkant und quer, sodass du Reihen, Gruppen oder versetzte Anordnungen frei planen kannst. Die Farbe Weiß Matt wirkt hell und freundlich und passt zu skandinavischen, hellen und modernen Einrichtungen.
@@ -38,7 +38,7 @@ Die Texte der anderen Farben unterscheiden sich in Farbname, Stilbeschreibung un
 
 ## 3. Noch zu ergänzen (nicht erfunden)
 
-- Weiteres Befestigungszubehör (z. B. Dübel) und Anzahl der Aufhänger und Schrauben je Spiegel (Bullet 4), die Befestigung mit Aufhängern und Schrauben bedeutet Bohren.
+- Anzahl der Aufhänger, Schrauben und Dübel je Spiegel (Bullet 4), die Befestigung mit Aufhängern, Schrauben und Dübeln bedeutet Bohren.
 - EAN je Set (neue GTINs für Sets), Gewicht, Verpackungsmaße.
 - Bestand und Fulfillment (FBA oder FBM) je Set.
 - Genaue Materialangabe und Spiegelstärke, falls im Listing genannt werden sollen.
