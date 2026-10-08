@@ -3,7 +3,7 @@
 
 Aufruf:
   python3 scripts/build_amazon_batch.py --batch charge_01_spiegel_sets \
-      --listing produkte/spiegel/sets_charge1_fbm.csv --versandvorlage "Schneller Versand" \
+      --listing produkte/spiegel/sets_charge1_fbm.csv --versandvorlage "Prime Mustervorlage" \
       [--base-url https://cdn.shopify.com/.../files --images-dir /pfad/bilder]
 
 Schritte:
@@ -38,7 +38,7 @@ def main():
     ap.add_argument("--batch", required=True)
     ap.add_argument("--listing", required=True, help="FBM-Hauptversion der Listing-Tabelle")
     ap.add_argument("--template", default="kanaele/amazon/vorlagen/home_mirror.xlsm")
-    ap.add_argument("--versandvorlage")
+    ap.add_argument("--versandvorlage", default="Prime Mustervorlage")
     ap.add_argument("--base-url")
     ap.add_argument("--images-dir")
     a = ap.parse_args()

@@ -53,7 +53,7 @@ def main():
     ap.add_argument("--template", required=True)
     ap.add_argument("--csv", required=True)
     ap.add_argument("--out", required=True)
-    ap.add_argument("--versandvorlage", help="Name der Versandvorlage für FBM-Zeilen, z. B. \"Schneller Versand\"")
+    ap.add_argument("--versandvorlage", default="Prime Mustervorlage", help="Name der Versandvorlage für FBM-Zeilen, Standard: Prime Mustervorlage")
     a = ap.parse_args()
 
     wb = openpyxl.load_workbook(a.template, keep_vba=True)
