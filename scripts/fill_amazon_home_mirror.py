@@ -152,10 +152,10 @@ def main():
             put(col(f"other_product_image_locator_{k}#1.media_location"), r.get(f"bild_{k + 1}") or None)
         if not r.get("bild_haupt"):
             warnings.append(f"{r['sku']}: Hauptbild-URL fehlt")
-        # Paket: Spiegelmaß 60 x 40 cm + 3 cm je Seite (also +6 cm je Maß), Gewicht n x 1,1 kg + 0,2 kg, Höhe 4 cm (Angaben des Nutzers)
+        # Paket: Spiegelmaß 60 x 40 cm + 3 cm je Seite (also +6 cm je Maß), Gewicht n x 1,1 kg + 0,2 kg, Höhe 2er 7 cm, 3er 10 cm (Angaben des Nutzers)
         put(col("item_package_dimensions#1.length.value"), 66)
         put(col("item_package_dimensions#1.width.value"), 46)
-        put(col("item_package_dimensions#1.height.value"), 4)
+        put(col("item_package_dimensions#1.height.value"), {2: 7, 3: 10}.get(n))
         put(col("item_package_dimensions#1.length.unit"), "Zentimeter")
         put(col("item_package_dimensions#1.width.unit"), "Zentimeter")
         put(col("item_package_dimensions#1.height.unit"), "Zentimeter")
