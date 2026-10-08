@@ -19,16 +19,16 @@ Titel 121–138 Zeichen, Backend-Suchbegriffe 140 Bytes, längster Bullet 302 Ze
 
 ## 2. Beispiel: GS01 (2 × Salzlampe 1–2 kg)
 
-**Titel:** EmsCraft24 Salzlampe Geschenkset 2er (je 1-2 kg) | Nachtlicht Himalaya Salzkristall | Geschenkidee Weihnachten Geburtstag
+**Titel:** EmsCraft24 Salzlampe Set 2er (je 1-2 kg) | Nachtlicht Himalaya Salzkristall | Geschenkidee Weihnachten Geburtstag
 
 **Bullets:**
-1. GESCHENKSET MIT ZWEI SALZLAMPEN (JE 1-2 KG): fertig zusammengestellt, ideal als Geschenk zu Weihnachten, Geburtstag, Einweihung oder Muttertag
+1. SET MIT ZWEI SALZLAMPEN (JE 1-2 KG): fertig zusammengestellt, eine passende Geschenkidee zu Weihnachten, Geburtstag, Einweihung oder Muttertag
 2. NATURPRODUKT MIT SPEZIFIKATION: Naturkristall aus der Salt Range in Pakistan, handgefertigt, auf Naturholzsockel, mit 230V-Netzstecker (EU) und austauschbarer 15W-Glühbirne
 3. WARMES, GEDÄMPFTES LICHT: als Nachtlicht und Stimmungslicht geeignet für Wohnzimmer, Schlafzimmer, Büro oder als Pärchen-Geschenk
-4. KEIN ZWEITKAUF NÖTIG: Lampen im Set sofort einsatzbereit, [Geschenkverpackung oder Karton ergänzen, falls vorhanden]
+4. LIEFERUNG IM KARTON: Versand im Karton ohne Geschenkverpackung, Lampen sofort einsatzbereit [Lieferumfang Kabel und Birne ergänzen]
 5. VON EMSCRAFT24: jeder Kristall ist ein Unikat, Form, Färbung und Gewicht können leicht von den Bildern abweichen
 
-**Beschreibung:** Das Geschenkset besteht aus zwei Salzlampen (je 1-2 kg). Jede Lampe ist ein Naturprodukt, deshalb sieht jeder Kristall anders aus. Technik: Naturkristall aus der Salt Range in Pakistan, handgefertigt, auf Naturholzsockel, mit 230V-Netzstecker (EU) und austauschbarer 15W-Glühbirne. Das warme Licht passt als Nachtlicht und Stimmungslicht zu Wohnzimmer, Schlafzimmer, Büro oder als Pärchen-Geschenk. Das Set ist sofort einsatzbereit und eignet sich als Geschenk für Familie, Freunde und Kollegen.
+**Beschreibung:** Das Set besteht aus zwei Salzlampen (je 1-2 kg). Jede Lampe ist ein Naturprodukt, deshalb sieht jeder Kristall anders aus. Technik: Naturkristall aus der Salt Range in Pakistan, handgefertigt, auf Naturholzsockel, mit 230V-Netzstecker (EU) und austauschbarer 15W-Glühbirne. Das warme Licht passt als Nachtlicht und Stimmungslicht zu Wohnzimmer, Schlafzimmer, Büro oder als Pärchen-Geschenk. Das Set ist sofort einsatzbereit und eignet sich als Geschenkidee für Familie, Freunde und Kollegen (Lieferung im Karton, ohne Geschenkverpackung).
 
 **Backend-Suchbegriffe:** Salzlampe Set Geschenkset Himalaya Salzkristall Nachtlicht Stimmungslicht Tischlampe Geschenkidee Weihnachtsgeschenk Dekolampe Kristalllampe
 
@@ -42,7 +42,7 @@ Die Mini-Sets nennen statt der großen Technik „Echtes Himalaya-Salzkristall, 
 
 ## 4. Noch zu ergänzen und zu klären
 
-- Geschenkverpackung oder Karton (ja/nein), Lieferumfang (Kabel, Birne im Set) in Bullet 4.
+- Lieferumfang (Kabel, Birne im Set) in Bullet 4, die Lieferung erfolgt im Karton ohne Geschenkverpackung, deshalb heißen die Listings „Set“ mit „Geschenkidee“ im Titel statt „Geschenkset“.
 - EAN je Set, Gewicht und Maße der Pakete, Bestand und FBA/FBM.
 - Ob die Weiß-Lampen (Bialy) und die Minis auf Amazon fehlerfrei und aktiv sind: Die drei Mini-Lampen haben dort „Problem mit dem Angebot beheben“, das zuerst beheben, sonst können die Mini-Sets nicht live gehen.
 - Otto: Die Salzlampen-SKUs (S02JD0D2 und die LampeSet-SKUs) sind teilweise nicht verkaufsfähig, vor den Sets reparieren.
@@ -54,6 +54,6 @@ Die Mini-Sets nennen statt der großen Technik „Echtes Himalaya-Salzkristall, 
 2. Lampen im Raum mit eingeschaltetem Licht (Abend, Wohnzimmer, Nachttisch).
 3. Größenvergleich der Lampen (kg und Höhe).
 4. Technik: Kabel, Schalter, Birne.
-5. Geschenkoptik, falls Verpackung vorhanden.
+5. Lieferung im Karton (ehrliche Darstellung ohne Geschenkverpackung), optional Geschenkoptik mit Schleife als Deko, die nicht mitgeliefert wird und im Bild entsprechend gekennzeichnet sein muss.
 6. Detail Kristall und Sockel.
 7. Optional: Video mit Lichtwechsel (RGB beim Mond).
