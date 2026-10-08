@@ -17,6 +17,7 @@ Der Plan rechnet ohne Einkaufs-/Herstellkosten; Preise werden bis dahin nicht ge
 
 ## Dateien
 
+- `docs/plan_bis_januar_2027.md` – 13-Wochen-Plan bis Anfang Januar 2027 mit Szenarien, Wochenaufgaben und Kurzfassung für die Geschäftsführung
 - `docs/masterplan_dreisatz.md` – Gesamtplan im großen Stil mit Dreisatz-Rechnungen und Maßnahmenpaketen
 - `docs/plan_pro_asin.md` – Plan pro ASIN (v3), Ziele in `data/plan_pro_asin.csv`
 - `docs/sets_zubehoer_spiegel.md` – Sets und Zubehör für Wandspiegel (`data/sets_zubehoer_spiegel.csv`)
