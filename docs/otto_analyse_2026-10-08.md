@@ -65,3 +65,12 @@ Umsatz pro Visit 3,30 €, heute ca. 135 Visits pro Tag.
 - Otto liefert 444–495 €/Tag und hat die höchste Conversion pro Visit, also ist die Auffindbarkeit der größte Hebel.
 - Das Otto-Wachstum hängt vom Bestand der Akustikpaneele, die auf Amazon fast nichts bringen.
 - Die Marge bleibt unbekannt, die Provision liegt je Provisionsgruppe (Möbel, Lampen, Baumarkt, Wohnaccessoires) vermutlich unterschiedlich, das sollten die Otto-Finanzen zeigen.
+
+## 7. Update 8.10.2026: Akustikpaneele laufen aus
+
+- Die Akustikpaneele werden nicht mehr nachproduziert und nicht wieder ins Sortiment aufgenommen, damit fallen 52 % der Otto-Nachfrage (6.888 € von 13.312 €) weg.
+- Otto ohne Paneele: ca. 6.424 € in 30 Tagen, das sind ca. 214 €/Tag (aus dem 7-Tage-Wert ca. 239 €/Tag).
+- Ersatz: Die Paneele brachten ca. 78 Visits pro Tag, bei 3,30 € Umsatz pro Visit sind das ca. 257 €/Tag, die andere Produkte auffangen müssen.
+- Dreisatz Ersatz: ca. 257 € entsprechen ca. 5 Gehfrei-Verkäufen pro Tag (55 €), ca. 4 Spiegel-Sets pro Tag (60 €) oder ca. 10 Salzlampen pro Tag (25 €).
+- Restbestand der Paneele (Otto 15 Stück, Amazon und Lager prüfen) wird abverkauft, ohne neue Listings.
+- Auf Amazon sollten die 22 Akustik-/Lamellen-ASINs (96 Sessions, 0 Verkäufe) nach Abverkauf geschlossen werden, das senkt auch das Risiko zur Angebotsentfernung.

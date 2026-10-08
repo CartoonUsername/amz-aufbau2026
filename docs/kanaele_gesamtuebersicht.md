@@ -97,3 +97,10 @@ Quellen: Screenshots Monatsumsatz und Bestellungen (Kanal-Legende fehlt, Zuordnu
 | 5 | Klären, ob das Werbeverbot für eBay gilt | eBay |
 | 6 | Weitere Kanäle prüfen (z. B. Kaufland), falls vorhanden | offen |
 | 7 | Business Report nach Amazon-Land ziehen | Amazon |
+
+## 9. Update 8.10.2026: Akustikpaneele laufen aus
+
+- Otto verliert mit den Paneelen ca. 52 % seiner Nachfrage, der Otto-Wert fällt von ca. 495 €/Tag auf ca. 214–239 €/Tag.
+- Gesamtumsatz ohne Paneele: Amazon ca. 324 € + Otto ca. 214–239 € + eBay ca. 76 € = ca. 614–639 €/Tag.
+- Für 5.000 €/Tag fehlt damit das ca. 8-Fache statt des ca. 6- bis 7-Fachen.
+- Die Szenarien in Abschnitt 6 für Otto (Basis 900 €, Ziel 1.200 €, Stretch 1.600 €) sind ohne Paneele zu hoch und müssen neu gerechnet werden, sobald klar ist, was die Paneele ersetzt.
