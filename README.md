@@ -17,6 +17,7 @@ Der Plan rechnet ohne Einkaufs-/Herstellkosten; Preise werden bis dahin nicht ge
 
 ## Dateien
 
+- `docs/bilder_im_upload.md` – Bilder beim Upload mitgeben (URLs, Namensschema, Skript `scripts/fill_image_urls.py`)
 - `docs/texte_trikotrahmen.md` – Texte für 5 Trikotrahmen auf Amazon (Update) und eBay (neu), Otto-Hinweise, vollständig in `data/trikotrahmen_texte.csv`
 - `docs/ambitionsszenario.md` – höhere Ziele bis 14.12. (Kern ca. 1.400 €/Tag) und was dafür stimmen muss
 - `docs/texte_salzlampen_geschenksets.md` – Texte für 8 Salzlampen-Geschenksets, vollständig in `data/salzlampen_geschenksets_texte.csv`
