@@ -1,6 +1,6 @@
 # EmsCraft24 – Aufbauplan 2026 (ohne Werbung, ohne Marge-Daten)
 
-Ziel: 5.000 € Umsatz/Tag über alle Kanäle. Stand 8.10.2026: Gesamt ca. 700–900 €/Tag (ohne die auslaufenden Akustikpaneele auf Otto ca. 615–640 €/Tag) (Amazon ca. 324 €, Otto ca. 495 €, eBay ca. 76 € pro Tag, 7-Tage-Werte), Amazon: ca. 194 Sessions/Tag, 7,3 % Conversion (siehe `docs/kanaele_gesamtuebersicht.md`).
+Ziel: 5.000 € Umsatz/Tag über alle Kanäle. Stand 8.10.2026: Gesamt ca. 700–900 €/Tag (ohne die auslaufenden Akustikpaneele auf Otto ca. 615–640 €/Tag, nur Kernsortiment ca. 400–475 €/Tag) (Amazon ca. 324 €, Otto ca. 495 €, eBay ca. 76 € pro Tag, 7-Tage-Werte), Amazon: ca. 194 Sessions/Tag, 7,3 % Conversion (siehe `docs/kanaele_gesamtuebersicht.md`).
 
 ## Plan in Zahlen (Umsatz/Tag)
 
@@ -17,6 +17,7 @@ Der Plan rechnet ohne Einkaufs-/Herstellkosten; Preise werden bis dahin nicht ge
 
 ## Dateien
 
+- `docs/kernsortiment_2026-10-08.md` – Kernsortiment (Spiegel, Salzlampen, Bilderrahmen, Plissees) und Restbestand, Basis ca. 400–475 €/Tag
 - `docs/auslaufware_akustik_lamellen.md` – Auslaufware (Akustikpaneele, Lamellenwände): Bestand, Optionen, Aufräumen
 - `docs/otto_analyse_2026-10-08.md` – Otto: Umsatz nach Produktgruppe, 58 nicht verkaufsfähige SKUs, Dreisatz und Maßnahmen
 - `docs/otto_und_shopify_hebel.md` – Otto-Ausbau (Dreisatz je Produkt), Shopify-Traffic ohne Werbung und Wirtschaftlichkeit
