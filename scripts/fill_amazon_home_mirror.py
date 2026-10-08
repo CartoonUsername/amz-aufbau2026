@@ -129,6 +129,7 @@ def main():
         put(col("unit_count#1.value"), f"{n}.0")
         put(col("unit_count#1.type.value") if "unit_count#1.type.value" in by_norm else col("unit_count#1.type#1.value"), "stück")
         put(col("included_components#1.value"), f"{n} Spiegel, Aufhängeset (Aufhänger, Schrauben, Dübel)")
+        put_checked(values, col("room_type#1.value"), r.get("raumtyp"), "raumtyp", r["sku"], warnings)
         put_checked(values, col("mounting_type#1.value"), r.get("montageart"), "montageart", r["sku"], warnings)
         put(col("condition_type#1.value"), "Neu")
         put(price_col, r["preis_eur"])
