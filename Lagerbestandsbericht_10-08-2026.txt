@@ -1,0 +1,145 @@
+﻿sku	asin	price	quantity	Business Price	Quantity Price Type	Quantity Lower Bound 1	Quantity Price 1	Quantity Lower Bound 2	Quantity Price 2	Quantity Lower Bound 3	Quantity Price 3	Quantity Lower Bound 4	Quantity Price 4	Quantity Lower Bound 5	Quantity Price 5	Progressive Price Type	Progressive Lower Bound 1	Progressive Price 1	Progressive Lower Bound 2	Progressive Price 2	Progressive Lower Bound 3	Progressive Price 3	Minimum order quantity	Sell remainder
+1167_mfn	B0DX7196F6	2.99	10																					
+120x200cm-EC24-Rollrost	B08T1DP91M	74.99	96																					
+2E-TNT2-TVVX	B08T1PSK64	69.99	95																					
+2N-VPIF-BYL3	B0GY1KH54V	69.99	100																					
+30-QXG1-UWXT	B0BHT9N1ZV	79.99	20																					
+4O-FAG0-XIBE	B07WP66VMX	129.00	7																					
+4Q-NNMZ-22MI	B0DYDP51KS	13.99	9																					
+58-SFI5-PZ78	B07YM33LDP	79.99	50																					
+6N-N958-4069	B09D7W7KPK	24.99	20																					
+8F-7WNE-QO03	B0GY1LCDMF	59.99	50																					
+9E-DPT6-71A2	B0HCC4PDML	31.90	96																					
+AH-7WVO-6LM3	B0GY98YC15	89.99	39																					
+APEC_EC24_BO	B0F13YKKT7	99.99	7																					
+APEC_EC24_EC	B0F13WQ8FT	69.99	26																					
+APEC_EC24_ED	B0F13Y434T	119.99	6																					
+APEC_EC24_WM	B0F13VRFP8	80.00	30																					
+B08T1FKJJF	B08T1FKJJF	59.99	184																					
+B0GG4K46V8	B0GG4K46V8	89.00	89																					
+Bialy-LAMPE-2-3kg-EC24	B0HJQGS2HV	24.95	39																					
+Bialy-LAMPE-3-5kg-EC24	B0HJQ6VLQ6	29.95	22																					
+Bialy-LAMPE-5-7kg-EC24	B0HJQF4WN2	32.95	10																					
+DC-J8ZX-KE9G	B0B8J9M35L	79.99	47																					
+DM-HCTC-VMNA	B0B8JB7RRY	79.99	50																					
+EC24-LAMPE-1-2KG	B0H6K8ZY9P	19.90	90																					
+EC24-LAMPE-2-3KG	B0H6KHBWC7	28.99	87																					
+EC24-LAMPE-3-5KG	B0H6K63JP4	29.90	94																					
+EC24-LAMPE-4-6KG	B0H6KF29TN	37.99	35																					
+EC24-LAMPE-5-7KG	B0H6KF11SB	37.99	36																					
+EC24-LAMPE-6-9KG	B0H6KJ19QH	47.50	34																					
+EC_PANDA_BEISTELLBETT1	B0HFW4BWXB	59.90	100																					
+ET-XYC5-1ISG	B0DZ2RFSPD	98.00	10																					
+FBA1_KLARO_Eiche Catania_60x40	B0H1GVQGK5	29.99		29.99																				
+FBA1_KLARO_Schwarz Matt_60x40	B0H1HHQ6RM	29.99		29.99																				
+FBA1_KLARO_Weiß Matt_60x40	B0H1GVXBR4	29.99		29.99																				
+FBA_ EC24-LAMPE-1-2KG	B0H6K8ZY9P	19.50		19.5																				
+FBA_EC24-LAMPE-2-3KG	B0H6KHBWC7	24.99		24.99																				
+FBA_KLARO_Eiche Catania_60x40	B0H1GVQGK5	24.99	92																					
+FBA_KLARO_Schwarz Matt_60x40	B0H1HHQ6RM	34.99	82																					
+FBA_KLARO_Weiß Matt_60x40	B0H1GVXBR4	24.99	87																					
+FX-DWVH-D55M	B09DL42TCY	9.99	44																					
+H4-TQ56-O92Z	B0HF88TJHN	44.90	9																					
+HB_S_120x80_EC24	B0F13C4Z57	29.99	70																					
+HB_S_80x60_EC24	B0F13F7PCB	15.99	70																					
+IE-3RUF-7WY0	B0BHTCZNLY	89.99	10																					
+JC-1IVM-5WM9	B08T1JJQMY	109.00	126																					
+JG-V033-FRO1	B0H1HWL2DS	249.99	20																					
+JQ-ZWVW-U98R	B0B8JB8T41	79.99	10																					
+KIARO_Eiche Catania_60x40	B0HHDS8F6H	24.99	99																					
+KIARO_Eiche Natur_60x40	B0HHDN6FVZ	24.99	95																					
+KIARO_Gold Glänzend_60x40	B0HHDMQWJF	24.99	100																					
+KIARO_Schwarz Matt_60x40	B0HHDHB5H1	24.99	100																					
+KIARO_Weiß Matt_60x40	B0HHDWN5XD	24.99	97																					
+KLARO_Eiche Catania_40x60	B0HH9B8RHV	24.99	100																					
+KLARO_Eiche Catania_50x70	B0HGMJSH7F	34.99	99																					
+KLARO_Eiche Natur_40x60	B0HH9BGCGX	24.99	100																					
+KLARO_Eiche Natur_50x70	B0HGM252VX	34.99	99																					
+KLARO_Eiche Natur_60x40	B0HFJLKKJF	29.99	77																					
+KLARO_Glänzend Gold_40x60	B0HH9B589V	24.99	100																					
+KLARO_Gold Glänzend_50x70	B0HGMVFLV6	34.99	100																					
+KLARO_Gold_60x40	B0HFJPFLW8	29.99	98																					
+KLARO_Schwarz Matt_40x60	B0HH957LW9	24.99	100																					
+KLARO_Schwarz Matt_50x70	B0HGMNGMG4	34.99	99																					
+KLARO_Weiß Matt_40x60	B0HH9HK4XH	24.99	100																					
+KLARO_Weiß Matt_50x70	B0HGMDQDKR	34.99	100																					
+Kugel_Mini_EC23	B0HG9DYXQH	14.99	17																					
+M8-3MDM-1J9J	B0DYDT2DX6	34.99	10																					
+Mond_Mini_EC24	B0HG9BFJJQ	14.99	18																					
+Mond_Mini_RGB_EC24	B0HG9G8YX7	14.99	18																					
+NATUR-LAMPE-2-3KG-EC24	B0HJCX97JX	24.95	39																					
+NATUR-LAMPE-4-6KG-EC24	B0HJCTDHYR	29.95	23																					
+NATUR-LAMPE-5-7KG-EC24	B0HJCKKP71	32.95	16																					
+NA_170x170_EC24	B0DY82GM67	189.90	1																					
+O6-4NX6-Z6U4	B0BHT91BTB	59.99	100																					
+P6-YE1R-5SHD	B09DL4768W	39.99	20																					
+PF-P0MU-F9KV	B09DL3SYSP	32.99	20																					
+QG-LB1D-LQDT	B094RBZJ1W	34.99	1																					
+RAHMENLOS-A4-20X30XCM	B0HC7KZQHN	8.99	86	7.59	percent	25	3.00																	
+RAHMENLOS-A4-21X29X7XCMXA4X5ERXSET	B0HC3LRZVM	13.99	51	11.39	percent	25	10.00																	
+RAHMENLOS-A4-29X7X42XCMXA3	B0HC7DTH7D	18.99	93	17.09	percent	25	10.00																	
+RAHMENLOS-A4-40X60XCM	B0HC7QQYDV	16.99	95	16.14	percent	25	10.00																	
+RAHMENLOS-A4-42X59X4XCMXA2	B0HC7LTTR4	14.99	72	14.24	percent	25	3.00																	
+RAHMENLOS-A4-50X70XCM	B0HC7L8SZ8	14.99	77	14.24	percent	25	3.00																	
+RAHMENLOS-A4-59X4X84X1XCMXA1	B0HC7G12XQ	21.99	60	18.99	percent	25	10.00																	
+RAHMENLOS-A4-A3-5ER	B0HGRDN9PK	18.85	94																					
+RE-G86U-ECX5	B094RDZD3W	59.99	5																					
+Roller_Sidekick_black/green	B07YSTRMDD	34.90	128																					
+Roller_Sidekick_weiss/orange_V2	B07RL3665T	34.90	4																					
+SIDEKICK_BLACK_EC24	B0HF51T81T	29.99	97																					
+Salzstein Mini	B0HG9JKTLY	14.99	16																					
+T4-WTY1-MLB7	B0BHT9Z7QW	59.99	50																					
+TW-5UMO-TBRZ	B0BHT8B9K3	59.99	50																					
+TrikotFrame_EC24_Eiche Natur	B0HGRD35L5	59.99	99																					
+TrikotFrame_EC24_Gold	B0HGRH93DF	59.99	100																					
+TrikotFrame_EC24_Nussbaum	B0HGR7T9LX	59.99	100																					
+TrikotFrame_EC24_Schwarz	B0H26JXWW4	59.99	96																					
+TrikotFrame_EC24_Weiß	B0HGRLMQGZ	59.99	100																					
+VR-C85U-YAFP	B08T17HG4G	89.00	131																					
+WA-GE6I-JSEA	B09DL52F5Y	14.99	20																					
+XK-W0GX-0S2N	B09DL4DB3N	44.99	19																					
+ZQ-18KL-UFDM	B0BHT8M6TC	79.99	50																					
+ZW-5YEC-8QD2	B07WX8X2W2	129.00	4																					
+012-BETONOPTIK	B0F2F6CTP2	59.99	0																					
+013-GOLDMITSTRUKTUR	B0F2F6TSDS	59.99	0																					
+016-SCHWARZMATT	B0F2F759HS	59.99	0																					
+017-EICHECATANIA	B0F2F48JLC	59.99	0																					
+018-EICHWOTAN	B0F2F47465	79.99	0																					
+020-EICHEDELANO	B0F2F42MQD	59.99	0																					
+028-EICHEARTISAN	B0F2F3231F	59.99	0																					
+029-EICHEENKEL	B0F2F4HHJY	59.99	0																					
+030-ANTHRAZIT	B0F7HC3PFW	59.99	0																					
+035-NUSSBAUMBAKERSFIELD	B0F2DZTWDC	59.99	0																					
+04-HELLEEICHE	B0F2F6WPZ2	59.99	0																					
+06-EICHESONOMA	B0F2F4C72Y	59.99	0																					
+100x100_Natur_EC24	B094RDFQ1L	49.99	0																					
+2C-3B8M-1R7O	B0DY8149DR	239.90	0																					
+42-2Z41-9X37	B0DZ2PGF8K	39.99	0	37.99																				
+57-S8IG-I04Z	B094RC4KZW	39.99	0																					
+6H-M9X6-VOJG	B0HGMQN8VV	59.99	0																					
+7A-AYS8-QNGS	B0CW1HNVY2	239.99	0																					
+AE-HR9U-0W74	B0DZ2PGF8K	34.99	0																					
+AMZDE_40.55_62.12_09APR_B0CDLSRCM4	B0CDLSRCM4	65.00																						
+APEC_EC24_ES	B0F13V2PZQ	119.99	0																					
+BN-YWU4-ZLWO	B0CW192DKM	259.99	0																					
+Beige-EC24-Katzenbaum	B0GLGTBP9K	129.99	0																					
+EBAYD_42.57_66.92_09APR_B01MZXYSUP	B01MZXYSUP	97.00																						
+FBA_KLARO_Eiche Catania_70x50	B0HGR3ZRRG	29.99																						
+FBA_KLARO_Eiche Natur_70x50	B0HGM252VX	29.99																						
+FBA_KLARO_Gold Glänzend_70x50	B0HGQZK236	29.99																						
+FBA_KLARO_Schwarz Matt_70x50	B0HGMNGMG4	29.99																						
+FBA_KLARO_Weiß Matt_70x50	B0HGMDQDKR	29.99																						
+FBA_RAHMENLOS-40X60XCM	B0HC7QQYDV	18.50																						
+FBA_RAHMENLOS-A3-5ER	B0HGRDN9PK	18.99																						
+FBA_RAHMENLOS-A4-21X29X7XCMXA4X5ERXSET	B0HC3LRZVM	13.99		11.39																				
+FBA_RAHMENLOS_50X70XCM	B0HC7L8SZ8	23.99																						
+G5-3PEF-3W48	B0DY82GM67	189.90	0																					
+IP_150x150_EC24	B0DY7YNJCX	229.99	0																					
+IP_170x170_EC24	B0DY7ZFDWN	219.00	0																					
+IP_190x190_EC24	B0DY7YR45Z	219.00	0																					
+MY-FPKM-XJ3I	B0CW18HTD8	199.00	0																					
+NA_150x150_EC24	B0DY7ZQ8F1	149.90	0																					
+NA_190x190_EC24	B0DY8149DR	224.99	0																					
+P138_mfn	B0FD16MRSK	69.99	0																					
+PT-KPBF-B67D	B094RB8NNR	59.99	0																					
+TW-AEM1-HZ9U	B094RDHHSQ	49.00	0																					
