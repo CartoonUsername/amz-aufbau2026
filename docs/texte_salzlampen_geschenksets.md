@@ -25,7 +25,7 @@ Titel 121–138 Zeichen, Backend-Suchbegriffe 140 Bytes, längster Bullet 302 Ze
 1. SET MIT ZWEI SALZLAMPEN (JE 1-2 KG): fertig zusammengestellt, eine passende Geschenkidee zu Weihnachten, Geburtstag, Einweihung oder Muttertag
 2. NATURPRODUKT MIT SPEZIFIKATION: Naturkristall aus der Salt Range in Pakistan, handgefertigt, auf Naturholzsockel, mit 230V-Netzstecker (EU) und austauschbarer 15W-Glühbirne
 3. WARMES, GEDÄMPFTES LICHT: als Nachtlicht und Stimmungslicht geeignet für Wohnzimmer, Schlafzimmer, Büro oder als Pärchen-Geschenk
-4. LIEFERUNG IM KARTON: Versand im Karton ohne Geschenkverpackung, Lampen sofort einsatzbereit [Lieferumfang Kabel und Birne ergänzen]
+4. KABEL MIT SCHALTER UND GLÜHBIRNE INKLUSIVE: jede Lampe wird mit Kabel (mit Schalter) und Glühbirne geliefert, Versand im Karton ohne Geschenkverpackung
 5. VON EMSCRAFT24: jeder Kristall ist ein Unikat, Form, Färbung und Gewicht können leicht von den Bildern abweichen
 
 **Beschreibung:** Das Set besteht aus zwei Salzlampen (je 1-2 kg). Jede Lampe ist ein Naturprodukt, deshalb sieht jeder Kristall anders aus. Technik: Naturkristall aus der Salt Range in Pakistan, handgefertigt, auf Naturholzsockel, mit 230V-Netzstecker (EU) und austauschbarer 15W-Glühbirne. Das warme Licht passt als Nachtlicht und Stimmungslicht zu Wohnzimmer, Schlafzimmer, Büro oder als Pärchen-Geschenk. Das Set ist sofort einsatzbereit und eignet sich als Geschenkidee für Familie, Freunde und Kollegen (Lieferung im Karton, ohne Geschenkverpackung).
@@ -42,7 +42,7 @@ Die Mini-Sets nennen statt der großen Technik „Echtes Himalaya-Salzkristall, 
 
 ## 4. Noch zu ergänzen und zu klären
 
-- Lieferumfang (Kabel, Birne im Set) in Bullet 4, die Lieferung erfolgt im Karton ohne Geschenkverpackung, deshalb heißen die Listings „Set“ mit „Geschenkidee“ im Titel statt „Geschenkset“.
+- Bei den Mini-Sets (GS05, GS06) und den Kombis (GS07, GS08) nennt Bullet 4 das USB-Kabel und die LED aus den Mini-Listings, das bitte bestätigen, die Lieferung erfolgt im Karton ohne Geschenkverpackung, deshalb heißen die Listings „Set“ mit „Geschenkidee“ im Titel statt „Geschenkset“.
 - EAN je Set, Gewicht und Maße der Pakete, Bestand und FBA/FBM.
 - Ob die Weiß-Lampen (Bialy) und die Minis auf Amazon fehlerfrei und aktiv sind: Die drei Mini-Lampen haben dort „Problem mit dem Angebot beheben“, das zuerst beheben, sonst können die Mini-Sets nicht live gehen.
 - Otto: Die Salzlampen-SKUs (S02JD0D2 und die LampeSet-SKUs) sind teilweise nicht verkaufsfähig, vor den Sets reparieren.
