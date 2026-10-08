@@ -17,4 +17,4 @@ kanaele/otto/
 - Nur FBM (Otto hat kein FBA), GTIN gleich wie bei Amazon.
 - Offene Punkte im Konto: 58 nicht verkaufsfähige SKUs, doppelte GTIN 4255822600242, Merkmal „Maße“ statt „Farbe“ bei den Salzlampen, 9 von 17 Trikot-SKUs nicht verkaufsfähig.
 - Neue Charge bauen: `python3 scripts/build_channel_batch.py --channel otto --batch charge_NN_name --listing produkte/<linie>/<datei>_fbm.csv`.
-- Importvorlage: In Otto Partner Connect unter Produkte die Excel- oder CSV-Vorlage für den Produktimport herunterladen (Menüname prüfen) und in `vorlagen/` ablegen, danach übertrage ich `listing_otto.csv` wie bei Amazon in die Vorlage.
+- Stand 8.10.2026: Otto bietet keine Importvorlage zum Herunterladen an. Priorität hat Amazon, `listing_otto.csv` dient bis dahin als geordnete Eingabehilfe für die manuelle Anlage in Partner Connect. Sobald Otto einen Importweg (Datei oder Schnittstelle) anbietet, kommt die Vorlage in `vorlagen/`.

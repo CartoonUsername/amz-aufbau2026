@@ -15,4 +15,4 @@ kanaele/ebay/
 - Nur FBM, GTIN gleich wie bei Amazon, eBay-Titel höchstens 80 Zeichen.
 - Offen: Entscheidung zur Werbung (der eBay-Umsatz läuft laut Seller Hub zu ca. 95 % über Anzeigen), Kategorie, Versand- und Rückgaberichtlinie.
 - Neue Charge bauen: `python3 scripts/build_channel_batch.py --channel ebay --batch charge_NN_name --listing produkte/<linie>/<datei>_fbm.csv`.
-- Uploadvorlage: Im eBay Seller Hub die Vorlage für den Upload per Datei herunterladen (Menüname prüfen) und in `vorlagen/` ablegen.
+- Stand 8.10.2026: eBay bietet keine Uploadvorlage zum Herunterladen an. Priorität hat Amazon, `listing_ebay.csv` dient bis dahin als geordnete Eingabehilfe für die manuelle Anlage im Seller Hub.
