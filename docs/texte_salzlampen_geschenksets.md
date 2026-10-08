@@ -57,3 +57,13 @@ Die Mini-Sets nennen statt der großen Technik „Echtes Himalaya-Salzkristall, 
 5. Lieferung im Karton (ehrliche Darstellung ohne Geschenkverpackung), optional Geschenkoptik mit Schleife als Deko, die nicht mitgeliefert wird und im Bild entsprechend gekennzeichnet sein muss.
 6. Detail Kristall und Sockel.
 7. Optional: Video mit Lichtwechsel (RGB beim Mond).
+
+## 6. Beobachtungen am Otto-Listing „Nachttischlampe Kristall-Tischlampe Natürliches Licht Himalaya“ (8.10.2026)
+
+- Struktur: Eine Variantenfamilie mit zwei Merkmalen, „Maße“ (Rosa, Weiß) und „Ausführung“ (1–2, 2–3, 3–5, 4–6, 5–7, 6–9 kg und Luna), bei Weiß sind 4–6 kg, 6–9 kg und Luna ausgegraut (nicht verfügbar).
+- Merkmalsfehler: „Maße“ enthält Farben (Rosa, Weiß), das Merkmal sollte „Farbe“ heißen, denn Otto filtert und sortiert nach Farbe und Maßen, das verbessert die Auffindbarkeit.
+- Preis: Weiß 2–3 kg kostet 24,95 € mit UVP 34,99 € (−29 %) inklusive MwSt. zuzüglich Versandkosten, auf Amazon liegt dieselbe Lampe (B0HJQGS2HV) ebenfalls bei 24,95 € zuzüglich 2,99 € Versand.
+- UVP: Die Rabattanzeige hängt am UVP, der UVP muss ein tatsächlich empfohlener Preis sein, sonst droht Ärger wegen irreführender Preisangaben.
+- Bilder: Das Listing zeigt Produkt, Lifestyle-Szene, Kristalle in Händen und den Karton mit Lieferumfang, das ist die Vorlage für die Set-Bilder.
+- Otto-Kampagnen: Oben stehen „Mind. 20 % Extra auf viele Möbel“ (bis So. 11.10.) und „10 € Gutschein für die erste Bestellung“, Spiegel laufen in der Provisionsgruppe Möbel, ob sie an solchen Kampagnen teilnehmen können, prüft man in Otto Partner Connect unter Marketing.
+- Sets auf Otto: Als zusätzliche „Ausführung“ (z. B. „2er Set 2–3 kg“) in dieser Familie bündeln sie Bewertungen, als eigene Produkte starten sie bei null.
