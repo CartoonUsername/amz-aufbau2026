@@ -78,3 +78,11 @@ Hochladen: Seller Central → Produkte hinzufügen → Tabelle → Datei hochlad
 - `scripts/ean_tools.py` prüft die Prüfziffer (`check`), zählt genutzte Nummern (`used`) und macht Vorschläge für freie Nummern (`propose`), die Vorschläge für die 10 Spiegel-Sets und die 8 Salzlampen-Sets stehen in `data/gtin_register.csv`.
 - Die Nummern wurden bestätigt (genug freie Nummern vorhanden) und über `ean_tools.py assign` vergeben und im Register eingetragen, im GS1-Portal sind sie noch den Produkten (Name, Marke EmsCraft24, Inhalt) zuzuordnen, denn Amazon gleicht GTIN und Marke mit dem GS1-Register ab.
 - Danach die bestätigten Nummern in die Spalte `gtin_ean` der Listing-Tabelle übernehmen und die Amazon-Vorlage neu füllen.
+
+## Mehrere Kategorien für dasselbe Produkt (8.10.2026)
+
+- Ein Produkt bekommt bei Amazon genau eine Produktseite, dieselbe Ware unter mehreren Produkttypen oder als zweites Listing anzulegen gilt als doppelte Produktseite und kann zur Sperrung führen.
+- Mehrere Kategorien erreicht man über die „Empfohlenen Stöbern-Kategorien“ derselben Produktseite (in der Vorlage bis zu 5 Spalten), die Seite erscheint dann in jeder Kategorie.
+- Für Heim-Spiegel bietet die Vorlage drei Kategorien an: Möbel > Diele & Flur > Wandspiegel (2970878031), Badausstattung > Badaccessoires > Badspiegel > Wandspiegel (13944741031) und Wohnaccessoires & Deko > Spiegel > Standspiegel (2970875031).
+- Die Spiegel-Sets stehen in den ersten beiden (Wandspiegel), Standspiegel ist ausgelassen, weil die Sets für die Wand sind. Die Spalte `kategorien` der Listing-Tabelle nimmt die Dropdown-Werte mit `;` getrennt auf, Werte außerhalb der Dropdown-Liste werden nicht eingetragen.
+- Material der Spiegelfläche: Kunststoff (bestätigt), Rahmenmaterial: Holzwerkstoff (aus „MDF-Holzwerkstoff“ im Listing).

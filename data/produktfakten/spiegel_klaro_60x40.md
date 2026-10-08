@@ -8,7 +8,7 @@ Nur diese Angaben dürfen in Texte und Tabellen für Spiegel und Spiegel-Sets ü
 | Außenmaß | 60 x 40 cm, Hoch- und Querformat montierbar |
 | Form | Rechteckig |
 | Zimmerart (Attribut) | Badezimmer, laut Text auch Flur, Wohnzimmer, Schlafzimmer, Fitnessstudios |
-| Spiegelfläche | Kunststoffspiegel („Plastikglas“, „Kunststoffspiegeltechnik statt Glas“), kein Splitterrisiko |
+| Spiegelfläche (Dropdown-Wert Kunststoff, bestätigt) | Kunststoffspiegel („Plastikglas“, „Kunststoffspiegeltechnik statt Glas“), kein Splitterrisiko |
 | Rahmen | MDF-Holzwerkstoff mit echtem Furnier, Profil 30 mm breit und 16 mm tief |
 | Farben (laut Listing) | Eiche Catania, Eiche Natur, Gold (Titel „Gold Glänzend“), Schwarz Matt, Weiß Matt |
 | Gewicht | 1,1 kg (Angabe „60 x 40 cm Außenmaß, 1,1 kg“) |

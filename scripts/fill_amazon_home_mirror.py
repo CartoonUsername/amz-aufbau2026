@@ -18,7 +18,6 @@ import sys
 
 import openpyxl
 
-BROWSE = "Küche, Haushalt & Wohnen > Möbel > Diele & Flur > Wandspiegel (2970878031)"
 FIRST_DATA_ROW = 8
 
 
@@ -115,7 +114,11 @@ def main():
             put(col("amzn1.volt.ca.product_id_type"), None)
             put(col("amzn1.volt.ca.product_id_value"), None)
             warnings.append(f"{r['sku']}: EAN fehlt")
-        put(col("recommended_browse_nodes#1.value"), BROWSE)
+        nodes = [x.strip() for x in (r.get("kategorien") or "").split(";") if x.strip()]
+        if not nodes:
+            warnings.append(f"{r['sku']}: keine Kategorie (Spalte kategorien)")
+        for k in range(1, 6):
+            put_checked(values, col(f"recommended_browse_nodes#{k}.value"), nodes[k - 1] if k <= len(nodes) else "", "kategorie", r["sku"], [] if k > len(nodes) else warnings)
         for k in range(1, 6):
             put(col(f"bullet_point#{k}.value"), r[f"bullet_{k}"])
         put(col("product_description#1.value"), r["beschreibung_a_plus"])

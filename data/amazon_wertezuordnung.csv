@@ -1,3 +1,3 @@
 feld,deine_angabe,dropdown_wert,bestaetigt,anmerkung
 rahmenmaterial,MDF,Holzwerkstoff,ja,"Listing nennt ""MDF-Holzwerkstoff"", entspricht dem Dropdown-Wert ""Holzwerkstoff"""
-material,Kunststoffspiegel,Kunststoff,nein,"Listing: Kunststoffspiegel / Plastikglas; Dropdown hat Kunststoff und Acryl, bitte bestätigen welcher Wert gilt"
+material,Kunststoffspiegel,Kunststoff,ja,Bestätigt am 8.10.2026: Material der Spiegelfläche = Kunststoff
