@@ -26,8 +26,8 @@ Frist: Anfang Januar 2027 (ca. 13 Wochen ab 12.10.2026). Ausgangswert: ca. 340 �
 
 | Woche | Start | Aufgaben |
 |---|---|---|
-| 1 | 12.10. | Sofort-Fixes (8 inaktive Listings, 3 Mini-Salzlampen, 4 ausgeblendete, „Gebraucht“-Zustände), Preisverlauf und FBA/FBM-Doppel-SKUs prüfen, Rollrost-Warnungen/Buy Box, Deal-Einreichungen für Black Friday in Seller Central prüfen (Fristen enden häufig im Oktober), Nachproduktion Spiegel Weiß und Salzlampe 1–2 kg anstoßen |
-| 2 | 19.10. | FBA-Sendung 1 (Spiegel Weiß/Schwarz/Eiche Catania, Salzlampen), Texte der Top-10-Listings, 18 Entwürfe fertigstellen, Triage der 66 „Angebote aktivieren“, Bilderbriefing Sets und Plissee |
+| 1 | 12.10. | Sofort-Fixes (8 inaktive Listings, 3 Mini-Salzlampen, 4 ausgeblendete, „Gebraucht“-Zustände), Preisverlauf und FBA/FBM-Doppel-SKUs prüfen, Rollrost-Warnungen/Buy Box, Deal-Einreichungen für Black Friday in Seller Central prüfen (Fristen enden häufig im Oktober), Nachproduktion Spiegel Weiß und Salzlampe 1–2 kg anstoßen, Brand Analytics: Top-10-Suchbegriffe exportieren, Attribution-Links und Social-Konten einrichten (`docs/brand_analytics_social_newsletter.md`) |
+| 2 | 19.10. | FBA-Sendung 1 (Spiegel Weiß/Schwarz/Eiche Catania, Salzlampen), Texte der Top-10-Listings, 18 Entwürfe fertigstellen, Triage der 66 „Angebote aktivieren“, Bilderbriefing Sets und Plissee, Content-Kalender für 8 Wochen |
 | 3 | 26.10. | Charge 1: 10 Spiegel-Sets live, Salzlampen-Geschenksets vorbereiten, Vine für Top-ASINs, A+ Content Spiegel |
 | 4 | 2.11. | Salzlampen-Sets/Bundles live (10–15), Variationsfamilien Spiegel und Salzlampen, B2B-Staffelpreise, Plissee-Händlerpreisliste und Entscheidung über 2–4 Test-Listings |
 | 5 | 9.11. | FBA-Sendung 2 (Sets, Salzlampen), letzte Einlagerung bis ca. 15.11., Lagerreichweite je Bestseller prüfen |
