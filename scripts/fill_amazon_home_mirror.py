@@ -152,16 +152,15 @@ def main():
             put(col(f"other_product_image_locator_{k}#1.media_location"), r.get(f"bild_{k + 1}") or None)
         if not r.get("bild_haupt"):
             warnings.append(f"{r['sku']}: Hauptbild-URL fehlt")
-        # Paket: Spiegelmaß 60 x 40 cm + 3 cm je Seite (also +6 cm je Maß), Gewicht n x 1,1 kg + 0,2 kg (Angabe des Nutzers)
+        # Paket: Spiegelmaß 60 x 40 cm + 3 cm je Seite (also +6 cm je Maß), Gewicht n x 1,1 kg + 0,2 kg, Höhe 4 cm (Angaben des Nutzers)
         put(col("item_package_dimensions#1.length.value"), 66)
         put(col("item_package_dimensions#1.width.value"), 46)
-        put(col("item_package_dimensions#1.height.value"), None)
+        put(col("item_package_dimensions#1.height.value"), 4)
         put(col("item_package_dimensions#1.length.unit"), "Zentimeter")
         put(col("item_package_dimensions#1.width.unit"), "Zentimeter")
-        put(col("item_package_dimensions#1.height.unit"), None)
+        put(col("item_package_dimensions#1.height.unit"), "Zentimeter")
         put(col("item_package_weight#1.value"), round(n * 1.1 + 0.2, 2))
         put(col("item_package_weight#1.unit"), "Kilogramm")
-        warnings.append(f"{r['sku']}: Pakethöhe eintragen (Dicke des Pakets unbekannt)")
         for c, v in values.items():
             ws.cell(row=row, column=c).value = v
 
