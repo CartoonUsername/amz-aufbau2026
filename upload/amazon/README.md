@@ -27,7 +27,7 @@ upload/amazon/charge_NN_name/
 
 | Charge | Inhalt | Texte | Status |
 |---|---|---|---|
-| 01 | 10 Spiegel-Sets (2er/3er) | `data/spiegel_sets_texte_charge1.csv` | EANs, Bestand, Bilder offen |
+| 01 | 10 Spiegel-Sets (2er/3er) | `data/spiegel_sets_texte_charge1.csv`, Entwurf `charge_01_spiegel_sets/amazon_upload_ENTWURF.xlsm` | EANs, Paketmaße und -gewicht, Bestand oder Versandvorlage, Bilder offen |
 | 02 | 8 Salzlampen-Sets | `data/salzlampen_geschenksets_texte.csv` | EANs, Bestand, Bilder, Mini-Fehler offen |
 | 03 | Trikotrahmen: derzeit nur Updates der 5 bestehenden ASINs, kein neues Listing, deshalb nicht in diesem Ordner | `data/trikotrahmen_texte.csv` | neue Trikot-Listings (z. B. Sets) noch zu definieren |
 

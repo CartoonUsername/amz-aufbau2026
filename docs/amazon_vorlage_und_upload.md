@@ -37,3 +37,36 @@ Das Prüfskript meldet bei allen drei Chargen Platzhalter (EAN, Bestand, Bügel-
 - Nicht neu sind die Trikotrahmen auf Amazon: Es gibt die 5 Farben schon als ASINs, ein zweites Listing desselben Rahmens würde als doppelte Produktseite gelten, deshalb sind die Texte in `data/trikotrahmen_texte.csv` Updates der bestehenden Seiten (Amazon) und neue Listings nur bei eBay.
 - Für neue Trikot-Listings auf Amazon braucht es ein anderes Produkt, zum Beispiel ein 2er-Set oder ein Set mit zwei Farben.
 - `python3 scripts/validate_listings.py --nur-neu <datei>` meldet Amazon-Zeilen, die kein neues Listing sind.
+
+## Vorlage HOME_MIRROR (Heim-Spiegel) erhalten und befüllt (8.10.2026)
+
+- Datei: `templates/amazon/home_mirror.xlsm` (Amazon.de, 325 Spalten in Blatt „Vorlage“, Zeile 4 Bezeichnung, Zeile 5 technischer Name, Daten ab Zeile 8). Alle Felder mit Pflichtstatus und Beispiel stehen in `data/amazon_home_mirror_felder.csv`.
+- Von Amazon vorausgefüllte Profilzeile (Zeile 8): Marke und Hersteller EmsCraft24, Größe „Mittelgroße“, Montage „Ja“, Ursprungsland Deutschland, Batterien „Nein“, Gefahrgut „Nicht zutreffend“, Artikelmaße 60 × 40 cm.
+- Entwurf: `upload/amazon/charge_01_spiegel_sets/amazon_upload_ENTWURF.xlsm` mit den 10 Spiegel-Sets, erzeugt mit `scripts/fill_amazon_home_mirror.py` aus `data/spiegel_sets_texte_charge1.csv`. Die Kopfzeilen 1 bis 7 sind unverändert, die Dropdown-Prüfungen (650) und Namen (1.081) sind erhalten.
+- Einschränkung: Beim Speichern gingen 21 Beispielbilder im Blatt „Bilder“ (nur Anleitung) verloren, das hat keinen Einfluss auf die Tabelle, ob Amazon die Datei annimmt, zeigt der Upload unter „Uploadstatus überprüfen“.
+
+### Wie die Felder gefüllt sind
+
+| Feld | Wert |
+|---|---|
+| Produkttyp | HOME_MIRROR |
+| Browse Node | Küche, Haushalt & Wohnen > Möbel > Diele & Flur > Wandspiegel (2970878031), Alternative Bad: Badspiegel > Wandspiegel (13944741031) |
+| Anzahl der Artikel / Anzahl von Einheiten | 2 oder 3 (nach SKU S02 oder S03), Typ „stück“ |
+| Enthaltene Komponenten | „2 Spiegel, Aufhängeset (Aufhänger, Schrauben, Dübel)“ bzw. 3 |
+| Montageart | Wandmontage |
+| Form, Material, Zustand | Rechteckig, Kunststoff, Neu |
+| Fulfillment | „Versand durch Amazon (EU)“ bei FBA, sonst „Versand durch Händler (Standard)“ |
+| Preis | Spalte „Ihr Preis EUR (Bei Amazon verkaufen, DE)“ |
+| Listenpreis (UVP) | bleibt leer (kein erfundener UVP) |
+| Variationen | leer, die Sets sind eigenständige Listings |
+
+### Noch offen vor dem Upload
+
+1. EANs der 10 Sets (Art der Produkt-ID und Produkt-ID), alternativ GTIN-Freistellung nur, wenn sie für die Marke genehmigt ist.
+2. Paketlänge, -breite, -höhe und -gewicht je Set (die Profilwerte gelten für einen einzelnen Spiegel und sind bewusst leer).
+3. Bestand bei FBM oder Versandvorlage („Prime Mustervorlage“, „Schneller Versand“, „Standardvorlage Amazon“ und weitere in deinem Konto), bei FBA stattdessen die Sendung.
+4. Bild-URLs (`scripts/fill_image_urls.py`, dann die Vorlage neu füllen).
+5. Ob „Größe: Mittelgroße“ und „Farbe“ so stimmen und ob „Rahmenfarbe“ oder „Rahmenmaterial“ relevant sind.
+6. Prüfung mit `python3 scripts/validate_listings.py --nur-neu data/spiegel_sets_texte_charge1.csv` ohne Fehler.
+
+Hochladen: Seller Central → Produkte hinzufügen → Tabelle → Datei hochladen → „Produkte übermitteln“, danach Uploadstatus prüfen.

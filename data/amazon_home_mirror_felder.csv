@@ -1,0 +1,216 @@
+spalte,gruppe,feldname,label,pflicht,beispiel
+1,Angebotsidentität,contribution_sku#1.value,SKU,Pflichtfeld,ABC123
+2,Angebotsidentität,product_type#1.value,Produkttyp,Pflichtfeld,ZUBEHÖR
+3,Angebotsidentität,::record_action,Angebotsaktion,Optional,(Standard) Erstellen oder Ersetzen
+4,Variationen,parentage_level[marketplace_id=A1PA6795UKMFR9]#1.value,Abstammungsgrad,Optional,Eltern
+5,Variationen,child_parent_sku_relationship[marketplace_id=A1PA6795UKMFR9]#1.parent_sku,Übergeordnete SKU,Bedingt erforderlich,ABC123
+6,Variationen,variation_theme#1.name,Variationsthemabezeichnung,Bedingt erforderlich,GRÖSSE/FARBE
+7,Produktidentität,item_name[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Artikelname,Pflichtfeld,"Toskanischer Weinberg – Leinwand, von Hand bemalt"
+8,Produktidentität,title_differentiation[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Artikel-Highlight,Empfohlen,Atmungsaktives Material
+9,Produktidentität,brand[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Markenname,Pflichtfeld,Sony
+10,Produktidentität,amzn1.volt.ca.product_id_type,Art der Produkt-ID,Pflichtfeld,UPC
+11,Produktidentität,amzn1.volt.ca.product_id_value,Produkt-ID,Bedingt erforderlich,714532191586
+12,Produktidentität,recommended_browse_nodes[marketplace_id=A1PA6795UKMFR9]#1.value,Empfohlene Stöbern-Kategorie,Optional,Diät-Riegel
+17,Produktidentität,package_level[marketplace_id=A1PA6795UKMFR9]#1.value,Paketebene,Optional,"Einheit, Verpackung"
+18,Produktidentität,package_contains_sku[marketplace_id=A1PA6795UKMFR9]#1.quantity,Das Paket enthält eine SKU-Menge,Bedingt erforderlich,1
+19,Produktidentität,package_contains_sku[marketplace_id=A1PA6795UKMFR9]#1.sku,Das Paket enthält eine SKU-Kennung,Bedingt erforderlich,ABC123
+20,Produktidentität,model_number[marketplace_id=A1PA6795UKMFR9]#1.value,Modellnummer,Bedingt erforderlich,RXZER23
+21,Produktidentität,manufacturer[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Hersteller,Bedingt erforderlich,"Nike, Procter & Gamble"
+22,Produktidentität,unspsc_code[marketplace_id=A1PA6795UKMFR9]#1.value,UNSPSC-Code,Optional,27876546
+23,Produktidentität,national_stock_number[marketplace_id=A1PA6795UKMFR9]#1.value,National Stock Number,Optional,"850519-S01, 783360-S01"
+24,Bilder,main_product_image_locator[marketplace_id=A1PA6795UKMFR9]#1.media_location,URL des Hauptbildes,Optional,http://www.companyname.com/images/1250.main.jpg
+25,Bilder,other_product_image_locator_1[marketplace_id=A1PA6795UKMFR9]#1.media_location,Andere Bild-URL,Optional,http://www.companyname.com/images/1250.other1.jpg
+26,Bilder,other_product_image_locator_2[marketplace_id=A1PA6795UKMFR9]#1.media_location,Andere Bild-URL,Optional,http://www.companyname.com/images/1250.other1.jpg
+27,Bilder,other_product_image_locator_3[marketplace_id=A1PA6795UKMFR9]#1.media_location,Andere Bild-URL,Optional,http://www.companyname.com/images/1250.other1.jpg
+28,Bilder,other_product_image_locator_4[marketplace_id=A1PA6795UKMFR9]#1.media_location,Andere Bild-URL,Optional,http://www.companyname.com/images/1250.other1.jpg
+29,Bilder,other_product_image_locator_5[marketplace_id=A1PA6795UKMFR9]#1.media_location,Andere Bild-URL,Optional,http://www.companyname.com/images/1250.other1.jpg
+30,Bilder,other_product_image_locator_6[marketplace_id=A1PA6795UKMFR9]#1.media_location,Andere Bild-URL,Optional,http://www.companyname.com/images/1250.other1.jpg
+31,Bilder,other_product_image_locator_7[marketplace_id=A1PA6795UKMFR9]#1.media_location,Andere Bild-URL,Optional,http://www.companyname.com/images/1250.other1.jpg
+32,Bilder,other_product_image_locator_8[marketplace_id=A1PA6795UKMFR9]#1.media_location,Andere Bild-URL,Optional,http://www.companyname.com/images/1250.other1.jpg
+33,Bilder,swatch_product_image_locator[marketplace_id=A1PA6795UKMFR9]#1.media_location,Muster-Bild-URL,Optional,http://www.companyname.com/images/1250.swatch.jpg
+34,Bilder,image_locator_ps01[marketplace_id=A1PA6795UKMFR9]#1.media_location,Speicherort des Produktsicherheitsbildes,Optional,http://www.companyname.com/images/1250.ps01.jpg
+35,Bilder,image_locator_ps02[marketplace_id=A1PA6795UKMFR9]#1.media_location,Speicherort des Produktsicherheitsbildes,Optional,http://www.companyname.com/images/1250.ps02.jpg
+36,Bilder,image_locator_ps03[marketplace_id=A1PA6795UKMFR9]#1.media_location,Speicherort des Produktsicherheitsbildes,Optional,http://www.companyname.com/images/1250.ps03.jpg
+37,Bilder,image_locator_ps04[marketplace_id=A1PA6795UKMFR9]#1.media_location,Speicherort des Produktsicherheitsbildes,Optional,http://www.companyname.com/images/1250.ps04.jpg
+38,Bilder,image_locator_ps05[marketplace_id=A1PA6795UKMFR9]#1.media_location,Speicherort des Produktsicherheitsbildes,Optional,http://www.companyname.com/images/1250.ps05.jpg
+39,Bilder,image_locator_ps06[marketplace_id=A1PA6795UKMFR9]#1.media_location,Speicherort des Produktsicherheitsbildes,Optional,http://www.companyname.com/images/1250.ps06.jpg
+40,Produktdetails,product_description[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Beschreibung des Produkts,Pflichtfeld,"Diese wunderschöne Wanddekoration wurde von Hand auf eine hochwertige Leinwand gemalt und und kann sofort aufgehängt werden. Die inspirierende Naturszene in beruhigenden Blau- und Grüntönen verleiht jedem Raum in Ihrem Zuhause oder Büro ein Gefühl von Ruhe und Entspannung. Handgefertigt von einheimischen Künstlern aus hochwertigen, umweltfreundlichen Materialien. Jedes Stück ist einzigartig und wird auf Anfrage gefertigt. Unterstützt kleine Unternehmen und die lokale Kunstszene. Ein schönes Geschenk für jeden besonderen Anlass."
+41,Produktdetails,bullet_point[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Aufzählungspunkt,Pflichtfeld,Blumenmuster mit Blumenformen
+46,Produktdetails,generic_keyword[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Suchbegriffe,Optional,"Wassersportschuhe, Derek Rose, Elektrisch, WLAN, Banane"
+47,Produktdetails,special_feature[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Besondere Eigenschaften,Empfohlen,Spülmaschinenfest
+52,Produktdetails,style[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Stil,Empfohlen,"Art déco, Zeitgenössisch, Modern"
+53,Produktdetails,material[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Material,Empfohlen,"Baumwolle, Mikrofaser, Leder"
+58,Produktdetails,number_of_items[marketplace_id=A1PA6795UKMFR9]#1.value,Anzahl der Artikel,Bedingt erforderlich,5
+59,Produktdetails,item_package_quantity[marketplace_id=A1PA6795UKMFR9]#1.value,Anzahl der Artikelpakete,Optional,1
+60,Produktdetails,color[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Farbe,Bedingt erforderlich,Rot
+61,Produktdetails,size[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Größe,Bedingt erforderlich,Extra breit
+62,Produktdetails,number_of_pieces[marketplace_id=A1PA6795UKMFR9]#1.value,Anzahl von Einzelteilen,Empfohlen,40
+63,Produktdetails,part_number[marketplace_id=A1PA6795UKMFR9]#1.value,Teilenummer,Optional,RIV001
+64,Produktdetails,item_shape[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Form des Artikels,Bedingt erforderlich,Rund
+65,Produktdetails,theme[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Thema,Bedingt erforderlich,Sport
+70,Produktdetails,frame[marketplace_id=A1PA6795UKMFR9]#1.color[language_tag=de_DE]#1.value,Rahmenfarbe,Bedingt erforderlich,Blau
+71,Produktdetails,frame[marketplace_id=A1PA6795UKMFR9]#1.material[language_tag=de_DE]#1.value,Rahmenmaterial,Bedingt erforderlich,"Metall, Carbon, Azetat"
+72,Produktdetails,magnification_strength[marketplace_id=A1PA6795UKMFR9]#1.value,Vergrößerungsstärke,Bedingt erforderlich,"1, 1.5, 2"
+73,Produktdetails,magnification_strength[marketplace_id=A1PA6795UKMFR9]#1.unit,Maß der Vergrößerungsstärke,Bedingt erforderlich,Dioptrien
+74,Produktdetails,language[marketplace_id=A1PA6795UKMFR9]#1.type,Sprachtyp,Bedingt erforderlich,Original
+75,Produktdetails,language[marketplace_id=A1PA6795UKMFR9]#1.value,Sprache,Bedingt erforderlich,Englisch
+84,Produktdetails,handle[marketplace_id=A1PA6795UKMFR9]#1.material[language_tag=de_DE]#1.value,Griffmaterial,Bedingt erforderlich,"Edelstahl, Kunststoff"
+86,Produktdetails,is_assembly_required[marketplace_id=A1PA6795UKMFR9]#1.value,Erforderliche Montage,Bedingt erforderlich,"Ja, Nein"
+87,Produktdetails,assembly_instructions[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Montageanleitung,Optional,"Stützelemente in Löchern der Basis positionieren und herunterdrücken, bis sie einrasten"
+88,Produktdetails,has_energy_efficiency_label[marketplace_id=A1PA6795UKMFR9]#1.value,Hat ein Energieeffizienzlabel,Optional,Ja
+89,Produktdetails,eprel_registration_number[marketplace_id=A1PA6795UKMFR9]#1.value,EPREL-Registrierungsnummer,Bedingt erforderlich,668877
+90,Produktdetails,magnification_maximum[marketplace_id=A1PA6795UKMFR9]#1.value,Maximale Vergrößerung,Bedingt erforderlich,"8, 10"
+91,Produktdetails,magnification_maximum[marketplace_id=A1PA6795UKMFR9]#1.unit,Maximale Vergrößerung – Einheit,Empfohlen,x
+92,Produktdetails,orientation[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Ausrichtung,Bedingt erforderlich,"Nach vorne gerichtet, nach hinten gerichtet"
+93,Produktdetails,mounting_type[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Montageart,Bedingt erforderlich,Canon
+94,Produktdetails,finish_type[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Beschaffenheit der äußeren Oberfläche,Bedingt erforderlich,"Chrom, Messing, Nickel"
+95,Produktdetails,unit_count[marketplace_id=A1PA6795UKMFR9]#1.value,Anzahl von Einheiten,Bedingt erforderlich,5
+96,Produktdetails,unit_count[marketplace_id=A1PA6795UKMFR9]#1.type[language_tag=de_DE].value,Anzahl von Einheiten - Typ,Bedingt erforderlich,Jede/-r/-s
+97,Produktdetails,product_site_launch_date[marketplace_id=A1PA6795UKMFR9]#1.value,Datum der Produktveröffentl. auf Website,Optional,2017-07-20
+98,Produktdetails,included_components[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Enthaltene Komponenten,Bedingt erforderlich,"Kameragehäuse, Batteriepaket"
+103,Produktdetails,specific_uses_for_product[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Bestimmte Nutzungsmögl. des Produkts,Empfohlen,"Trockenschleifen, Privat, Geschäftlich, Laie"
+108,Produktdetails,league_name[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Liga-Name,Optional,NBA
+113,Produktdetails,team_name[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Teamname,Optional,"Seattle Seahawks, Wisconsin Badgers"
+114,Produktdetails,recommended_uses_for_product[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Empfohlene Verw.bereiche für Produkt,Optional,"Radsport, Indoor, Wasser"
+119,Produktdetails,is_fragile[marketplace_id=A1PA6795UKMFR9]#1.value,Ist der Artikel zerbrechlich?,Bedingt erforderlich,"Ja, Nein"
+120,Produktdetails,room_type[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Raumtyp,Empfohlen,Wohnzimmer
+125,Produktdetails,item_length_width[marketplace_id=A1PA6795UKMFR9]#1.length.value,Artikellänge von oben nach unten,Bedingt erforderlich,40
+126,Produktdetails,item_length_width[marketplace_id=A1PA6795UKMFR9]#1.length.unit,Artikellänge – Einheit,Bedingt erforderlich,Zoll
+127,Produktdetails,item_length_width[marketplace_id=A1PA6795UKMFR9]#1.width.value,Artikelbreite von Seite zu Seite,Bedingt erforderlich,30
+128,Produktdetails,item_length_width[marketplace_id=A1PA6795UKMFR9]#1.width.unit,Artikelbreite – Einheit,Bedingt erforderlich,Zoll
+129,Produktdetails,extended_warranty_duration[marketplace_id=A1PA6795UKMFR9]#1.value,Verlängerte Garantiedauer,Optional,24
+130,Produktdetails,extended_warranty_duration[marketplace_id=A1PA6795UKMFR9]#1.unit,Einheit für die verlängerte Garantiedauer,Optional,Monate
+131,Produktdetails,has_smart_features[marketplace_id=A1PA6795UKMFR9]#1.value,Mit intelligenten Funktionen,Optional,"ja, nein"
+132,Produktdetails,is_lighted[marketplace_id=A1PA6795UKMFR9]#1.value,Ist beleuchtet,Empfohlen,"Wahr, Falsch"
+133,Produktdetails,frame_material[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Rahmenmaterial,Bedingt erforderlich,"Pappe, Metall, Kunststoff, Holz"
+134,Produktdetails,is_hanging[marketplace_id=A1PA6795UKMFR9]#1.value,Ist hängend,Optional,"Ja, nein"
+135,Produktdetails,number_of_packs[marketplace_id=A1PA6795UKMFR9]#1.value,Anzahl der Packungen,Bedingt erforderlich,2
+136,Produktdetails,set_name[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Namen des Sets,Bedingt erforderlich,Strata Ultimate Golf Club Set (16-teilig)
+137,Produktdetails,item_weight[marketplace_id=A1PA6795UKMFR9]#1.value,Artikelgewicht,Empfohlen,"30, 1.5"
+138,Produktdetails,item_weight[marketplace_id=A1PA6795UKMFR9]#1.unit,Artikelgewicht – Einheit,Empfohlen,"Kilogramm, Pfund"
+139,Angebot,skip_offer[marketplace_id=A1PA6795UKMFR9]#1.value,Angebot überspringen,Optional,Ja
+140,Angebot,condition_type[marketplace_id=A1PA6795UKMFR9]#1.value,Artikelzustand,Bedingt erforderlich,Neu
+141,Angebot,condition_note[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Vermerk zu den Angebotskonditionen,Optional,Kleine Beule in der linken Seitenwand.
+142,Angebot,list_price[marketplace_id=A1PA6795UKMFR9]#1.value_with_tax,Listenpreis mit Steuern,Bedingt erforderlich,69
+143,Angebot,product_tax_code#1.value,Steuerkennziffer für Produkte,Optional,A_GEN_NOTAX
+144,Angebot,merchant_release_date[marketplace_id=A1PA6795UKMFR9]#1.value,Freigabedatum des Händlers,Optional,2017-07-20
+145,Angebot,max_order_quantity[marketplace_id=A1PA6795UKMFR9]#1.value,Max. Bestellmenge,Optional,3
+146,Angebot,gift_options[marketplace_id=A1PA6795UKMFR9]#1.can_be_messaged,Das Angebot kann mit einer Geschenknachricht versehen werden,Optional,WAHR
+147,Angebot,gift_options[marketplace_id=A1PA6795UKMFR9]#1.can_be_wrapped,Ist eine Geschenkverpackung verfügbar?,Optional,WAHR
+148,Angebot,uvp_list_price[marketplace_id=A1PA6795UKMFR9]#1.value,Listenpreis (UVP),Empfohlen,69.71
+149,Angebot,main_offer_image_locator[marketplace_id=A1PA6795UKMFR9]#1.media_location,Hauptbildstandort,Optional,http://www.companyname.com/images/1250.offer.jpg
+150,Angebot,other_offer_image_locator_1[marketplace_id=A1PA6795UKMFR9]#1.media_location,Anderer Bildstandort,Optional,http://www.companyname.com/images/1250.other1.jpg
+151,Angebot,other_offer_image_locator_2[marketplace_id=A1PA6795UKMFR9]#1.media_location,Anderer Bildstandort,Optional,http://www.companyname.com/images/1250.other1.jpg
+152,Angebot,other_offer_image_locator_3[marketplace_id=A1PA6795UKMFR9]#1.media_location,Anderer Bildstandort,Optional,http://www.companyname.com/images/1250.other1.jpg
+153,Angebot,other_offer_image_locator_4[marketplace_id=A1PA6795UKMFR9]#1.media_location,Anderer Bildstandort,Optional,http://www.companyname.com/images/1250.other1.jpg
+154,Angebot,other_offer_image_locator_5[marketplace_id=A1PA6795UKMFR9]#1.media_location,Anderer Bildstandort,Optional,http://www.companyname.com/images/1250.other1.jpg
+155,Angebot,supplemental_condition_information[marketplace_id=A1PA6795UKMFR9]#1.accessories,Zubehör,Optional,Generisch
+156,Angebot,supplemental_condition_information[marketplace_id=A1PA6795UKMFR9]#1.battery_life_percentage,Prozentsatz der Akkulaufzeit,Optional,>90%
+157,Angebot,supplemental_condition_information[marketplace_id=A1PA6795UKMFR9]#1.cosmetic,Kosmetik,Optional,Keine Gebrauchsspuren
+158,Angebot,supplemental_condition_information[marketplace_id=A1PA6795UKMFR9]#1.features#1,Eigenschaften,Optional,Grüne Überholung
+163,Angebot,supplemental_condition_information[marketplace_id=A1PA6795UKMFR9]#1.functional_condition,Funktionszustand,Optional,Voll funktionsfähig
+164,Angebot,supplemental_condition_information[marketplace_id=A1PA6795UKMFR9]#1.packaging,Verpackung,Optional,OEM Original
+165,Angebot,supplemental_condition_information[marketplace_id=A1PA6795UKMFR9]#1.renewed_grade,Renewed Grade,Optional,Erneuert - Ausgezeichnet
+166,Angebot,supplemental_condition_information[marketplace_id=A1PA6795UKMFR9]#1.source_type,Bezugsquelle,Optional,Zurückgegeben unbenutzt
+167,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",fulfillment_availability#1.fulfillment_channel_code,Fulfillment-Channel-Code (DE),Bedingt erforderlich,AMAZON_NA
+168,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",fulfillment_availability#1.quantity,Menge (DE),Bedingt erforderlich,152
+169,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",fulfillment_availability#1.lead_time_to_ship_max_days,Bearbeitungszeit (DE),Optional,5
+170,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",fulfillment_availability#1.restock_date,Auffülldatum (DE),Optional,2020-05-05
+171,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",fulfillment_availability#1.is_inventory_available,Immer verfügbarer Bestand (DE),Bedingt erforderlich,Deaktiviert
+172,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",purchasable_offer[marketplace_id=A1PA6795UKMFR9][audience=ALL]#1.our_price#1.schedule#1.value_with_tax,"Ihr Preis EUR (Bei Amazon verkaufen, DE)",Optional,50.00
+173,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",purchasable_offer[marketplace_id=A1PA6795UKMFR9][audience=ALL]#1.automated_pricing_merchandising_rule_plan#1.merchandising_rule.rule_id,"Preisgestaltungsregel (Bei Amazon verkaufen, DE)",Optional,Wettbewerbsfähige Preisgestaltung bei Amazon
+174,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",purchasable_offer[marketplace_id=A1PA6795UKMFR9][audience=ALL]#1.minimum_seller_allowed_price#1.schedule#1.value_with_tax,"Zulässiger Mindestpreis für Verkäufer (Bei Amazon verkaufen, DE)",Optional,259.99
+175,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",purchasable_offer[marketplace_id=A1PA6795UKMFR9][audience=ALL]#1.maximum_seller_allowed_price#1.schedule#1.value_with_tax,"Maximaler Verkäuferpreis (Bei Amazon verkaufen, DE)",Optional,259.99
+176,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",purchasable_offer[marketplace_id=A1PA6795UKMFR9][audience=ALL]#1.discounted_price#1.schedule#1.end_at,"Enddatum für den Angebotspreis (Bei Amazon verkaufen, DE)",Optional,2017-07-01
+177,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",purchasable_offer[marketplace_id=A1PA6795UKMFR9][audience=ALL]#1.discounted_price#1.schedule#1.start_at,"Startdatum für den Angebotspreis (Bei Amazon verkaufen, DE)",Optional,2017-06-30
+178,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",purchasable_offer[marketplace_id=A1PA6795UKMFR9][audience=ALL]#1.discounted_price#1.schedule#1.value_with_tax,"Angebotspreis EUR (Bei Amazon verkaufen, DE)",Optional,219.99
+179,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",purchasable_offer[marketplace_id=A1PA6795UKMFR9][audience=ALL]#1.start_at.value,"Erscheinungsdatum des Angebots (Bei Amazon verkaufen, DE)",Optional,2017-06-30
+180,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",purchasable_offer[marketplace_id=A1PA6795UKMFR9][audience=ALL]#1.end_at.value,"Datum des Verkaufsendes (Bei Amazon verkaufen, DE)",Optional,2017-07-01
+181,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",purchasable_offer[marketplace_id=A1PA6795UKMFR9][audience=B2B]#1.our_price#1.schedule#1.value_with_tax,"Ihr Preis EUR (Amazon Business (B2B), DE)",Optional,50.00
+182,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",purchasable_offer[marketplace_id=A1PA6795UKMFR9][audience=B2B]#1.minimum_seller_allowed_price#1.schedule#1.value_with_tax,"Zulässiger Mindestpreis für Verkäufer (Amazon Business (B2B), DE)",Optional,259.99
+183,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",purchasable_offer[marketplace_id=A1PA6795UKMFR9][audience=B2B]#1.maximum_seller_allowed_price#1.schedule#1.value_with_tax,"Maximaler Verkäuferpreis (Amazon Business (B2B), DE)",Optional,259.99
+184,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",purchasable_offer[marketplace_id=A1PA6795UKMFR9][audience=B2B]#1.start_at.value,"Erscheinungsdatum des Angebots (Amazon Business (B2B), DE)",Optional,2017-06-30
+185,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",purchasable_offer[marketplace_id=A1PA6795UKMFR9][audience=B2B]#1.end_at.value,"Datum des Verkaufsendes (Amazon Business (B2B), DE)",Optional,2017-07-01
+186,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",purchasable_offer[marketplace_id=A1PA6795UKMFR9][audience=B2B]#1.quantity_discount_plan#1.schedule#1.discount_type,"Mengenpreisart (Amazon Business (B2B), DE)",Optional,"Fest, Prozent"
+187,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",purchasable_offer[marketplace_id=A1PA6795UKMFR9][audience=B2B]#1.quantity_discount_plan#1.schedule#1.levels#1.lower_bound,"Mengenschwellenwert (Untergrenze, Amazon Business (B2B), DE)",Optional,"5, 10"
+188,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",purchasable_offer[marketplace_id=A1PA6795UKMFR9][audience=B2B]#1.quantity_discount_plan#1.schedule#1.levels#1.value,"Mengenpreis (Festpreis/prozentualer Rabatt, Amazon Business (B2B), DE)",Optional,"10, 20"
+197,"Angebot (DE) - (Bei Amazon verkaufen), (DE) - (Amazon Business (B2B))",merchant_shipping_group[marketplace_id=A1PA6795UKMFR9]#1.value,Versandvorlage (DE),Bedingt erforderlich,"Schwere, sperrige Produkte, NCR-Großgerätelieferung"
+198,Versand,item_package_dimensions[marketplace_id=A1PA6795UKMFR9]#1.length.value,Paketlänge,Bedingt erforderlich,75.50
+199,Versand,item_package_dimensions[marketplace_id=A1PA6795UKMFR9]#1.length.unit,Paketlänge – Einheit,Bedingt erforderlich,Zentimeter
+200,Versand,item_package_dimensions[marketplace_id=A1PA6795UKMFR9]#1.width.value,Paketbreite,Bedingt erforderlich,10.00
+201,Versand,item_package_dimensions[marketplace_id=A1PA6795UKMFR9]#1.width.unit,Paketbreite – Einheit,Bedingt erforderlich,Zentimeter
+202,Versand,item_package_dimensions[marketplace_id=A1PA6795UKMFR9]#1.height.value,Pakethöhe,Bedingt erforderlich,50.00
+203,Versand,item_package_dimensions[marketplace_id=A1PA6795UKMFR9]#1.height.unit,Pakethöhe – Einheit,Bedingt erforderlich,Zentimeter
+204,Versand,item_package_weight[marketplace_id=A1PA6795UKMFR9]#1.value,Gewicht des Pakets,Bedingt erforderlich,24
+205,Versand,item_package_weight[marketplace_id=A1PA6795UKMFR9]#1.unit,Gewicht des Pakets – Einheit,Bedingt erforderlich,Pfund
+206,Sicherheit und Einhaltung von Regeln,safety_warning[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,Sicherheitswarnung,Optional,Nur zur externen Verwendung. Augenkontakt vermeiden. Von offenem Feuer und direkten Wärmequellen fernhalten.
+211,Sicherheit und Einhaltung von Regeln,country_of_origin[marketplace_id=A1PA6795UKMFR9]#1.value,Ursprungsland,Pflichtfeld,"Großbritannien, Spanien, Vereinigte Staaten"
+212,Sicherheit und Einhaltung von Regeln,batteries_required[marketplace_id=A1PA6795UKMFR9]#1.value,Sind Batterien erforderlich?,Bedingt erforderlich,"Ja, Nein"
+213,Sicherheit und Einhaltung von Regeln,batteries_included[marketplace_id=A1PA6795UKMFR9]#1.value,Sind Batterien enthalten?,Bedingt erforderlich,"Ja, Nein"
+214,Sicherheit und Einhaltung von Regeln,battery[marketplace_id=A1PA6795UKMFR9]#1.cell_composition#1.value,Zusammensetzung der Batteriezelle,Bedingt erforderlich,"NiMH, Lithium-Ionen"
+215,Sicherheit und Einhaltung von Regeln,battery[marketplace_id=A1PA6795UKMFR9]#1.cell_composition_other_than_listed[language_tag=de_DE]#1.value,Andere Batteriezellenzusammensetzung als aufgelistet,Bedingt erforderlich,Silberoxid (Ag2O)
+216,Sicherheit und Einhaltung von Regeln,battery[marketplace_id=A1PA6795UKMFR9]#1.iec_code#1.value,IEC-Normkennzeichen der Batterie,Optional,CR2320
+217,Sicherheit und Einhaltung von Regeln,battery[marketplace_id=A1PA6795UKMFR9]#1.weight#1.value,Batteriegewicht,Bedingt erforderlich,2.5
+218,Sicherheit und Einhaltung von Regeln,battery[marketplace_id=A1PA6795UKMFR9]#1.weight#1.unit,Batteriegewicht – Einheit,Bedingt erforderlich,Gramm
+219,Sicherheit und Einhaltung von Regeln,num_batteries[marketplace_id=A1PA6795UKMFR9]#1.quantity,Anzahl der Batterien,Bedingt erforderlich,"1, 4"
+220,Sicherheit und Einhaltung von Regeln,num_batteries[marketplace_id=A1PA6795UKMFR9]#1.type,Batterietyp,Bedingt erforderlich,12 V
+229,Sicherheit und Einhaltung von Regeln,number_of_lithium_metal_cells[marketplace_id=A1PA6795UKMFR9]#1.value,Anzahl der Lithium-Metall-Zellen,Bedingt erforderlich,"1, 3"
+230,Sicherheit und Einhaltung von Regeln,number_of_lithium_ion_cells[marketplace_id=A1PA6795UKMFR9]#1.value,Anzahl der Lithium-Ionen-Zellen,Bedingt erforderlich,"1, 3"
+231,Sicherheit und Einhaltung von Regeln,lithium_battery[marketplace_id=A1PA6795UKMFR9]#1.energy_content#1.value,Energiemenge der Lithiumbatterie,Bedingt erforderlich,4.2
+232,Sicherheit und Einhaltung von Regeln,lithium_battery[marketplace_id=A1PA6795UKMFR9]#1.energy_content#1.unit,Energiemenge der Lith.batterie – Einheit,Bedingt erforderlich,Wattstunden
+233,Sicherheit und Einhaltung von Regeln,lithium_battery[marketplace_id=A1PA6795UKMFR9]#1.packaging#1.value,Verpackung der Lithiumbatterie,Bedingt erforderlich,"In Produkt enthalten, Beigefügt, Nur Batterien/Akkus"
+234,Sicherheit und Einhaltung von Regeln,lithium_battery[marketplace_id=A1PA6795UKMFR9]#1.weight#1.value,Gewicht der Lithium-Batterie,Bedingt erforderlich,"5, 13, 70"
+235,Sicherheit und Einhaltung von Regeln,lithium_battery[marketplace_id=A1PA6795UKMFR9]#1.weight#1.unit,Gewichtseinheit Lithium-Batterie,Bedingt erforderlich,Gramm
+236,Sicherheit und Einhaltung von Regeln,supplier_declared_dg_hz_regulation[marketplace_id=A1PA6795UKMFR9]#1.value,Gefahrgutvorschriften,Pflichtfeld,"GHS, Lagerung, Transport"
+241,Sicherheit und Einhaltung von Regeln,hazmat[marketplace_id=A1PA6795UKMFR9]#1.aspect,Gefahrstoffvorschrift,Bedingt erforderlich,Gefahrstoffkennung der Vereinten Nationen
+242,Sicherheit und Einhaltung von Regeln,hazmat[marketplace_id=A1PA6795UKMFR9]#1.value,Gefahrstoff,Bedingt erforderlich,UN1993
+243,Sicherheit und Einhaltung von Regeln,safety_data_sheet_url[marketplace_id=A1PA6795UKMFR9][language_tag=de_DE]#1.value,URL d. Sicherheitsdatenblatts (SDS/MSDS),Bedingt erforderlich,www.safetysheetsRus.com/hazardous_substance/msds.pdf
+244,Sicherheit und Einhaltung von Regeln,is_this_product_subject_to_buyer_age_restrictions[marketplace_id=A1PA6795UKMFR9]#1.value,Unterliegt dieses Produkt Altersbeschränkungen für Käufer?,Optional,Ja
+245,Sicherheit und Einhaltung von Regeln,epr_product_packaging[marketplace_id=A1PA6795UKMFR9]#1.main_material,Hauptmaterial der EPR-Produktverpackung,Optional,Papier
+246,Sicherheit und Einhaltung von Regeln,epr_product_packaging[marketplace_id=A1PA6795UKMFR9]#1.granular_materials#1.granular_material,Granulatmaterial der EPR-Produktverpackung,Optional,Karton
+247,Sicherheit und Einhaltung von Regeln,epr_product_packaging[marketplace_id=A1PA6795UKMFR9]#1.granular_materials#1.weight.value,Wert der Granulatmaterialen der EPR-Produktverpackung,Optional,100
+248,Sicherheit und Einhaltung von Regeln,epr_product_packaging[marketplace_id=A1PA6795UKMFR9]#1.granular_materials#1.weight.unit,Gewichtseinheit der Granulatmaterialen der EPR-Produktverpackung,Optional,Gramm
+249,Sicherheit und Einhaltung von Regeln,epr_product_packaging[marketplace_id=A1PA6795UKMFR9]#1.granular_materials#1.recycled_content_percentage,Anteil an recyceltem Material im Granulatmaterial der EPR-Produktverpackung,Optional,50
+279,Sicherheit und Einhaltung von Regeln,dsa_responsible_party_address[marketplace_id=A1PA6795UKMFR9]#1.value,E-Mail oder elektronische Adresse der zuständigen Person,Optional,vs-email@beispiel.de
+280,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=application_guide]#1.source_location,"Quellort der Compliance-Medien (de_DE, Anwendungsleitfaden)",Optional,http://example.eg/sds_1.pdf
+281,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=biobased_biodegradable_substantiation]#1.source_location,"Quellort der Compliance-Medien (de_DE, ECGT - Biobasierte & biologisch abbaubare Angaben - Nachweisdokument)",Optional,http://example.eg/sds_1.pdf
+282,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=certificate_of_analysis]#1.source_location,"Quellort der Compliance-Medien (de_DE, Analysezertifikat)",Optional,http://example.eg/sds_1.pdf
+283,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=certificate_of_compliance]#1.source_location,"Quellort der Compliance-Medien (de_DE, Konformitätsbescheinigung)",Optional,http://example.eg/sds_1.pdf
+284,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=compatibility_guide]#1.source_location,"Quellort der Compliance-Medien (de_DE, Kompatibilitätsleitfaden)",Optional,http://example.eg/sds_1.pdf
+285,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=data_transparency_declaration]#1.source_location,"Quellort der Compliance-Medien (de_DE, Transparenzerklärung gemäß Data Act)",Optional,http://example.eg/sds_1.pdf
+286,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=emergency_use_authorization]#1.source_location,"Quellort der Compliance-Medien (de_DE, Notfalleinsatzgenehmigung)",Optional,http://example.eg/sds_1.pdf
+287,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=emergency_use_authorization_amendment]#1.source_location,"Quellort der Compliance-Medien (de_DE, Ergänzung zur Notfalleinsatzgenehmigung)",Optional,http://example.eg/sds_1.pdf
+288,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=energy_efficiency_claim_substantiation]#1.source_location,"Quellort der Compliance-Medien (de_DE, ECGT - Energieeffizienz-Angaben - Nachweisdokument)",Optional,http://example.eg/sds_1.pdf
+289,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=installation_manual]#1.source_location,"Quellort der Compliance-Medien (de_DE, Installationshandbuch)",Optional,http://example.eg/sds_1.pdf
+290,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=instructions_for_use]#1.source_location,"Quellort der Compliance-Medien (de_DE, Gebrauchsanweisung)",Optional,http://example.eg/sds_1.pdf
+291,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=patient_fact_sheet]#1.source_location,"Quellort der Compliance-Medien (de_DE, Patienten-Informationsübersicht)",Optional,http://example.eg/sds_1.pdf
+292,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=pfas_free_claim_substantiation]#1.source_location,"Quellort der Compliance-Medien (de_DE, ECGT - PFAS-freie Angaben - Nachweisdokument)",Optional,http://example.eg/sds_1.pdf
+293,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=product_certificate_of_conformity]#1.source_location,"Quellort der Compliance-Medien (de_DE, Konformitätsbescheinigung für das Produkt)",Optional,http://example.eg/sds_1.pdf
+294,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=provider_fact_sheet]#1.source_location,"Quellort der Compliance-Medien (de_DE, Anbieter-Informationsübersicht)",Optional,http://example.eg/sds_1.pdf
+295,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=recyclability_claim_substantiation]#1.source_location,"Quellort der Compliance-Medien (de_DE, ECGT - Recyclingfähigkeitsangaben - Nachweisdokument)",Optional,http://example.eg/sds_1.pdf
+296,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=repairability_claim_substantiation]#1.source_location,"Quellort der Compliance-Medien (de_DE, ECGT - Haltbarkeits- und Reparierbarkeitsangaben - Nachweisdokument)",Optional,http://example.eg/sds_1.pdf
+297,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=repairability_index_calculation_sheet]#1.source_location,"Quellort der Compliance-Medien (de_DE, Berechnungstabelle für den Reparierbarkeitsindex)",Optional,http://example.eg/sds_1.pdf
+298,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=safety_data_sheet]#1.source_location,"Quellort der Compliance-Medien (de_DE, Sicherheitsdatenblatt)",Optional,http://example.eg/sds_1.pdf
+299,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=safety_information]#1.source_location,"Quellort der Compliance-Medien (de_DE, Sicherheitsinformationen)",Optional,http://example.eg/sds_1.pdf
+300,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=specification_sheet]#1.source_location,"Quellort der Compliance-Medien (de_DE, Spezifikationsübersicht)",Optional,http://example.eg/sds_1.pdf
+301,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=troubleshooting_guide]#1.source_location,"Quellort der Compliance-Medien (de_DE, Leitfaden zur Problembehebung)",Optional,http://example.eg/sds_1.pdf
+302,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=user_guide]#1.source_location,"Quellort der Compliance-Medien (de_DE, Benutzerleitfaden)",Optional,http://example.eg/sds_1.pdf
+303,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=user_manual]#1.source_location,"Quellort der Compliance-Medien (de_DE, Benutzerhandbuch)",Optional,http://example.eg/sds_1.pdf
+304,Sicherheit und Einhaltung von Regeln,compliance_media[marketplace_id=A1PA6795UKMFR9][content_language=de_DE][content_type=warranty]#1.source_location,"Quellort der Compliance-Medien (de_DE, Garantie)",Optional,http://example.eg/sds_1.pdf
+305,Sicherheit und Einhaltung von Regeln,gpsr_safety_attestation[marketplace_id=A1PA6795UKMFR9]#1.value,GPSR-Sicherheitsbescheinigung,Optional,Ja
+306,Sicherheit und Einhaltung von Regeln,gpsr_manufacturer_reference[marketplace_id=A1PA6795UKMFR9]#1.gpsr_manufacturer_email_address,E-Mail-Adresse oder elektronische Adresse des Herstellers,Optional,abc@example.com
+307,Sicherheit und Einhaltung von Regeln,has_multiple_battery_powered_components[marketplace_id=A1PA6795UKMFR9]#1.value,Hat mehrere batteriebetriebene Komponenten,Bedingt erforderlich,Ja
+308,Sicherheit und Einhaltung von Regeln,ships_globally[marketplace_id=A1PA6795UKMFR9]#1.value,Wird weltweit verschickt,Optional,Ja
+309,Sicherheit und Einhaltung von Regeln,contains_battery_or_cell[marketplace_id=A1PA6795UKMFR9]#1.value,Enthält Batterie oder Batteriezelle,Bedingt erforderlich,Batterie
+310,Sicherheit und Einhaltung von Regeln,battery_contains_free_unabsorbed_liquid[marketplace_id=A1PA6795UKMFR9]#1.value,"Die Batterie enthält freie, nicht absorbierte Flüssigkeit",Bedingt erforderlich,Ja
+311,Sicherheit und Einhaltung von Regeln,is_battery_non_spillable[marketplace_id=A1PA6795UKMFR9]#1.value,Hat auslaufsichere Batterie,Bedingt erforderlich,Ja
+312,Sicherheit und Einhaltung von Regeln,non_lithium_battery_packaging[marketplace_id=A1PA6795UKMFR9]#1.value,Verpackungen für Nicht-Lithium-Batterien,Bedingt erforderlich,Nur Batterien
+313,Sicherheit und Einhaltung von Regeln,has_replaceable_battery[marketplace_id=A1PA6795UKMFR9]#1.value,Hat austauschbare Batterie,Optional,Ja
+314,Sicherheit und Einhaltung von Regeln,non_lithium_battery_energy_content[marketplace_id=A1PA6795UKMFR9]#1.value,Nicht-Lithium-Batterie-Energieinhalt,Optional,"2,6"
+315,Sicherheit und Einhaltung von Regeln,non_lithium_battery_energy_content[marketplace_id=A1PA6795UKMFR9]#1.unit,Einheit für Nicht-Lithium-Batterie-Energieinhalt,Optional,Wattstunden
+316,Sicherheit und Einhaltung von Regeln,has_less_than_30_percent_state_of_charge[marketplace_id=A1PA6795UKMFR9]#1.value,Hat weniger als 30 Prozent Ladezustand,Bedingt erforderlich,Ja
+317,Sicherheit und Einhaltung von Regeln,battery_installation_device_type[marketplace_id=A1PA6795UKMFR9]#1.value,Batterieinstallationstyp des Geräts,Bedingt erforderlich,Installiert im Behälter
+318,Sicherheit und Einhaltung von Regeln,is_oem_sourced_product[marketplace_id=A1PA6795UKMFR9]#1.value,Ist ein OEM-Produkt,Optional,Ja
+319,Sicherheit und Einhaltung von Regeln,ghs_chemical_h_code[marketplace_id=A1PA6795UKMFR9]#1.value,GHS-Gefahrenhinweis-Code (H-Code),Optional,H200
+324,Sicherheit und Einhaltung von Regeln,epr_eco_fee_eubr[marketplace_id=A1PA6795UKMFR9]#1.currency,Geben Sie die mit der EPR-Umweltabgabe EUBR verknüpfte Währung an.,Optional,EUR
+325,Sicherheit und Einhaltung von Regeln,epr_eco_fee_eubr[marketplace_id=A1PA6795UKMFR9]#1.value,EPR-Umweltabgabe EUBR,Optional,1
