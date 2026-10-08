@@ -44,6 +44,6 @@ Kernsortiment: Bilderrahmen (inkl. Trikotrahmen), Wandspiegel, Salzlampen und di
 
 ## 5. Update 8.10.2026: Rahmenlos-Rahmen vorerst nicht im Plan
 
-- Die rahmenlosen Bilderrahmen (A-Größen, auf Amazon 8 ASINs mit ca. 2.513 € in 30 Tagen, ca. 84 €/Tag) werden nicht weiter aufgebaut, laufen aber mit vorhandenem Bestand weiter.
+- Die rahmenlosen Bilderrahmen (A-Größen, auf Amazon 8 ASINs mit ca. 2.513 € in 30 Tagen, ca. 84 €/Tag) laufen ganz normal weiter (inklusive Nachbestellung bei Bedarf), es werden aber keine neuen Listings, Größen oder Kanäle hinzugefügt.
 - Im Kernsortiment bleiben Wandspiegel, Salzlampen, Trikotrahmen und Plissees, die Kernbasis sinkt damit auf ca. 315 €/Tag.
 - Dreisatz: 5.000 € ÷ 315 € ≈ 16-faches Wachstum der Kernlinien.
