@@ -25,12 +25,20 @@ OTTO_VERSANDPROFIL = "Schneller Versand"
 EBAY_MAX_TITLE = 80
 
 
+def ist_spiegel(r):
+    return r.get("produkttyp", "").strip().lower() == "wandspiegel"
+
+
 def n_of(sku):
-    m = re.match(r"S0?(\d)", sku.upper())
+    m = re.match(r"S0?(\d)", sku.upper().removeprefix("FBA_"))
     return int(m.group(1)) if m else None
 
 
 def ebay_title(r, n):
+    if not ist_spiegel(r):
+        # andere Linien: Titelteil vor dem ersten " | " aus der Hauptversion, nichts hinzugefügt
+        t = r["titel"].split(" | ")[0].strip()
+        return t if len(t) <= EBAY_MAX_TITLE else ""
     farbe = r["farbe"]
     kandidaten = [
         f"EmsCraft24 Wandspiegel {n}er Set 60x40 cm {farbe} Kunststoffspiegel MDF-Rahmen",
@@ -74,7 +82,8 @@ def main():
         o = {c: "" for c in cols}
         o.update({
             "sku": r["sku"], "gtin": r["gtin_ean"], "marke": "EmsCraft24", "preis_eur": r["preis_eur"],
-            "farbe": r["farbe"], "masse": "60 x 40 cm", "anzahl": str(n) if n else "", "form": r.get("form", ""),
+            "farbe": r["farbe"], "masse": "60 x 40 cm" if ist_spiegel(r) else r.get("groesse", ""),
+            "anzahl": str(n) if n and ist_spiegel(r) else "", "form": r.get("form", ""),
             "material": r.get("material", ""), "rahmenmaterial": r.get("rahmenmaterial", ""),
             "montageart": r.get("montageart", ""), "status": "Entwurf",
         })
@@ -84,7 +93,8 @@ def main():
         desc = r["beschreibung_a_plus"]
         if a.channel == "otto":
             o.update({
-                "titel": f"EmsCraft24 Wandspiegel {n}er Set 60x40 cm {r['farbe']} Hoch- und Querformat Kunststoffspiegel",
+                "titel": (f"EmsCraft24 Wandspiegel {n}er Set 60x40 cm {r['farbe']} Hoch- und Querformat Kunststoffspiegel"
+                          if ist_spiegel(r) else r["titel"].replace(" | ", " – ")),
                 "provisionsbereich": OTTO_PROVISIONSBEREICH, "provisionsgruppe": a.provisionsgruppe,
                 "versandprofil": OTTO_VERSANDPROFIL, "raumtyp": r.get("raumtyp", ""), "beschreibung": desc,
             })

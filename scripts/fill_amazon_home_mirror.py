@@ -96,7 +96,8 @@ def main():
     for i, r in enumerate(rows):
         row = FIRST_DATA_ROW + i
         values = dict(defaults)
-        n = 2 if r["sku"].upper().startswith("S02") else 3 if r["sku"].upper().startswith("S03") else 1
+        basis = r["sku"].upper().removeprefix("FBA_")  # FBA-Kopien tragen das Präfix FBA_
+        n = 2 if basis.startswith("S02") else 3 if basis.startswith("S03") else 1
 
         def put(c, v):
             values[c] = v
