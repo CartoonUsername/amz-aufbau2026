@@ -19,7 +19,7 @@ Kapazität: Vollzeit plus Abendstunden (ca. 50–60 Stunden pro Woche). Zeit ist
 
 ## Samstag 10.10.
 
-- Nachbestellung/Nachproduktion anstoßen: Spiegel Weiß, Salzlampe 1–2 kg, rahmenlose Rahmen wie gewohnt nachbestellen, wenn der Bestand unter ca. 30 Tage Reichweite liegt (Rahmen 21×29: 51 Stück).
+- Nachbestellung/Nachproduktion anstoßen: Spiegel Weiß, Salzlampe 1–2 kg.
 - FBA-Sendung 1 planen (Spiegel Weiß/Schwarz/Eiche Catania, Salzlampe 1–2 und 2–3 kg).
 - Bilder-Briefing: Spiegel-Sets (2er/3er), Salzlampen-Geschenksets, Plissee-Maßanleitung.
 

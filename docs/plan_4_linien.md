@@ -11,11 +11,10 @@ Linien: Wandspiegel, Salzlampen, Bilderrahmen, Plissees. Kanäle: Amazon, Otto, 
 | Salzlampen | ca. 90 € | 130 € | 220 € | 300 € | Otto-Fehler beheben, Sets, Weihnachten |
 | Plissees | 0 € | 0 € | 30 € | 70 € | 2–4 Test-Listings, Marge klären |
 | Summe Kern | ca. 315 € | 400 € | 610 € | 820 € | |
-| Rahmenlos-Rahmen (laufen normal weiter, nichts Neues) | ca. 84 € | 85 € | 85 € | 85 € | normaler Betrieb inkl. Nachbestellung |
 | Restbestand (sinkend) | ca. 380 € | 350 € | 300 € | 250 € | Abverkauf ohne Aufwand |
-| Gesamt | ca. 780 € | 835 € | 995 € | 1.155 € | |
+| Gesamt (ohne Rahmenlos) | ca. 695 € | 750 € | 910 € | 1.070 € | |
 
-- Nach Weihnachten (Woche 13) fällt der Kernwert auf ca. 550–650 € zurück, Rahmenlos (ca. 85 €) und Restbestand (ca. 200 €) auf zusammen ca. 285 €, also ca. 840–940 €/Tag gesamt.
+- Nach Weihnachten (Woche 13) fällt der Kernwert auf ca. 550–650 € zurück, der Restbestand auf ca. 200 €, also ca. 750–850 €/Tag gesamt (Rahmenlos-Rahmen sind nicht betrachtet).
 - Das 5.000-€-Ziel bleibt mit vier Linien nur an Spitzentagen möglich, ein Wochenschnitt braucht zusätzliche Produkte.
 
 ## 2. Maßnahmen je Linie und Kanal
@@ -36,7 +35,7 @@ Linien: Wandspiegel, Salzlampen, Bilderrahmen, Plissees. Kanäle: Amazon, Otto, 
 | eBay | Geschenksets |
 | Shopify | Geschenkideen-Seite, Pinterest/Instagram-Inhalte |
 
-### Trikotrahmen (Rahmenlos-Rahmen laufen normal weiter, dort wird nichts Neues gemacht)
+### Trikotrahmen
 | Kanal | Maßnahme |
 |---|---|
 | Otto | Trikotrahmen (6–25 % Conversion, 19 % des Otto-Umsatzes) pflegen und alle Farben verkaufsfähig halten |
