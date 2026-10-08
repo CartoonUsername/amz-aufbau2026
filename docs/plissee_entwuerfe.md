@@ -61,3 +61,16 @@ Quelle: Screenshots der Listings „StoffTex Plissee zum Bohren / ohne Bohren na
 - Mengenrabatt (5–13 %) lässt sich als Business-Preis/Staffel kopieren und hebt den Warenkorb.
 - Der Lieferant verkauft selbst auf Amazon, deshalb Preis und Lieferzeit gegen sein Angebot prüfen (Einkaufspreis plus 15 % Verkaufsgebühr).
 - Offen: Einkaufspreis je Maß und Stoff, Direktversand ja/nein, Lieferzeit, Rückgabe bei Maßanfertigung.
+
+## Marge-Überschlag (Annahmen, 8.10.2026)
+
+Annahmen: Einkaufspreis ca. 30 % unter dem StoffTex-Amazon-Preis (ungeprüft), EmsCraft24-Preis liegt über dem StoffTex-Preis, Verkaufsgebühr 15 %, USt 19 %, ohne Versand, Verpackung und Retouren.
+
+| Fall | Verkaufspreis | Netto nach USt und Gebühr | Einkauf (A: 70 % vom Brutto-Preis / B: 70 % vom Netto-Preis) | Rest vor Versand (A / B) |
+|---|---|---|---|---|
+| zum Bohren, kleinste Größe | 9,99 € | 6,90 € | 6,64 € / 5,58 € | 0,25 € / 1,32 € |
+| ohne Bohren, kleinste Größe | 12,99 € | 8,97 € | 8,64 € / 7,26 € | 0,33 € / 1,71 € |
+
+- Bei Preisen knapp über dem Wettbewerber bleibt höchstens 0–1,70 € pro Stück, und mit Versandkosten wird es negativ.
+- Die Marge steigt nur über die Aufschläge für größere Maße und Sonderfarben, die Prozentwerte bleiben ähnlich.
+- Entscheidung: Erst die Händlerpreisliste von StoffTex einholen und die Versandkosten klären, bevor die 16 Entwürfe übermittelt werden, notfalls mit 2–4 Listings als Test starten.
