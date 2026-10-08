@@ -5,6 +5,6 @@ Jeder Verkaufskanal hat einen eigenen Ordner, nichts wird zwischen den Kanälen 
 | Ordner | Stand |
 |---|---|
 | `amazon/` | Vorlagen, Chargen, Uploads, Workflow, Listing-Status |
-| `otto/` | Analyse und Maßnahmen, Rohdaten in `daten/otto/` |
-| `ebay/` | noch kein Material, Texte für Trikotrahmen in `produkte/trikotrahmen/` |
+| `otto/` | Analyse, Vorlagen, Chargen (Charge 01 Spiegel-Sets vorbereitet), Rohdaten in `daten/otto/` |
+| `ebay/` | Vorlagen, Chargen (Charge 01 Spiegel-Sets vorbereitet), Trikotrahmen-Texte in `produkte/trikotrahmen/` |
 | `shopify/` | noch kein Material, Plan in `planung/otto_und_shopify_hebel.md` |
