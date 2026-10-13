@@ -74,20 +74,19 @@ DE = wrap(
          "Länge wählbar: <b style=\"color:#fff;\">35 cm · 50 cm · 75 cm</b>",
          ["Neuware", "Versand kostenlos, mit Sendungsverfolgung", "30 Tage Rückgabe"])
     + notice("Wichtiger Hinweis:",
-             "Kompatibles Ersatz- und Ergänzungsteil, <b>kein Originalteil</b> der USM U. Schärer Söhne AG. „USM“ und „USM Haller“ sind eingetragene "
-             "Marken der USM U. Schärer Söhne AG. Wir sind nicht mit USM verbunden; die Nennung dient ausschließlich der Angabe der Kompatibilität.")
+             "Kompatibles Ersatz- und Ergänzungsteil, <b>kein Originalteil</b> der USM U. Schärer Söhne AG. „USM“ und „USM Haller“ sind Marken "
+             "der USM U. Schärer Söhne AG. Wir sind nicht mit USM verbunden; die Nennung dient ausschließlich der Angabe der Kompatibilität.")
     + h2("Welche Länge brauchst du?")
     + cards([
-        ("35 cm", "Systemmaß 350 mm", "Passend für Regale mit 35 cm Tiefe bzw. alle Stellen, an denen 350 mm Systemmaß benötigt werden."),
-        ("50 cm", "Systemmaß 500 mm", "Passend für Regale mit 50 cm Tiefe bzw. alle Stellen, an denen 500 mm Systemmaß benötigt werden."),
-        ("75 cm", "Systemmaß 750 mm", "Passend für Elemente mit 75 cm Breite bzw. alle Stellen, an denen 750 mm Systemmaß benötigt werden."),
+        ("35 cm", "Systemmaß 350 mm", "Typisch für Regale mit 35 cm Tiefe oder überall dort, wo 350 mm Systemmaß benötigt werden."),
+        ("50 cm", "Systemmaß 500 mm", "Typisch für Regale mit 50 cm Tiefe oder überall dort, wo 500 mm Systemmaß benötigt werden."),
+        ("75 cm", "Systemmaß 750 mm", "Typisch für Elemente mit 75 cm Breite oder überall dort, wo 750 mm Systemmaß benötigt werden."),
     ])
     + h2("Technische Daten")
     + table([
         ("Material", "Stahl, verchromt [PRÜFEN]"),
         ("Oberfläche", "Chrom, glänzend"),
         ("Durchmesser", "19 mm [PRÜFEN]"),
-        ("Wandstärke", "[PRÜFEN] mm"),
         ("Tatsächliche Länge", "35 cm: [PRÜFEN] mm · 50 cm: [PRÜFEN] mm · 75 cm: [PRÜFEN] mm"),
         ("Zustand", "Neu"),
     ])
@@ -106,12 +105,12 @@ DE = wrap(
     + faq([
         ("Ist das ein Originalteil von USM?", "Nein. Es ist ein kompatibles Teil eines anderen Herstellers. Bitte vergleiche die Maße vor dem Kauf."),
         ("Passt es zu meinem vorhandenen Regal?", "Es ist für die Verwendung mit dem USM-Haller-System gedacht. Wegen unterschiedlicher Fertigungstoleranzen können wir eine 100-%ige Passgenauigkeit zu allen Originalteilen nicht zusichern. Bei Fragen schreib uns gern vor dem Kauf."),
-        ("Sind Kugeln und Konnektoren dabei?", "Nein, verkauft wird nur das Rohr. Kugeln und Konnektoren findest du in unserem Shop bzw. in anderen Angeboten."),
+        ("Sind Kugeln und Konnektoren dabei?", "Nein, verkauft wird nur das Rohr. Kugeln und Konnektoren sind nicht Teil dieses Angebots."),
         ("Warum sitzen die Konnektoren manchmal etwas fest?", "Chromoberflächen können herstellungsbedingt minimale Unebenheiten an den Rohrenden aufweisen. Konnektoren bitte vorsichtig einsetzen; die Funktion wird nicht beeinträchtigt."),
     ])
     + small("<b>Gewerblicher Verkäufer.</b> Rechnung mit ausgewiesener MwSt. auf Wunsch. Impressum, Widerrufsbelehrung und AGB findest du in unserem eBay-Shop.<br>"
-            "<b>Hersteller / Verantwortliche Person (EU):</b> [FIRMA, ANSCHRIFT, E-MAIL – PRÜFEN]. Nicht für Kinder unter 3 Jahren geeignet (Kleinteile bei Zubehör). "
-            "Rohrenden können scharfkantig sein – bitte vorsichtig handhaben.")
+            "<b>Hersteller / Verantwortliche Person (EU):</b> [FIRMA, ANSCHRIFT, E-MAIL – PRÜFEN]. Produkt: Chromrohr 35/50/75 cm (Art.-Nr. RH-USM-350 / -500 / -750). "
+            "Kein Spielzeug. Rohrenden können scharfkantig sein – bitte vorsichtig handhaben.")
 )
 
 EN = wrap(
@@ -119,20 +118,19 @@ EN = wrap(
          "Choose your length: <b style=\"color:#fff;\">35 cm · 50 cm · 75 cm</b>",
          ["Brand new", "Free tracked shipping", "30-day returns"])
     + notice("Important notice:",
-             "Compatible replacement / add-on part, <b>not an original part</b> by USM U. Schärer Söhne AG. “USM” and “USM Haller” are registered "
-             "trademarks of USM U. Schärer Söhne AG. We are not affiliated with USM; the names are used solely to indicate compatibility.")
+             "Compatible replacement / add-on part, <b>not an original part</b> by USM U. Schärer Söhne AG. “USM” and “USM Haller” are trademarks "
+             "of USM U. Schärer Söhne AG. We are not affiliated with USM; the names are used solely to indicate compatibility.")
     + h2("Which length do you need?")
     + cards([
-        ("35 cm", "System size 350 mm", "For shelves with a depth of 35 cm, or anywhere a 350 mm system size is required."),
-        ("50 cm", "System size 500 mm", "For shelves with a depth of 50 cm, or anywhere a 500 mm system size is required."),
-        ("75 cm", "System size 750 mm", "For units with a width of 75 cm, or anywhere a 750 mm system size is required."),
+        ("35 cm", "System size 350 mm", "Typical for shelves with a depth of 35 cm, or anywhere a 350 mm system size is required."),
+        ("50 cm", "System size 500 mm", "Typical for shelves with a depth of 50 cm, or anywhere a 500 mm system size is required."),
+        ("75 cm", "System size 750 mm", "Typical for units with a width of 75 cm, or anywhere a 750 mm system size is required."),
     ])
     + h2("Specifications")
     + table([
         ("Material", "Chrome-plated steel [CHECK]"),
         ("Finish", "Chrome, glossy"),
         ("Diameter", "19 mm [CHECK]"),
-        ("Wall thickness", "[CHECK] mm"),
         ("Actual length", "35 cm: [CHECK] mm · 50 cm: [CHECK] mm · 75 cm: [CHECK] mm"),
         ("Condition", "New"),
     ])
@@ -151,12 +149,12 @@ EN = wrap(
     + faq([
         ("Is this an original USM part?", "No. It is a compatible part made by another manufacturer. Please compare measurements before purchase."),
         ("Will it fit my existing shelf?", "It is intended for use with the USM Haller system. Due to differing manufacturing tolerances we cannot guarantee a 100% fit with all original parts. Feel free to contact us before buying."),
-        ("Are balls and connectors included?", "No, only the tube is sold. Balls and connectors are available in our shop and in other listings."),
+        ("Are balls and connectors included?", "No, only the tube is sold. Balls and connectors are not part of this listing."),
         ("Why can connectors feel a little tight?", "Chrome plating can leave minor irregularities at the tube ends. Please insert connectors carefully; function is not affected."),
     ])
     + small("<b>Business seller.</b> Invoice with VAT shown on request. Legal notice, withdrawal information and terms are available in our eBay shop.<br>"
-            "<b>Manufacturer / responsible person (EU):</b> [COMPANY, ADDRESS, EMAIL – CHECK]. Not suitable for children under 3 years (small parts in accessories). "
-            "Tube ends may be sharp – handle with care.")
+            "<b>Manufacturer / responsible person (EU):</b> [COMPANY, ADDRESS, EMAIL – CHECK]. Product: chrome tube 35/50/75 cm (item no. RH-USM-350 / -500 / -750). "
+            "Not a toy. Tube ends may be sharp – handle with care.")
 )
 
 DIVIDER = (f'<div style="text-align:center;margin:30px 0 22px;color:{MUTED};font-family:Arial,Helvetica,sans-serif;font-size:13px;letter-spacing:2px;">'

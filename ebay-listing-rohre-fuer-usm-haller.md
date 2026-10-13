@@ -40,7 +40,6 @@
 | Material | Stahl, verchromt **[PRÜFEN: Stahl / Edelstahl / Aluminium]** |
 | Farbe | Chrom / Silber |
 | Durchmesser (Breite/Höhe) | 19 mm **[PRÜFEN]** |
-| Wandstärke | **[PRÜFEN]** mm |
 | Modellkompatibilität | Für USM Haller |
 | Markenkompatibilität | Für USM Haller |
 | Geeignet für | Möbelsystem USM Haller |
@@ -89,7 +88,6 @@ Fotos je Variante: Foto der Länge mit Maßband, Foto der Rohrenden (innen/auße
  <li>Material: Stahl, verchromt [PRÜFEN]</li>
  <li>Farbe: Chrom / Silber</li>
  <li>Durchmesser: 19 mm [PRÜFEN]</li>
- <li>Wandstärke: [PRÜFEN] mm</li>
  <li>Tatsächliche Länge: 35 cm-Variante [PRÜFEN] mm, 50 cm-Variante [PRÜFEN] mm, 75 cm-Variante [PRÜFEN] mm</li>
  <li>Zustand: Neu</li>
 </ul>
@@ -144,7 +142,6 @@ Produkt: Rohr für Möbelsysteme, Chrom. Nicht für Kinder unter 3 Jahren geeign
  <li>Material: chrome-plated steel [CHECK]</li>
  <li>Colour: chrome / silver</li>
  <li>Diameter: 19 mm [CHECK]</li>
- <li>Wall thickness: [CHECK] mm</li>
  <li>Actual length: 35 cm version [CHECK] mm, 50 cm version [CHECK] mm, 75 cm version [CHECK] mm</li>
  <li>Condition: New</li>
 </ul>

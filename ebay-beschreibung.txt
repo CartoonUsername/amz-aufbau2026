@@ -16,7 +16,6 @@
 <table style="border-collapse:collapse;font-size:13px;margin:0 0 10px">
 <tr><td style="padding:2px 14px 2px 0">Material</td><td>Stahl, verchromt [PRÜFEN]</td></tr>
 <tr><td style="padding:2px 14px 2px 0">Durchmesser</td><td>19 mm [PRÜFEN]</td></tr>
-<tr><td style="padding:2px 14px 2px 0">Wandstärke</td><td>[PRÜFEN] mm</td></tr>
 <tr><td style="padding:2px 14px 2px 0">Tatsächliche Länge</td><td>35 cm: [PRÜFEN] mm · 50 cm: [PRÜFEN] mm · 75 cm: [PRÜFEN] mm</td></tr>
 <tr><td style="padding:2px 14px 2px 0">Zustand</td><td>Neu</td></tr>
 </table>
@@ -55,7 +54,6 @@
 <table style="border-collapse:collapse;font-size:13px;margin:0 0 10px">
 <tr><td style="padding:2px 14px 2px 0">Material</td><td>chrome-plated steel [CHECK]</td></tr>
 <tr><td style="padding:2px 14px 2px 0">Diameter</td><td>19 mm [CHECK]</td></tr>
-<tr><td style="padding:2px 14px 2px 0">Wall thickness</td><td>[CHECK] mm</td></tr>
 <tr><td style="padding:2px 14px 2px 0">Actual length</td><td>35 cm: [CHECK] mm · 50 cm: [CHECK] mm · 75 cm: [CHECK] mm</td></tr>
 <tr><td style="padding:2px 14px 2px 0">Condition</td><td>New</td></tr>
 </table>
