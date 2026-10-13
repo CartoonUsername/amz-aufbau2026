@@ -23,11 +23,12 @@
 ### Titel (max. 80 Zeichen)
 
 **DE (Hauptangebot):**
-`Chromrohr kompatibel mit USM Haller – Länge wählbar 35 / 50 / 75 cm – Neuware`  (77 Zeichen)
+`Rohr für USM Haller Chrom – 35 / 50 / 75 cm wählbar – Ersatzrohr kompatibel Neu`  (79 Zeichen)
 
 **EN (falls eBay.com / eBay.co.uk / Auslandsversand):**
-`Chrome Tube compatible with USM Haller – Choose Length 35 / 50 / 75 cm – New`  (76 Zeichen)
+`Tube for USM Haller Chrome – 35 / 50 / 75 cm Choose Length – Replacement New`  (76 Zeichen)
 
+> Conversion-Logik: Die ersten Wörter entsprechen der typischen Käufer-Suche „Rohr für USM Haller“ (Marktplatz-Suchen wie „USM Haller Rohr“, „Rohr Stange USM Haller“, Längen 35/50/75). Die Marke steht bewusst hinter „für“, damit keine Originalware suggeriert wird. Die Zahlen mit Einheit „cm“ und „wählbar“ zeigen sofort die Varianten.
 > Bewusst anders formuliert als die Konkurrenzangebote (dort: „Rohr Stange Für USM Haller … Systemmaß … Brandneu Sortiment“): kein „Rohr Stange“, keine Zahlenreihen ohne Einheit, kein Keyword-Stuffing, kein „Brandneu/Sortiment“, stattdessen „Chromrohr“, „kompatibel mit“ und „Länge wählbar“.
 > „kompatibel mit“ / „compatible with“ immer vor dem Markennamen lassen. Kein „Original“, kein „USM-Rohr“, kein „USM Haller Rohr“ ohne „kompatibel mit“.
 
@@ -176,7 +177,7 @@ Product: tube for furniture systems, chrome. Not suitable for children under 3 y
 
 ## 5. Suchbegriffe (für Titel/Artikelmerkmale, nicht ins Markenfeld)
 
-DE: Chromrohr, Ersatzrohr, Verbindungsrohr, kompatibel mit USM Haller, Möbelsystem, Regalrohr, Erweiterung, Reparatur, Möbelzubehör
+DE: Rohr für USM Haller, USM Haller Rohr (nur in Artikelmerkmalen/Beschreibung), Chrom, Ersatzrohr, Stange, 35 cm, 50 cm, 75 cm, Systemmaß 350/500/750, kompatibel, Möbelzubehör, Erweiterung, Reparatur
 EN: chrome tube, replacement tube, connecting tube, compatible with USM Haller, modular furniture, shelf tube, extension, repair
 
 ---
