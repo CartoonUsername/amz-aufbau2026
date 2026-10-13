@@ -8,7 +8,7 @@
   body { font-family: Arial, Helvetica, sans-serif; max-width: 960px; margin: 24px auto; padding: 0 16px; background: #fff; color: #222; }
   h1 { font-size: 22px; }
   h2 { font-size: 17px; margin-top: 28px; }
-  textarea { width: 100%; height: 320px; font-family: Consolas, monospace; font-size: 12px; box-sizing: border-box; }
+  textarea { width: 100%; height: 560px; font-family: Consolas, monospace; font-size: 12px; box-sizing: border-box; }
   button { padding: 10px 16px; margin: 8px 8px 0 0; font-size: 14px; cursor: pointer; border: 0; border-radius: 6px; background: #0064d2; color: #fff; }
   button.sec { background: #555; }
   .note { background: #fff6d6; border: 1px solid #e5cf7a; padding: 10px 12px; border-radius: 6px; font-size: 14px; }
@@ -20,8 +20,8 @@
 <h1>eBay-Beschreibung: Chromrohre kompatibel mit USM Haller</h1>
 <p class="note">Vor dem Einfügen alle Stellen mit <strong>[PRÜFEN]</strong> bzw. <strong>[CHECK]</strong> durch eure echten Daten ersetzen. In eBay unter „Beschreibung“ den Editor auf <strong>HTML</strong> stellen und den Code einfügen.</p>
 
-<h2>1. Deutsch</h2>
-<textarea id="de" readonly><div style="font-family:Arial,Helvetica,sans-serif;max-width:900px;line-height:1.5">
+<h2>Beschreibung Deutsch + English (ein Block)</h2>
+<textarea id="all" readonly><div style="font-family:Arial,Helvetica,sans-serif;max-width:900px;line-height:1.5">
 
 <h2>Chromrohr, kompatibel mit USM Haller – Länge wählbar: 35, 50 oder 75 cm</h2>
 
@@ -68,11 +68,9 @@
 <p>Hersteller / Verantwortliche Person in der EU: [FIRMENNAME, ANSCHRIFT, E-MAIL – PRÜFEN]<br>
 Produkt: Rohr für Möbelsysteme, Chrom. Nicht für Kinder unter 3 Jahren geeignet (Kleinteile/Verschluckungsgefahr bei Zubehör). Rohrenden können scharfkantig sein – bitte vorsichtig handhaben. Nicht als tragendes Bauteil außerhalb des vorgesehenen Möbelsystems verwenden.</p>
 
-</div></textarea>
-<button onclick="copyText('de', this)">Deutsch kopieren</button><span class="ok" id="ok-de"></span>
-
-<h2>2. English</h2>
-<textarea id="en" readonly><div style="font-family:Arial,Helvetica,sans-serif;max-width:900px;line-height:1.5">
+</div>
+<hr>
+<div style="font-family:Arial,Helvetica,sans-serif;max-width:900px;line-height:1.5">
 
 <h2>Chrome tube, compatible with USM Haller – choose your length: 35, 50 or 75 cm</h2>
 
@@ -120,30 +118,21 @@ Produkt: Rohr für Möbelsysteme, Chrom. Nicht für Kinder unter 3 Jahren geeign
 Product: tube for furniture systems, chrome. Not suitable for children under 3 years (small parts / choking hazard for accessories). Tube ends may be sharp – handle with care. Do not use as a load-bearing component outside the intended furniture system.</p>
 
 </div></textarea>
-<button onclick="copyText('en', this)">English kopieren</button><span class="ok" id="ok-en"></span>
-
-<h2>3. Deutsch + English in einem Block</h2>
-<button onclick="copyBoth(this)">Beide zusammen kopieren</button><span class="ok" id="ok-both"></span>
+<button onclick="copyAll()">Alles kopieren</button><span class="ok" id="ok-all"></span>
 
 <script>
-function flash(id) {
-  var el = document.getElementById('ok-' + id);
-  el.textContent = 'Kopiert!';
-  setTimeout(function () { el.textContent = ''; }, 2000);
-}
-function writeClip(text, id) {
+function copyAll() {
+  var text = document.getElementById("all").value;
+  var done = function () {
+    var el = document.getElementById("ok-all");
+    el.textContent = "Kopiert!";
+    setTimeout(function () { el.textContent = ""; }, 2000);
+  };
   if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(text).then(function () { flash(id); });
+    navigator.clipboard.writeText(text).then(done);
   } else {
-    var t = document.createElement('textarea');
-    t.value = text; document.body.appendChild(t); t.select();
-    document.execCommand('copy'); document.body.removeChild(t); flash(id);
+    var t = document.getElementById("all"); t.select(); document.execCommand("copy"); done();
   }
-}
-function copyText(id) { writeClip(document.getElementById(id).value, id); }
-function copyBoth() {
-  var both = document.getElementById('de').value + '\n<hr>\n' + document.getElementById('en').value;
-  writeClip(both, 'both');
 }
 </script>
 </body>
