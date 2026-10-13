@@ -23,12 +23,13 @@
 ### Titel (max. 80 Zeichen)
 
 **DE (Hauptangebot):**
-`Rohr Stange für USM Haller Systemmaß 350 500 750 mm verchromt Chrom Neu`  (71 Zeichen)
+`Chromrohr kompatibel mit USM Haller – Länge wählbar 35 / 50 / 75 cm – Neuware`  (77 Zeichen)
 
 **EN (falls eBay.com / eBay.co.uk / Auslandsversand):**
-`Chrome Tube Rod compatible with USM Haller 350 500 750 mm System Size New`  (73 Zeichen)
+`Chrome Tube compatible with USM Haller – Choose Length 35 / 50 / 75 cm – New`  (76 Zeichen)
 
-> „für“ / „compatible with“ immer vor dem Markennamen lassen. Kein „Original“, kein „USM-Rohr“, kein „USM Haller Rohr“ ohne „für“.
+> Bewusst anders formuliert als die Konkurrenzangebote (dort: „Rohr Stange Für USM Haller … Systemmaß … Brandneu Sortiment“): kein „Rohr Stange“, keine Zahlenreihen ohne Einheit, kein Keyword-Stuffing, kein „Brandneu/Sortiment“, stattdessen „Chromrohr“, „kompatibel mit“ und „Länge wählbar“.
+> „kompatibel mit“ / „compatible with“ immer vor dem Markennamen lassen. Kein „Original“, kein „USM-Rohr“, kein „USM Haller Rohr“ ohne „kompatibel mit“.
 
 ### Artikelmerkmale (Item Specifics)
 
@@ -68,7 +69,7 @@ Fotos je Variante: Foto der Länge mit Maßband, Foto der Rohrenden (innen/auße
 ```html
 <div style="font-family:Arial,Helvetica,sans-serif;max-width:900px;line-height:1.5">
 
-<h2>Chromrohr für USM Haller – Systemmaß 350 / 500 / 750 mm</h2>
+<h2>Chromrohr, kompatibel mit USM Haller – Länge wählbar: 35, 50 oder 75 cm</h2>
 
 <p><strong>Wichtiger Hinweis:</strong> Dies ist ein <strong>kompatibles Ersatz- und Ergänzungsteil, kein Originalteil</strong> der USM U. Schärer Söhne AG. „USM“ und „USM Haller“ sind eingetragene Marken der USM U. Schärer Söhne AG. Wir sind weder mit USM verbunden noch von USM autorisiert. Die Nennung erfolgt ausschließlich, um die Kompatibilität anzugeben.</p>
 
@@ -123,7 +124,7 @@ Produkt: Rohr für Möbelsysteme, Chrom. Nicht für Kinder unter 3 Jahren geeign
 ```html
 <div style="font-family:Arial,Helvetica,sans-serif;max-width:900px;line-height:1.5">
 
-<h2>Chrome Tube compatible with USM Haller – System Size 350 / 500 / 750 mm</h2>
+<h2>Chrome tube, compatible with USM Haller – choose your length: 35, 50 or 75 cm</h2>
 
 <p><strong>Important notice:</strong> This is a <strong>compatible replacement / add-on part, not an original part</strong> by USM U. Schärer Söhne AG. “USM” and “USM Haller” are registered trademarks of USM U. Schärer Söhne AG. We are not affiliated with, authorised or endorsed by USM. The names are used solely to indicate compatibility.</p>
 
@@ -175,8 +176,8 @@ Product: tube for furniture systems, chrome. Not suitable for children under 3 y
 
 ## 5. Suchbegriffe (für Titel/Artikelmerkmale, nicht ins Markenfeld)
 
-DE: USM Haller Rohr, USM Haller Stange, Systemmaß 350, 500, 750, verchromt, Möbelzubehör, Ersatzteil, Erweiterung, Regal, Tablar, Konnektor, Kugel
-EN: USM Haller tube, chrome rod, system furniture, replacement part, extension, shelf, connector, ball
+DE: Chromrohr, Ersatzrohr, Verbindungsrohr, kompatibel mit USM Haller, Möbelsystem, Regalrohr, Erweiterung, Reparatur, Möbelzubehör
+EN: chrome tube, replacement tube, connecting tube, compatible with USM Haller, modular furniture, shelf tube, extension, repair
 
 ---
 
