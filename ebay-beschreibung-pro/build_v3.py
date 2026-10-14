@@ -94,8 +94,8 @@ DE = wrap(
     ])
     + sec("Technische Daten")
     + spec([("Material", "Stahl, verchromt"), ("Oberfläche", "Chrom, glänzend"), ("Durchmesser", "19 mm"),
-            ("Tatsächliche Länge", "35 cm: 350 mm · 50 cm: 500 mm · 75 cm: 750 mm"), ("Zustand", "Neu")])
-    + small("Das Systemmaß ist der Abstand der Kugelmittelpunkte im Regal. Die tatsächliche Rohrlänge ist daher etwas kürzer und kann um wenige Millimeter abweichen.")
+            ("Zustand", "Neu")])
+    + small("Länge, Durchmesser und Systemmaß entsprechen den Maßen der jeweiligen Original-Rohre; geringe Fertigungstoleranzen sind möglich.")
     + IMG_MASS
     + sec("So prüfst du die Passform")
     + steps(["Miss am vorhandenen Regal den Abstand von Kugelmitte zu Kugelmitte.",
@@ -124,8 +124,8 @@ EN = wrap(
     ])
     + sec("Specifications")
     + spec([("Material", "Chrome-plated steel"), ("Finish", "Chrome, glossy"), ("Diameter", "19 mm"),
-            ("Actual length", "35 cm: 350 mm · 50 cm: 500 mm · 75 cm: 750 mm"), ("Condition", "New")])
-    + small("System size is the distance between the ball centres in the shelf. The actual tube length is therefore slightly shorter and may vary by a few millimetres.")
+            ("Condition", "New")])
+    + small("Length, diameter and system size match the dimensions of the respective original tubes; minor manufacturing tolerances are possible.")
     + sec("How to check the fit")
     + steps(["Measure the distance from ball centre to ball centre on your existing shelf.",
              "Choose the matching length: 350, 500 or 750 mm system size.",

@@ -62,8 +62,8 @@ DE = wrap(
     ], ["16%", "20%", "64%"])
     + h("Technische Daten")
     + kv([("Material", "Stahl, verchromt"), ("Oberfläche", "Chrom, glänzend"), ("Durchmesser", "19 mm"),
-          ("Tatsächliche Länge", "35 cm: 350 mm · 50 cm: 500 mm · 75 cm: 750 mm"), ("Zustand", "Neu")])
-    + p("Das Systemmaß ist der Abstand der Kugelmittelpunkte im Regal. Die tatsächliche Rohrlänge ist daher etwas kürzer und kann um wenige Millimeter abweichen.", f"font-size:12.5px;color:{MUTED};margin-top:6px;")
+          ("Zustand", "Neu")])
+    + p("Länge, Durchmesser und Systemmaß entsprechen den Maßen der jeweiligen Original-Rohre; geringe Fertigungstoleranzen sind möglich.", f"font-size:12.5px;color:{MUTED};margin-top:6px;")
     + h("So prüfst du die Passform")
     + ol(["Miss am vorhandenen Regal den Abstand von Kugelmitte zu Kugelmitte.",
           "Wähle die passende Länge: 350, 500 oder 750 mm Systemmaß.",
@@ -93,8 +93,8 @@ EN = wrap(
     ], ["16%", "20%", "64%"])
     + h("Specifications")
     + kv([("Material", "Chrome-plated steel"), ("Finish", "Chrome, glossy"), ("Diameter", "19 mm"),
-          ("Actual length", "35 cm: 350 mm · 50 cm: 500 mm · 75 cm: 750 mm"), ("Condition", "New")])
-    + p("System size is the distance between the ball centres in the shelf. The actual tube length is therefore slightly shorter and may vary by a few millimetres.", f"font-size:12.5px;color:{MUTED};margin-top:6px;")
+          ("Condition", "New")])
+    + p("Length, diameter and system size match the dimensions of the respective original tubes; minor manufacturing tolerances are possible.", f"font-size:12.5px;color:{MUTED};margin-top:6px;")
     + h("How to check the fit")
     + ol(["Measure the distance from ball centre to ball centre on your existing shelf.",
           "Choose the matching length: 350, 500 or 750 mm system size.",
