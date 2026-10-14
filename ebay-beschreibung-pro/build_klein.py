@@ -43,27 +43,23 @@ def bar(t):
             f'font-weight:bold;letter-spacing:2px;text-transform:uppercase;padding:5px 12px;">{t}</div></div>')
 
 DE = wrap(
-    title("Chromrohr, kompatibel mit USM Haller", "Länge wählbar: <b>35 cm · 50 cm · 75 cm</b>",
-          "Neuware &nbsp;|&nbsp; Versand kostenlos, mit Sendungsverfolgung &nbsp;|&nbsp; 30 Tage Rückgabe")
+    title("Chromrohr, kompatibel mit USM Haller", "Länge wählbar: ca. <b>35 cm · 50 cm · 75 cm</b>",
+          "Neuware")
     + notice("Wichtiger Hinweis:", "Produkt eines Drittherstellers, <b>kein Originalteil</b> von USM Haller. Der genannte Markenname „USM Haller“ ist markenrechtlich geschützt (USM U. Schärer Söhne AG) und dient nur der Angabe der Kompatibilität. Keine Werksvertretung, keine Verbindung zu USM. Originale USM-Haller-Teile erhältst du direkt bei der USM U. Schärer Söhne AG oder bei deren lizenzierten Handelspartnern.")
-    + table(["Länge", "Systemmaß"], [("35 cm", "350 mm"), ("50 cm", "500 mm"), ("75 cm", "750 mm")])
-    + kv([("Material", "Stahl, verchromt"), ("Oberfläche", "Chrom, glänzend"), ("Durchmesser", "19 mm"), ("Zustand", "Neu")])
+    + table(["Länge", "Systemmaß"], [("ca. 35 cm", "ca. 332 mm"), ("ca. 50 cm", "ca. 482 mm"), ("ca. 75 cm", "ca. 732 mm")])
+    + kv([("Material", "Stahl, verchromt"), ("Oberfläche", "Chrom, glänzend"), ("Durchmesser", "ca. 19 mm"), ("Wandstärke", "ca. 1,2 mm"), ("Zustand", "Neu")])
     + p("Länge, Durchmesser und Systemmaß entsprechen den Maßen der jeweiligen Original-Rohre; geringe Fertigungstoleranzen sind möglich. Eine 100-%ige Passgenauigkeit zu allen Originalteilen können wir nicht zusichern, bitte vergleiche die Maße vor dem Kauf.", "12.5px", MUTED, "8px")
     + p("<b>Lieferumfang:</b> 1 Rohr in der gewählten Länge. <b>Nicht enthalten:</b> Kugeln, Konnektoren, Füße, Tablare, Türen, Werkzeug.")
-    + p("Chromoberflächen können herstellungsbedingt minimale Unebenheiten an den Rohrenden aufweisen. Konnektoren bitte vorsichtig einsetzen.", "12.5px", MUTED, "0")
-    + foot("<b>Gewerblicher Verkäufer.</b> Rechnung mit ausgewiesener MwSt. auf Wunsch. Impressum, Widerrufsbelehrung und AGB findest du in unserem eBay-Shop.")
 )
 
 EN = wrap(
-    title("Chrome tube, compatible with USM Haller", "Choose your length: <b>35 cm · 50 cm · 75 cm</b>",
-          "Brand new &nbsp;|&nbsp; Free tracked shipping &nbsp;|&nbsp; 30-day returns")
+    title("Chrome tube, compatible with USM Haller", "Choose your length: ca. <b>35 cm · 50 cm · 75 cm</b>",
+          "Brand new")
     + notice("Important notice:", "Product by a third-party manufacturer, <b>not an original</b> USM Haller part. The brand name “USM Haller” is protected by trademark law (USM U. Schärer Söhne AG) and is used only to indicate compatibility. No factory representation and no affiliation with USM. For original USM Haller parts, please contact USM U. Schärer Söhne AG directly or its licensed dealers.")
-    + table(["Length", "System size"], [("35 cm", "350 mm"), ("50 cm", "500 mm"), ("75 cm", "750 mm")])
-    + kv([("Material", "Chrome-plated steel"), ("Finish", "Chrome, glossy"), ("Diameter", "19 mm"), ("Condition", "New")])
+    + table(["Length", "System size"], [("ca. 35 cm", "ca. 332 mm"), ("ca. 50 cm", "ca. 482 mm"), ("ca. 75 cm", "ca. 732 mm")])
+    + kv([("Material", "Chrome-plated steel"), ("Finish", "Chrome, glossy"), ("Diameter", "ca. 19 mm"), ("Wall thickness", "ca. 1.2 mm"), ("Condition", "New")])
     + p("Length, diameter and system size match the dimensions of the respective original tubes; minor manufacturing tolerances are possible. We cannot guarantee a 100% fit with all original parts, please compare measurements before purchase.", "12.5px", MUTED, "8px")
     + p("<b>Included:</b> 1 tube in the selected length. <b>Not included:</b> balls, connectors, feet, shelves, doors, tools.")
-    + p("Chrome plating can leave minor irregularities at the tube ends. Please insert connectors carefully.", "12.5px", MUTED, "0")
-    + foot("<b>Business seller.</b> Invoice with VAT shown on request. Legal notice, withdrawal information and terms are available in our eBay shop.")
 )
 
 code = ("<!-- ===== DEUTSCH ===== -->\n" + bar("Deutsch") + "\n" + DE + "\n\n<div style=\"height:18px;\"></div>\n"
