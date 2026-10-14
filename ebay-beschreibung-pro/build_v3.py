@@ -85,7 +85,7 @@ IMG_MASS = '<!-- Optional: Maß-Bild hier einfügen (eBay-Bild-URL eintragen)\n<
 DE = wrap(
     title("Chromrohr, kompatibel mit USM Haller", "Länge wählbar: <b>35 cm · 50 cm · 75 cm</b>")
     + facts([("Zustand", "Neuware"), ("Versand", "kostenlos, mit Sendungsverfolgung"), ("Rückgabe", "30 Tage")])
-    + notice("Wichtiger Hinweis:", "Kompatibles Ersatz- und Ergänzungsteil, <b>kein Originalteil</b> der USM U. Schärer Söhne AG. „USM“ und „USM Haller“ sind Marken der USM U. Schärer Söhne AG. Wir sind nicht mit USM verbunden; die Nennung dient ausschließlich der Angabe der Kompatibilität.")
+    + notice("Wichtiger Hinweis:", "Produkt eines Drittherstellers, <b>kein Originalteil</b> von USM Haller. Der genannte Markenname „USM Haller“ ist markenrechtlich geschützt (USM U. Schärer Söhne AG) und dient nur der Angabe der Kompatibilität. Keine Werksvertretung, keine Verbindung zu USM. Originale USM-Haller-Teile erhältst du direkt bei der USM U. Schärer Söhne AG oder bei deren lizenzierten Handelspartnern.")
     + sec("Welche Länge brauchst du?")
     + variants(["Länge", "Systemmaß", "Typisch für"], [
         ("35 cm", "350 mm", "Regale mit 35 cm Tiefe oder überall dort, wo 350 mm Systemmaß benötigt werden."),
@@ -115,7 +115,7 @@ DE = wrap(
 EN = wrap(
     title("Chrome tube, compatible with USM Haller", "Choose your length: <b>35 cm · 50 cm · 75 cm</b>")
     + facts([("Condition", "Brand new"), ("Shipping", "free, tracked"), ("Returns", "30 days")])
-    + notice("Important notice:", "Compatible replacement / add-on part, <b>not an original part</b> by USM U. Schärer Söhne AG. “USM” and “USM Haller” are trademarks of USM U. Schärer Söhne AG. We are not affiliated with USM; the names are used solely to indicate compatibility.")
+    + notice("Important notice:", "Product by a third-party manufacturer, <b>not an original</b> USM Haller part. The brand name “USM Haller” is protected by trademark law (USM U. Schärer Söhne AG) and is used only to indicate compatibility. No factory representation and no affiliation with USM. For original USM Haller parts, please contact USM U. Schärer Söhne AG directly or its licensed dealers.")
     + sec("Which length do you need?")
     + variants(["Length", "System size", "Typical for"], [
         ("35 cm", "350 mm", "Shelves with a depth of 35 cm, or anywhere a 350 mm system size is required."),
