@@ -47,22 +47,22 @@ def bar(t):
 
 DE = wrap(
     title("Chromrohr, kompatibel mit USM Haller", "Länge wählbar: ca. <b>35 cm · 50 cm · 75 cm</b> (Systemmaß)",
-          "Spurenfreie Oberfläche, wird jedoch als gebraucht verkauft")
-    + notice("Wichtiger Hinweis:", "Produkt eines Drittherstellers, <b>kein Originalteil</b> von USM Haller. Der genannte Markenname „USM Haller“ ist markenrechtlich geschützt (USM U. Schärer Söhne AG) und dient nur der Angabe der Kompatibilität. Keine Werksvertretung, keine Verbindung zu USM. Originale USM-Haller-Teile erhältst du direkt bei der USM U. Schärer Söhne AG oder bei deren lizenzierten Handelspartnern.")
+          "Ohne sichtbare Gebrauchsspuren &nbsp;|&nbsp; Zustand: gebraucht")
+    + notice("Wichtiger Hinweis:", "Dieses Produkt stammt von einem Drittanbieter und ist <b>kein Original</b> von USM Haller. „USM Haller“ ist eine geschützte Marke der USM U. Schärer Söhne AG und wird hier ausschließlich genannt, um die Kompatibilität zu beschreiben. Wir sind kein Vertriebspartner von USM. Original-Teile erhältst du beim Hersteller selbst oder bei dessen autorisierten Händlern.")
     + table(["Variante", "Systemmaß (Nominallänge)", "Effektive Länge"], [("ca. 35 cm", "ca. 350 mm", "ca. 332 mm"), ("ca. 50 cm", "ca. 500 mm", "ca. 482 mm"), ("ca. 75 cm", "ca. 750 mm", "ca. 732 mm")])
-    + p("Die effektive Länge der Rohre ergibt sich aus der Nominallänge (Achsenmaß) minus 18 mm (z. B. 750 mm – 18 mm = 732 mm).", "12.5px", MUTED, "8px")
-    + kv([("Material", "Präzisionsstahlrohr, verchromt"), ("Oberfläche", "verchromt, glänzend"), ("Außendurchmesser", "ca. 19 mm"), ("Wandstärke", "ca. 1,2 mm"), ("Rohrenden", "an jeder Endung innen und außen angeschrägt"), ("Zustand", "Spurenfreie Oberfläche, wird jedoch als gebraucht verkauft")])
+    + p("Zieht man vom Systemmaß (Abstand der Achsmitten) 18 mm ab, erhält man die tatsächliche Rohrlänge, bei 750 mm also 732 mm.", "12.5px", MUTED, "8px")
+    + kv([("Material", "Rohr aus Präzisionsstahl, verchromt"), ("Oberfläche", "glänzend verchromt"), ("Außendurchmesser", "ca. 19 mm"), ("Wandstärke", "ca. 1,2 mm"), ("Rohrenden", "beidseitig innen und außen abgeschrägt"), ("Zustand", "gebraucht, Oberfläche ohne sichtbare Spuren")])
     + p("Systemmaß und Durchmesser entsprechen den Maßen der jeweiligen Original-Rohre; geringe Fertigungstoleranzen sind möglich. Eine 100-%ige Passgenauigkeit zu allen Originalteilen können wir nicht zusichern, bitte vergleiche die Maße vor dem Kauf.", "12.5px", MUTED, "8px")
     + p("<b>Lieferumfang:</b> 1 Stück Rohr in der gewählten Länge. <b>Nicht enthalten:</b> Kugeln, Konnektoren, Füße, Tablare, Türen, Werkzeug.")
 )
 
 EN = wrap(
     title("Chrome tube, compatible with USM Haller", "Choose your length: ca. <b>35 cm · 50 cm · 75 cm</b> (system size)",
-          "Trace-free surface, but sold as used")
-    + notice("Important notice:", "Product by a third-party manufacturer, <b>not an original</b> USM Haller part. The brand name “USM Haller” is protected by trademark law (USM U. Schärer Söhne AG) and is used only to indicate compatibility. No factory representation and no affiliation with USM. For original USM Haller parts, please contact USM U. Schärer Söhne AG directly or its licensed dealers.")
+          "No visible signs of use &nbsp;|&nbsp; Condition: used")
+    + notice("Important notice:", "This product comes from a third-party supplier and is <b>not an original</b> USM Haller part. “USM Haller” is a protected trademark of USM U. Schärer Söhne AG and is mentioned here only to describe compatibility. We are not a distributor of USM. Original parts are available from the manufacturer itself or from its authorised dealers.")
     + table(["Variant", "System size (nominal length)", "Effective length"], [("ca. 35 cm", "ca. 350 mm", "ca. 332 mm"), ("ca. 50 cm", "ca. 500 mm", "ca. 482 mm"), ("ca. 75 cm", "ca. 750 mm", "ca. 732 mm")])
-    + p("The effective length of the tubes is the nominal length (axis dimension) minus 18 mm (e.g. 750 mm – 18 mm = 732 mm).", "12.5px", MUTED, "8px")
-    + kv([("Material", "Precision steel tube, chrome-plated"), ("Finish", "chrome-plated, glossy"), ("Outer diameter", "ca. 19 mm"), ("Wall thickness", "ca. 1.2 mm"), ("Tube ends", "chamfered inside and outside at each end"), ("Condition", "Trace-free surface, but sold as used")])
+    + p("If you subtract 18 mm from the system size (distance between the axis centres), you get the actual tube length, i.e. 732 mm for 750 mm.", "12.5px", MUTED, "8px")
+    + kv([("Material", "Tube made of precision steel, chrome-plated"), ("Finish", "glossy chrome plating"), ("Outer diameter", "ca. 19 mm"), ("Wall thickness", "ca. 1.2 mm"), ("Tube ends", "bevelled on the inside and outside at both ends"), ("Condition", "used, surface without visible marks")])
     + p("System size and diameter match the dimensions of the respective original tubes; minor manufacturing tolerances are possible. We cannot guarantee a 100% fit with all original parts, please compare measurements before purchase.", "12.5px", MUTED, "8px")
     + p("<b>Included:</b> 1 piece of tube in the selected length. <b>Not included:</b> balls, connectors, feet, shelves, doors, tools.")
 )
