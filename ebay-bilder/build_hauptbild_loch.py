@@ -1,67 +1,87 @@
-"""Hauptbild 75 cm: Basisbild (hauptbild-basis.webp) + ein kleines Stanzloch pro Rohr, mittig auf der Oberseite."""
-import math
+"""Hauptbild 75 cm: Basisbild (hauptbild-basis.webp, unverändert) + ein Stanzloch pro Rohr.
+Positionen und Größe der Löcher exakt nach der Vorgabe-Markierung (schwarze Punkte, Durchmesser ca. 54 px bei 2000 px)."""
 import numpy as np
-from PIL import Image, ImageDraw, ImageFilter
+from PIL import Image
 
-SS = 4
+SS = 6
 base = Image.open('hauptbild-basis.webp').convert('RGB')
 W, H = base.size
-
-ENDS = [(840, 1630), (1090, 1480), (1326, 1344), (1560, 1206), (1790, 1076)]   # Mittelpunkte der Rohröffnungen
-DIR = (-0.825, -0.565)                                                           # Rohrachse (nach oben links)
-PERP = 48                                                                        # Korrektur senkrecht zur Achse (Perspektive), nach oben rechts
-DIST = 800                                                                       # Abstand Öffnung -> Loch
-HOLE_A, HOLE_B = 30, 24                                                          # Halbachsen (längs / quer)
-ANG = math.degrees(math.atan2(DIR[1], DIR[0]))
-
-layer = Image.new('RGBA', (W * SS, H * SS), (0, 0, 0, 0))
-shadow = Image.new('L', (W, H), 0)
-sd = ImageDraw.Draw(shadow)
-
-def hole(cx, cy, ang):
-    size = 140 * SS
-    t = Image.new('RGBA', (size, size), (0, 0, 0, 0))
-    ar = np.zeros((size, size, 4), np.float32)
-    yy, xx = np.mgrid[0:size, 0:size].astype(np.float32)
-    x = xx - size / 2
-    y = yy - size / 2
-    a, b = HOLE_A * SS, HOLE_B * SS
-    e = (x / a) ** 2 + (y / b) ** 2
-    # Rand (glänzende Lochkante)
-    rim = (e <= 1.30) & (e > 0.98)
-    inside = e <= 0.98
-    # Innenseite: oben fast schwarz, unten (Innenwand) etwas heller
-    t_ = np.clip((y / b + 1) / 2, 0, 1)
-    inner = 10 + 55 * (t_ ** 2.2) * np.clip(1 - e, 0, 1) ** 0.4
-    ar[inside, :3] = inner[inside][:, None]
-    ar[inside, 3] = 255
-    # Kante: hell, oben dunkler (Schattenseite)
-    rv = 215 - 60 * (1 - t_)
-    ar[rim, :3] = rv[rim][:, None]
-    ar[rim, 3] = 255
-    # weicher Übergang
-    im = Image.fromarray(np.clip(ar, 0, 255).astype(np.uint8), 'RGBA')
-    im = im.rotate(-ang, resample=Image.BICUBIC, expand=False)
-    layer.alpha_composite(im, (int(cx * SS - size / 2), int(cy * SS - size / 2)))
-
-# Rohrmitten (gemessen): Schnitt quer durch alle Rohre; Mitte = Mitte zwischen den Rohrgrenzen
-# (rechte Silhouette, drei Fugen zwischen den Rohren). Die dunkle Reflexionsbahn liegt bei jedem Rohr gleich dicht an dieser Mitte.
-VP = (-6974.0, -5100.0)    # Fluchtpunkt der Rohrachsen (aus den Außenkanten)
-# alle fünf Löcher liegen exakt auf einer Geraden (y = 1000 - 0,654 x) und je auf der Rohrachse (Mitte)
-HOLES = [(74, 951), (300, 804), (509, 667), (707, 538), (897, 413)]
-for (cx, cy) in HOLES:
-    ang = math.degrees(math.atan2(cy - VP[1], cx - VP[0]))
-    hole(cx, cy, ang + 180)
-    sd.ellipse([cx - 44, cy - 38, cx + 44, cy + 38], fill=255)
-
-shadow = shadow.filter(ImageFilter.GaussianBlur(14))
-sh = np.array(shadow).astype(np.float32) / 255.0
 arr = np.array(base).astype(np.float32)
-arr *= (1 - 0.22 * sh[..., None])
-base2 = Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8)).convert('RGBA')
-lay = layer.resize((W, H), Image.LANCZOS)
-base2.alpha_composite(lay)
-out = base2.convert('RGB')
+
+# Mittelpunkte der Markierungen (1250-px-Vorlage x 1,6)
+HOLES = [(774.6, 250.2), (600.8, 367.2), (415.0, 499.7), (214.9, 628.3), (-1.0, 790.7)]
+R = 27.2          # Lochradius in Pixel (2000 px)
+
+
+def smoothstep(e0, e1, x):
+    t = np.clip((x - e0) / (e1 - e0), 0, 1)
+    return t * t * (3 - 2 * t)
+
+
+def paint(cx, cy):
+    global arr
+    pad = int(R) + 10
+    x0, y0 = int(round(cx)) - pad, int(round(cy)) - pad
+    size = 2 * pad
+    g = (np.arange(size * SS) + 0.5) / SS
+    xx, yy = np.meshgrid(g, g)
+    px = xx + x0 - cx      # relativ zum Lochmittelpunkt
+    py = yy + y0 - cy
+    r = np.sqrt(px ** 2 + py ** 2)
+
+    # Innenkreis (Öffnung) leicht nach unten rechts verschoben -> sichtbare Schnittkante oben links
+    ox, oy = 2.4, 3.4
+    ri = np.sqrt((px - ox) ** 2 + (py - oy) ** 2)
+    Ri = R - 4.6
+
+    col = np.zeros(px.shape + (3,), np.float32)
+    alpha = np.zeros(px.shape, np.float32)
+
+    # 1) Kontaktschatten außen (sanft)
+    ao = np.clip(1 - (r - R) / 7.0, 0, 1) ** 2 * (r > R)
+    # 2) Schnittkante / Rand (Chrom, hell oben links, dunkler unten rechts)
+    ang = np.arctan2(py, px)
+    lit = 0.5 + 0.5 * np.cos(ang - np.deg2rad(-135))            # 1 oben links
+    rim_v = 150 + 95 * lit
+    rim_v = np.where(r > R - 1.1, rim_v * 0.55 + 40, rim_v)     # feine dunkle Außenlinie
+    # 3) Öffnung: Innenwand des Rohres (gegenüberliegende Seite), sonst fast schwarz
+    t = np.clip((py - oy) / Ri, -1, 1)
+    inner_v = 6 + 58 * smoothstep(-0.2, 1.0, t) ** 1.6 + 10 * smoothstep(0.2, 1.0, ri / Ri)
+    inner_v *= 1 - 0.55 * smoothstep(0.75, 1.0, ri / Ri) * (1 - smoothstep(-0.6, 0.4, t))  # Kante oben dunkler
+    inside = ri <= Ri
+    ring = (r <= R) & ~inside
+
+    v = np.where(inside, inner_v, rim_v)
+    col[..., 0] = v; col[..., 1] = v; col[..., 2] = v * 1.01
+    a_disc = smoothstep(R + 0.8, R - 0.8, r)
+    alpha = a_disc
+    # Übergang Öffnung/Rand antialiasen
+    blend = smoothstep(Ri + 0.8, Ri - 0.8, ri)
+    v = rim_v * (1 - blend) + inner_v * blend
+    col[..., 0] = v; col[..., 1] = v; col[..., 2] = v * 1.01
+
+    # runterskalieren (Supersampling)
+    def down(a):
+        return a.reshape(size, SS, size, SS, *a.shape[2:]).mean(axis=(1, 3))
+    col_d = down(col)
+    al_d = down(alpha)
+    ao_d = down(ao.astype(np.float32))
+
+    # in Bild einsetzen (mit Clipping an Bildrändern)
+    xs0, ys0 = max(x0, 0), max(y0, 0)
+    xs1, ys1 = min(x0 + size, W), min(y0 + size, H)
+    sx0, sy0 = xs0 - x0, ys0 - y0
+    sx1, sy1 = sx0 + (xs1 - xs0), sy0 + (ys1 - ys0)
+    reg = arr[ys0:ys1, xs0:xs1]
+    reg *= (1 - 0.28 * ao_d[sy0:sy1, sx0:sx1, None])
+    a_ = al_d[sy0:sy1, sx0:sx1, None]
+    arr[ys0:ys1, xs0:xs1] = reg * (1 - a_) + col_d[sy0:sy1, sx0:sx1] * a_
+
+
+for cx, cy in HOLES:
+    paint(cx, cy)
+
+out = Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8))
 out.save('hauptbild-75cm-loch.png')
-out.save('hauptbild-75cm-loch.jpg', quality=93)
+out.save('hauptbild-75cm-loch.jpg', quality=94)
 print('ok')
