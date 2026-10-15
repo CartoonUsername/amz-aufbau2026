@@ -47,7 +47,8 @@ def hole(cx, cy, ang):
 # Rohrmitten (gemessen): Schnitt quer durch alle Rohre; Mitte = Mitte zwischen den Rohrgrenzen
 # (rechte Silhouette, drei Fugen zwischen den Rohren). Die dunkle Reflexionsbahn liegt bei jedem Rohr gleich dicht an dieser Mitte.
 VP = (-6974.0, -5100.0)    # Fluchtpunkt der Rohrachsen (aus den Außenkanten)
-HOLES = [(196, 1056), (439, 916), (664, 787), (879, 664), (1085, 545)]
+# alle fünf Löcher liegen exakt auf einer Geraden (y = 1000 - 0,654 x) und je auf der Rohrachse (Mitte)
+HOLES = [(74, 951), (300, 804), (509, 667), (707, 538), (897, 413)]
 for (cx, cy) in HOLES:
     ang = math.degrees(math.atan2(cy - VP[1], cx - VP[0]))
     hole(cx, cy, ang + 180)
