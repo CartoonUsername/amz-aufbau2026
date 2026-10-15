@@ -44,9 +44,9 @@ def hole(cx, cy):
     im = im.rotate(-ANG, resample=Image.BICUBIC, expand=False)
     layer.alpha_composite(im, (int(cx * SS - size / 2), int(cy * SS - size / 2)))
 
-for (ex, ey) in ENDS:
-    cx = ex + DIR[0] * DIST + 0.515 * PERP
-    cy = ey + DIR[1] * DIST - 0.857 * PERP
+# Positionen laut Vorgabe (Markierungen im Referenzbild, Koordinaten x1,6 auf 2000 px)
+HOLES = [(747, 227), (562, 371), (375, 506), (199, 651), (6, 827)]
+for (cx, cy) in HOLES:
     hole(cx, cy)
     sd.ellipse([cx - 44, cy - 38, cx + 44, cy + 38], fill=255)
 
