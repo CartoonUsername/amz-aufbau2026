@@ -8,7 +8,7 @@ base = Image.open('hauptbild-basis.webp').convert('RGB')
 W, H = base.size
 
 ENDS = [(840, 1630), (1090, 1480), (1326, 1344), (1560, 1206), (1790, 1076)]   # Mittelpunkte der Rohröffnungen
-DIR = (-0.857, -0.515)                                                           # Rohrachse (nach oben links)
+DIR = (-0.825, -0.565)                                                           # Rohrachse (nach oben links)
 PERP = 48                                                                        # Korrektur senkrecht zur Achse (Perspektive), nach oben rechts
 DIST = 800                                                                       # Abstand Öffnung -> Loch
 HOLE_A, HOLE_B = 30, 24                                                          # Halbachsen (längs / quer)
@@ -18,7 +18,7 @@ layer = Image.new('RGBA', (W * SS, H * SS), (0, 0, 0, 0))
 shadow = Image.new('L', (W, H), 0)
 sd = ImageDraw.Draw(shadow)
 
-def hole(cx, cy):
+def hole(cx, cy, ang):
     size = 140 * SS
     t = Image.new('RGBA', (size, size), (0, 0, 0, 0))
     ar = np.zeros((size, size, 4), np.float32)
@@ -41,13 +41,16 @@ def hole(cx, cy):
     ar[rim, 3] = 255
     # weicher Übergang
     im = Image.fromarray(np.clip(ar, 0, 255).astype(np.uint8), 'RGBA')
-    im = im.rotate(-ANG, resample=Image.BICUBIC, expand=False)
+    im = im.rotate(-ang, resample=Image.BICUBIC, expand=False)
     layer.alpha_composite(im, (int(cx * SS - size / 2), int(cy * SS - size / 2)))
 
-# Positionen laut Vorgabe (Markierungen im Referenzbild, Koordinaten x1,6 auf 2000 px)
-HOLES = [(747, 227), (562, 371), (375, 506), (199, 651), (6, 827)]
+# Rohrmitten (gemessen): Schnitt quer durch alle Rohre; Mitte = Mitte zwischen den Rohrgrenzen
+# (rechte Silhouette, drei Fugen zwischen den Rohren). Die dunkle Reflexionsbahn liegt bei jedem Rohr gleich dicht an dieser Mitte.
+VP = (-6974.0, -5100.0)    # Fluchtpunkt der Rohrachsen (aus den Außenkanten)
+HOLES = [(196, 1056), (439, 916), (664, 787), (879, 664), (1085, 545)]
 for (cx, cy) in HOLES:
-    hole(cx, cy)
+    ang = math.degrees(math.atan2(cy - VP[1], cx - VP[0]))
+    hole(cx, cy, ang + 180)
     sd.ellipse([cx - 44, cy - 38, cx + 44, cy + 38], fill=255)
 
 shadow = shadow.filter(ImageFilter.GaussianBlur(14))
