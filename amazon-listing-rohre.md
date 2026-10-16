@@ -3,28 +3,28 @@
 Felder entsprechen dem Amazon-Dialog „Produkt hinzufügen" (Produktidentität → Beschreibung → Produktdetails → Angebot).
 
 ## Variationen
-Thema **Größe** (Eltern-Artikel + 3 Kind-Artikel): 35 cm · 50 cm · 75 cm
+Thema **Größe** (nur Größe anhaken, nicht Material – alle Rohre haben dasselbe Material) (Eltern-Artikel + 3 Kind-Artikel): 35 cm · 50 cm · 75 cm
 
 ## Titel (max. 200 Zeichen, hier 114–132)
 
 **Eltern-Artikel (132 Zeichen)**
 ```
-EmsCraft24 Chromrohr kompatibel mit USM Haller – verchromtes Präzisionsstahlrohr Ø 19 mm – Ersatzrohr in 35, 50 oder 75 cm Systemmaß
+Chromrohr kompatibel mit USM Haller – verchromtes Präzisionsstahlrohr Ø 19 mm – Ersatzrohr in 35, 50 oder 75 cm Systemmaß
 ```
 
 **Kind 35 cm (114)**
 ```
-EmsCraft24 Chromrohr kompatibel mit USM Haller – verchromtes Präzisionsstahlrohr Ø 19 mm, Systemmaß 350 mm (35 cm)
+Chromrohr kompatibel mit USM Haller – verchromtes Präzisionsstahlrohr Ø 19 mm, Systemmaß 350 mm (35 cm)
 ```
 
 **Kind 50 cm (114)**
 ```
-EmsCraft24 Chromrohr kompatibel mit USM Haller – verchromtes Präzisionsstahlrohr Ø 19 mm, Systemmaß 500 mm (50 cm)
+Chromrohr kompatibel mit USM Haller – verchromtes Präzisionsstahlrohr Ø 19 mm, Systemmaß 500 mm (50 cm)
 ```
 
 **Kind 75 cm (114)**
 ```
-EmsCraft24 Chromrohr kompatibel mit USM Haller – verchromtes Präzisionsstahlrohr Ø 19 mm, Systemmaß 750 mm (75 cm)
+Chromrohr kompatibel mit USM Haller – verchromtes Präzisionsstahlrohr Ø 19 mm, Systemmaß 750 mm (75 cm)
 ```
 
 ## Aufzählungspunkte (Artikelhighlights, 5 Felder, ohne Punkt am Ende)
@@ -76,7 +76,7 @@ Möbelrohr Stahlrohr verchromt Chromrohr Ersatzrohr Regalrohr Verbindungsrohr Ch
 ## Produktdetails / Attribute
 | Feld | Wert |
 |---|---|
-| Marke | EmsCraft24 (nur eigene Marke, nicht „USM") |
+| Markenname | Generisch (Amazon-Vorgabe, gesperrt; keine Marke im Titel) |
 | Material | Stahl, verchromt |
 | Farbe | Chrom / Silber |
 | Oberfläche | glänzend |
