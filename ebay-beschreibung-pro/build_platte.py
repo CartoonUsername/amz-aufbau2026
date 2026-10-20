@@ -46,23 +46,25 @@ def bar(t):
             f'font-weight:bold;letter-spacing:2px;text-transform:uppercase;padding:5px 12px;">{t}</div></div>')
 
 DE = wrap(
-    title("Schreibtischplatte, kompatibel mit USM Haller", "Farbe wählbar: <b>Weiß · Schwarz</b>",
+    title("Beschichtete Schreibtischplatte, kompatibel mit USM Haller", "Farbe wählbar: <b>Weiß/Grau · Schwarz (Holzoptik)</b>",
           "Neu")
     + notice("Wichtiger Hinweis:", "Dieses Produkt stammt von einem Drittanbieter und ist <b>kein Original</b> von USM Haller. „USM Haller“ ist eine geschützte Marke der USM U. Schärer Söhne AG und wird hier ausschließlich genannt, um die Kompatibilität zu beschreiben. Wir sind kein Vertriebspartner von USM. Original-Teile erhältst du beim Hersteller selbst oder bei dessen autorisierten Händlern.")
-    + table(["Variante", "Länge × Breite (Außenmaß)", "Stärke"], [("Größe 1", "ca. 150 × 75 cm (1500 × 750 mm)", "ca. 19 mm"), ("Größe 2", "ca. 175 × 75 cm (1750 × 750 mm)", "ca. 19 mm"), ("Größe 3", "ca. 200 × 100 cm (2000 × 1000 mm)", "ca. 19 mm")])
-    + kv([("Farben", "Weiß · Schwarz"), ("Material", "Spanplatte, beschichtet"), ("Oberfläche Weiß", "glatt"), ("Oberfläche Schwarz", "mit Holzstruktur"), ("Eckaussparungen", "an allen vier Ecken für die Rohre"), ("Kanten", "abgeschrägt"), ("Zustand", "Neu")])
+    + table(["Variante", "Länge × Breite (Außenmaß)", "Stärke"], [("Größe 1", "ca. 150 × 75 cm (1500 × 750 mm)", "ca. 20 mm"), ("Größe 2", "ca. 175 × 75 cm (1750 × 750 mm)", "ca. 20 mm"), ("Größe 3", "ca. 200 × 100 cm (2000 × 1000 mm)", "ca. 20 mm")])
+    + kv([("Farben", "Weiß/Grau · Schwarz (Holzoptik)"), ("Material", "Spanplatte, beschichtet"), ("Oberfläche Weiß/Grau", "glatt"), ("Oberfläche Schwarz", "Holzoptik mit Holzstruktur"), ("Eckaussparungen", "an allen vier Ecken für die Rohre"), ("Kanten", "abgeschrägt"), ("Zustand", "Neu")])
     + p("Bitte vergleiche Länge, Breite und die Eckaussparungen vor dem Kauf mit deinem Tischgestell. Eine 100-%ige Passgenauigkeit zu allen Originalteilen können wir nicht zusichern, geringe Fertigungstoleranzen sind möglich.", "12.5px", MUTED, "8px")
     + p("<b>Lieferumfang:</b> 1 Schreibtischplatte in der gewählten Größe und Farbe. <b>Nicht enthalten:</b> Rohre, Kugeln, Konnektoren, Füße, Tischgestell, Werkzeug.")
+    + p("<b>Größere Mengen oder andere Maße:</b> auf Anfrage möglich. Bitte senden Sie uns dazu eine Nachricht über eBay.", "13px", "#222222", "6px")
 )
 
 EN = wrap(
-    title("Desk top, compatible with USM Haller", "Choose your colour: <b>White · Black</b>",
+    title("Coated desk top, compatible with USM Haller", "Choose your colour: <b>White/grey · Black (wood look)</b>",
           "New")
     + notice("Important notice:", "This product comes from a third-party supplier and is <b>not an original</b> USM Haller part. “USM Haller” is a protected trademark of USM U. Schärer Söhne AG and is mentioned here only to describe compatibility. We are not a distributor of USM. Original parts are available from the manufacturer itself or from its authorised dealers.")
-    + table(["Variant", "Length × width (outer dimensions)", "Thickness"], [("Size 1", "ca. 150 × 75 cm (1500 × 750 mm)", "ca. 19 mm"), ("Size 2", "ca. 175 × 75 cm (1750 × 750 mm)", "ca. 19 mm"), ("Size 3", "ca. 200 × 100 cm (2000 × 1000 mm)", "ca. 19 mm")])
-    + kv([("Colours", "White · Black"), ("Material", "Coated chipboard"), ("Finish white", "smooth"), ("Finish black", "with wood-grain texture"), ("Corner cut-outs", "at all four corners for the tubes"), ("Edges", "bevelled"), ("Condition", "New")])
+    + table(["Variant", "Length × width (outer dimensions)", "Thickness"], [("Size 1", "ca. 150 × 75 cm (1500 × 750 mm)", "ca. 20 mm"), ("Size 2", "ca. 175 × 75 cm (1750 × 750 mm)", "ca. 20 mm"), ("Size 3", "ca. 200 × 100 cm (2000 × 1000 mm)", "ca. 20 mm")])
+    + kv([("Colours", "White/grey · Black (wood look)"), ("Material", "Coated chipboard"), ("Finish white/grey", "smooth"), ("Finish black", "wood look with wood-grain texture"), ("Corner cut-outs", "at all four corners for the tubes"), ("Edges", "bevelled"), ("Condition", "New")])
     + p("Please compare length, width and the corner cut-outs with your table frame before purchase. We cannot guarantee a 100% fit with all original parts; minor manufacturing tolerances are possible.", "12.5px", MUTED, "8px")
     + p("<b>Included:</b> 1 desk top in the selected size and colour. <b>Not included:</b> tubes, balls, connectors, feet, table frame, tools.")
+    + p("<b>Larger quantities or other sizes:</b> available on request. Please send us a message via eBay.", "13px", "#222222", "6px")
 )
 
 code = ("<!-- ===== DEUTSCH ===== -->\n" + bar("Deutsch") + "\n" + DE + "\n\n<div style=\"height:18px;\"></div>\n"
