@@ -5,18 +5,18 @@
 ## Titel
 Mit Varianten (Länge wählbar):
 ```
-EmsCraft24 Chromrohr kompatibel mit USM Haller, Ø 19 mm, verchromt, 35 / 50 / 75 cm wählbar
+EmsCraft24 Ersatzrohr verchromt, kompatibel mit USM Haller, Ø 19 mm, 35 / 50 / 75 cm wählbar
 ```
 Pro Variante:
 ```
-EmsCraft24 Chromrohr kompatibel mit USM Haller, Ø 19 mm, verchromt, Systemmaß 350 mm (35 cm)
-EmsCraft24 Chromrohr kompatibel mit USM Haller, Ø 19 mm, verchromt, Systemmaß 500 mm (50 cm)
-EmsCraft24 Chromrohr kompatibel mit USM Haller, Ø 19 mm, verchromt, Systemmaß 750 mm (75 cm)
+EmsCraft24 Ersatzrohr verchromt, kompatibel mit USM Haller, Ø 19 mm, Systemmaß 350 mm (35 cm)
+EmsCraft24 Ersatzrohr verchromt, kompatibel mit USM Haller, Ø 19 mm, Systemmaß 500 mm (50 cm)
+EmsCraft24 Ersatzrohr verchromt, kompatibel mit USM Haller, Ø 19 mm, Systemmaß 750 mm (75 cm)
 ```
 
 ## Produkteigenschaften / Stichpunkte
 ```
-Kompatibel mit USM Haller (Systemmaß 350, 500 oder 750 mm)
+Ersatzrohr, kompatibel mit USM Haller (Systemmaß 350, 500 oder 750 mm)
 Präzisionsstahlrohr, glänzend verchromt
 Außendurchmesser ca. 19 mm, Wandstärke ca. 1,2 mm
 Effektive Länge ca. 18 mm unter dem Systemmaß (z. B. ca. 732 mm bei 750 mm)
@@ -25,9 +25,9 @@ Lieferumfang: 1 Stück Rohr in der gewählten Länge
 
 ## Beschreibung (reiner Text, ohne HTML)
 ```
-Chromrohr, kompatibel mit USM Haller
+Ersatzrohr aus Chrom, kompatibel mit USM Haller
 
-Verchromtes Präzisionsstahlrohr als Ersatz- oder Erweiterungsrohr für Möbel mit USM-Haller-System. Die Länge ist wählbar: ca. 35 cm, 50 cm oder 75 cm (Systemmaß).
+Verchromtes Präzisionsstahlrohr als Ersatz für defekte oder fehlende Rohre sowie als Erweiterungsrohr für Möbel mit USM-Haller-System. Die Länge ist wählbar: ca. 35 cm, 50 cm oder 75 cm (Systemmaß).
 
 Wichtiger Hinweis: Dieses Produkt stammt von einem Drittanbieter und ist kein Original von USM Haller. „USM Haller“ ist eine geschützte Marke der USM U. Schärer Söhne AG und wird hier ausschließlich genannt, um die Kompatibilität zu beschreiben. Wir sind kein Vertriebspartner von USM. Original-Teile erhalten Sie beim Hersteller selbst oder bei dessen autorisierten Händlern.
 
