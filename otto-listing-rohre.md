@@ -1,50 +1,54 @@
-# Otto Marktplatz – Listing Chromrohr (kompatibel mit USM Haller)
+# Otto Marktplatz – Listing Ersatzrohr Chrom (kompatibel mit USM Haller)
 
 **Marke:** EmsCraft24 (über „Neue Marke anlegen“; nie „USM“)
 
 ## Titel
-Mit Varianten (Länge wählbar):
+Variantenartikel:
 ```
-EmsCraft24 Ersatzrohr verchromt, kompatibel mit USM Haller, Ø 19 mm, 35 / 50 / 75 cm wählbar
+EmsCraft24 Ersatzrohr Chrom für USM Haller, Ø 19 mm, in 35, 50 und 75 cm Systemmaß
 ```
 Pro Variante:
 ```
-EmsCraft24 Ersatzrohr verchromt, kompatibel mit USM Haller, Ø 19 mm, Systemmaß 350 mm (35 cm)
-EmsCraft24 Ersatzrohr verchromt, kompatibel mit USM Haller, Ø 19 mm, Systemmaß 500 mm (50 cm)
-EmsCraft24 Ersatzrohr verchromt, kompatibel mit USM Haller, Ø 19 mm, Systemmaß 750 mm (75 cm)
+EmsCraft24 Ersatzrohr Chrom für USM Haller, Ø 19 mm, Systemmaß 350 mm (35 cm)
+EmsCraft24 Ersatzrohr Chrom für USM Haller, Ø 19 mm, Systemmaß 500 mm (50 cm)
+EmsCraft24 Ersatzrohr Chrom für USM Haller, Ø 19 mm, Systemmaß 750 mm (75 cm)
 ```
 
-## Produkteigenschaften / Stichpunkte
+## Produkteigenschaften
 ```
-Ersatzrohr, kompatibel mit USM Haller (Systemmaß 350, 500 oder 750 mm)
-Präzisionsstahlrohr, glänzend verchromt
+Ersatzrohr für USM Haller in 35, 50 oder 75 cm Systemmaß
+Präzisionsstahl, glänzend verchromt
 Außendurchmesser ca. 19 mm, Wandstärke ca. 1,2 mm
-Effektive Länge ca. 18 mm unter dem Systemmaß (z. B. ca. 732 mm bei 750 mm)
-Lieferumfang: 1 Stück Rohr in der gewählten Länge
+Effektive Länge: Systemmaß minus ca. 18 mm
+Lieferumfang: 1 Rohr, ohne Kugeln, Konnektoren und Zubehör
 ```
 
-## Beschreibung (reiner Text, ohne HTML)
+## Beschreibung (reiner Text)
 ```
-Ersatzrohr aus Chrom, kompatibel mit USM Haller
+Ersatzrohr aus Chrom für USM Haller
 
-Verchromtes Präzisionsstahlrohr als Ersatz für defekte oder fehlende Rohre sowie als Erweiterungsrohr für Möbel mit USM-Haller-System. Die Länge ist wählbar: ca. 35 cm, 50 cm oder 75 cm (Systemmaß).
+Ein Rohr fehlt oder ist beschädigt? Dieses verchromte Ersatzrohr aus Präzisionsstahl ersetzt es oder erweitert Ihr Möbel um ein zusätzliches Rohr. Sie wählen die Länge: ca. 35 cm, 50 cm oder 75 cm Systemmaß.
 
-Wichtiger Hinweis: Dieses Produkt stammt von einem Drittanbieter und ist kein Original von USM Haller. „USM Haller“ ist eine geschützte Marke der USM U. Schärer Söhne AG und wird hier ausschließlich genannt, um die Kompatibilität zu beschreiben. Wir sind kein Vertriebspartner von USM. Original-Teile erhalten Sie beim Hersteller selbst oder bei dessen autorisierten Händlern.
+Die richtige Länge finden
+Messen Sie am Möbel den Abstand von Kugelmitte zu Kugelmitte. Dieses Systemmaß entspricht der Variante:
+- 35 cm = Systemmaß ca. 350 mm (effektive Länge ca. 332 mm)
+- 50 cm = Systemmaß ca. 500 mm (effektive Länge ca. 482 mm)
+- 75 cm = Systemmaß ca. 750 mm (effektive Länge ca. 732 mm)
+Die effektive Länge ist das Systemmaß abzüglich ca. 18 mm.
 
-Längen im Überblick
-35 cm: Systemmaß ca. 350 mm, effektive Länge ca. 332 mm
-50 cm: Systemmaß ca. 500 mm, effektive Länge ca. 482 mm
-75 cm: Systemmaß ca. 750 mm, effektive Länge ca. 732 mm
-Das Systemmaß ist der Abstand der Achsmitten. Die tatsächliche Rohrlänge ergibt sich, wenn man 18 mm abzieht, bei 750 mm also 732 mm.
+Eigenschaften
+- Material: Rohr aus Präzisionsstahl, verchromt
+- Oberfläche: glänzend verchromt
+- Außendurchmesser: ca. 19 mm
+- Wandstärke: ca. 1,2 mm
+- Zustand: Neu
 
-Technische Daten
-Material: Rohr aus Präzisionsstahl, verchromt
-Oberfläche: glänzend verchromt
-Außendurchmesser: ca. 19 mm
-Wandstärke: ca. 1,2 mm
-Zustand: Neu
+Lieferumfang
+1 Stück Rohr in der gewählten Länge. Nicht im Lieferumfang: Kugeln, Konnektoren, Füße, Tablare, Türen und Werkzeug.
 
-Systemmaß und Durchmesser entsprechen den Maßen der jeweiligen Original-Rohre; geringe Fertigungstoleranzen sind möglich. Eine 100-%ige Passgenauigkeit zu allen Originalteilen können wir nicht zusichern, bitte vergleichen Sie die Maße vor dem Kauf.
+Hinweis zur Passform
+Systemmaß und Durchmesser orientieren sich an den Maßen der jeweiligen Original-Rohre. Geringe Fertigungstoleranzen sind möglich, eine 100-%ige Passgenauigkeit können wir nicht zusichern. Bitte vergleichen Sie die Maße vor dem Kauf.
 
-Lieferumfang: 1 Stück Rohr in der gewählten Länge. Nicht enthalten: Kugeln, Konnektoren, Füße, Tablare, Türen, Werkzeug.
+Wichtiger Hinweis
+Dieses Produkt stammt von einem Drittanbieter und ist kein Original von USM Haller. „USM Haller“ ist eine geschützte Marke der USM U. Schärer Söhne AG und wird hier ausschließlich genannt, um die Kompatibilität zu beschreiben. Wir sind kein Vertriebspartner von USM. Original-Teile erhalten Sie beim Hersteller selbst oder bei dessen autorisierten Händlern.
 ```
