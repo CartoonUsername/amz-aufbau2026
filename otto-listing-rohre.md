@@ -1,17 +1,18 @@
 # Otto Marktplatz – Listing Ersatzrohr Chrom (kompatibel mit USM Haller)
 
-**Marke:** EmsCraft24 (über „Neue Marke anlegen“; nie „USM“)
+**Marke:** EmsCraft24 (über „Neue Marke anlegen“; nie „USM“). Produkt-Eigenname max. 70 Zeichen, Marke setzt Otto selbst davor.
 
-## Titel
+## Eigenname (Varianten 82 mm / 35 / 50 / 75 cm)
 Variantenartikel:
 ```
-EmsCraft24 Ersatzrohr Chrom für USM Haller, Ø 19 mm, in 35, 50 und 75 cm Systemmaß
+Rohr kompatibel als Ersatz für USM Haller, Chrom, Ø 19 mm, 82/35/50/75 cm
 ```
 Pro Variante:
 ```
-EmsCraft24 Ersatzrohr Chrom für USM Haller, Ø 19 mm, Systemmaß 350 mm (35 cm)
-EmsCraft24 Ersatzrohr Chrom für USM Haller, Ø 19 mm, Systemmaß 500 mm (50 cm)
-EmsCraft24 Ersatzrohr Chrom für USM Haller, Ø 19 mm, Systemmaß 750 mm (75 cm)
+Rohr kompatibel als Ersatz für USM Haller, Chrom, Ø 19 mm, 82 mm
+Rohr kompatibel als Ersatz für USM Haller, Chrom, Ø 19 mm, 350 mm
+Rohr kompatibel als Ersatz für USM Haller, Chrom, Ø 19 mm, 500 mm
+Rohr kompatibel als Ersatz für USM Haller, Chrom, Ø 19 mm, 750 mm
 ```
 
 ## Bullet Points (je max. 180 Zeichen)
@@ -26,12 +27,13 @@ Zustand: Neu
 ## Produktbeschreibung (reiner Text, gleiche Informationen wie bei eBay)
 ```
 Ersatzrohr aus Chrom, kompatibel mit USM Haller
-Länge wählbar: ca. 35 cm, 50 cm oder 75 cm (Systemmaß)
+Länge wählbar: ca. 82 mm, 35 cm, 50 cm oder 75 cm (Systemmaß)
 Zustand: Neu
 
 Wichtiger Hinweis: Dieses Produkt stammt von einem Drittanbieter und ist kein Original von USM Haller. „USM Haller“ ist eine geschützte Marke der USM U. Schärer Söhne AG und wird hier ausschließlich genannt, um die Kompatibilität zu beschreiben. Wir sind kein Vertriebspartner von USM. Original-Teile erhalten Sie beim Hersteller selbst oder bei dessen autorisierten Händlern.
 
 Varianten (Systemmaß = Nominallänge / effektive Länge)
+- ca. 82 mm: Systemmaß ca. 82 mm, effektive Länge ca. 64 mm
 - ca. 35 cm: Systemmaß ca. 350 mm, effektive Länge ca. 332 mm
 - ca. 50 cm: Systemmaß ca. 500 mm, effektive Länge ca. 482 mm
 - ca. 75 cm: Systemmaß ca. 750 mm, effektive Länge ca. 732 mm
