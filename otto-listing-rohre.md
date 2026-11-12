@@ -5,7 +5,7 @@
 ## Eigenname (Varianten 82 mm / 35 / 50 / 75 cm)
 Variantenartikel:
 ```
-Rohr kompatibel als Ersatz für USM Haller, Chrom, Ø 19 mm, 82/35/50/75 cm
+Rohr kompatibel als Ersatz für USM Haller, Chrom, Ø 19 mm, 82-750 mm
 ```
 Pro Variante:
 ```
