@@ -3,13 +3,18 @@
 Felder entsprechen dem Amazon-Dialog „Produkt hinzufügen" (Produktidentität → Beschreibung → Produktdetails → Angebot).
 
 ## Variationen
-Thema **Größe** (nur Größe anhaken, nicht Material – alle Rohre haben dasselbe Material) (Eltern-Artikel + 3 Kind-Artikel): 35 cm · 50 cm · 75 cm
+Thema **Größe** (nur Größe anhaken, nicht Material – alle Rohre haben dasselbe Material) (Eltern-Artikel + 4 Kind-Artikel): 82 mm · 35 cm · 50 cm · 75 cm
 
 ## Titel (max. 200 Zeichen, hier 114–132)
 
 **Eltern-Artikel (132 Zeichen)**
 ```
-Chromrohr kompatibel mit USM Haller – verchromtes Präzisionsstahlrohr Ø 19 mm – Ersatzrohr in 35, 50 oder 75 cm Systemmaß
+Chromrohr kompatibel mit USM Haller – verchromtes Präzisionsstahlrohr Ø 19 mm – Ersatzrohr in 82 mm, 35, 50 oder 75 cm Systemmaß
+```
+
+**Kind 82 mm (113)**
+```
+Chromrohr kompatibel mit USM Haller – verchromtes Präzisionsstahlrohr Ø 19 mm, Systemmaß 82 mm
 ```
 
 **Kind 35 cm (114)**
@@ -30,10 +35,10 @@ Chromrohr kompatibel mit USM Haller – verchromtes Präzisionsstahlrohr Ø 19 m
 ## Aufzählungspunkte (Artikelhighlights, 5 Felder, ohne Punkt am Ende)
 
 ```
-Kompatibel mit USM Haller: Ersatzrohr für das Möbelbausystem mit Systemmaß 350, 500 oder 750 mm (Abstand der Achsmitten) – bitte vergleichen Sie die Maße vor dem Kauf mit Ihrem Möbel
+Kompatibel mit USM Haller: Ersatzrohr für das Möbelbausystem mit Systemmaß 82, 350, 500 oder 750 mm (Abstand der Achsmitten) – bitte vergleichen Sie die Maße vor dem Kauf mit Ihrem Möbel
 ```
 ```
-Länge wählbar: 35 cm, 50 cm oder 75 cm Systemmaß – die effektive Rohrlänge liegt ca. 18 mm darunter (z. B. ca. 732 mm bei 750 mm Systemmaß)
+Länge wählbar: 82 mm, 35 cm, 50 cm oder 75 cm Systemmaß – die effektive Rohrlänge liegt ca. 18 mm darunter (z. B. ca. 64 mm bei 82 mm, ca. 732 mm bei 750 mm)
 ```
 ```
 Hochwertige Verarbeitung: Präzisionsstahlrohr, glänzend verchromt, Außendurchmesser ca. 19 mm, Wandstärke ca. 1,2 mm
@@ -49,17 +54,17 @@ Wichtiger Hinweis: Dieses Produkt stammt von einem Drittanbieter und ist kein Or
 
 ```
 <b>Chromrohr für das USM-Haller-Möbelbausystem</b><br>
-Dieses verchromte Präzisionsstahlrohr eignet sich als Ersatz- oder Erweiterungsrohr für Möbel, die mit dem USM-Haller-System kompatibel sind. Sie wählen zwischen drei Längen: 35 cm, 50 cm und 75 cm Systemmaß.<br><br>
+Dieses verchromte Präzisionsstahlrohr eignet sich als Ersatz- oder Erweiterungsrohr für Möbel, die mit dem USM-Haller-System kompatibel sind. Sie wählen zwischen vier Längen: 82 mm, 35 cm, 50 cm und 75 cm Systemmaß.<br><br>
 <b>Technische Daten</b><br>
-Systemmaß (Nominallänge): 350 / 500 / 750 mm – Abstand der Achsmitten<br>
-Effektive Länge: ca. 332 / 482 / 732 mm (Systemmaß minus ca. 18 mm)<br>
+Systemmaß (Nominallänge): 82 / 350 / 500 / 750 mm – Abstand der Achsmitten<br>
+Effektive Länge: ca. 64 / 332 / 482 / 732 mm (Systemmaß minus ca. 18 mm)<br>
 Außendurchmesser: ca. 19 mm<br>
 Wandstärke: ca. 1,2 mm<br>
 Material: Präzisionsstahlrohr, glänzend verchromt<br>
 Zustand: Neu<br><br>
 <b>So prüfen Sie die Passform</b><br>
 1. Messen Sie am vorhandenen Möbel den Abstand von Kugelmitte zu Kugelmitte.<br>
-2. Wählen Sie die passende Länge: 350, 500 oder 750 mm Systemmaß.<br>
+2. Wählen Sie die passende Länge: 82, 350, 500 oder 750 mm Systemmaß.<br>
 3. Vergleichen Sie den Rohrdurchmesser (ca. 19 mm) mit Ihren vorhandenen Rohren.<br>
 Geringe Fertigungstoleranzen sind möglich. Eine 100-%ige Passgenauigkeit zu allen Originalteilen können wir nicht zusichern.<br><br>
 <b>Lieferumfang</b><br>
@@ -70,7 +75,7 @@ Dieses Produkt stammt von einem Drittanbieter und ist kein Original von USM Hall
 
 ## Suchbegriffe (198 Bytes, max. 250, ohne Fremdmarken und ohne Wiederholungen aus dem Titel)
 ```
-Möbelrohr Stahlrohr verchromt Chromrohr Ersatzrohr Regalrohr Verbindungsrohr Chromstange Rohr 19mm Möbelbausystem Regal Sideboard Tischgestell Schreibtisch Ersatzteil Chrom Rohre 350mm 500mm 750mm
+Möbelrohr Stahlrohr verchromt Chromrohr Ersatzrohr Regalrohr Verbindungsrohr Chromstange Rohr 19mm Möbelbausystem Regal Sideboard Tischgestell Schreibtisch Ersatzteil Chrom Rohre 82mm 350mm 500mm 750mm
 ```
 
 ## Produktdetails / Attribute
