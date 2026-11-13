@@ -50,26 +50,26 @@ NOTE_DE = "Dieses Produkt stammt von einem Drittanbieter und ist <b>kein Origina
 NOTE_EN = "This product comes from a third-party supplier and is <b>not an original</b> USM Haller part. “USM Haller” is a protected trademark of USM U. Schärer Söhne AG and is mentioned here only to describe compatibility. We are not a distributor of USM. Original parts are available from the manufacturer itself or from its authorised dealers."
 
 DE = wrap(
-    title("Führungsrolle für Schubladen, kompatibel mit USM Haller", "Ersatz-Auszugrolle für Container und Doppelcontainer", "Zustand: [PRÜFEN: Neu / Neu: Sonstige]")
+    title("Führungsrolle für Schubladen, kompatibel mit USM Haller", "Ersatz-Auszugrolle für Container und Doppelcontainer", "Neu")
     + notice("Wichtiger Hinweis:", NOTE_DE)
     + kv([("Artikel", "Führungsrolle (Auszugrolle) für Schubladen"),
           ("Verwendung", "Container und Doppelcontainer, Aufnahme der Schubladen am Schwerlastrahmen"),
           ("Material", "Eisen"),
           ("Befestigung", "Montagelöcher an beiden Enden"),
-          ("Zustand", "[PRÜFEN: Neu]")])
+          ("Zustand", "Neu")])
     + p("Bitte vergleiche die Befestigungspunkte vor dem Kauf mit deinem Möbel. Eine 100-%ige Passgenauigkeit zu allen Originalteilen können wir nicht zusichern, geringe Fertigungstoleranzen sind möglich.", "12.5px", MUTED, "8px")
     + p("<b>Lieferumfang:</b> 1 Stück Führungsrolle. <b>Nicht enthalten:</b> Schrauben, Schubladen, Rahmen, Werkzeug.")
     + p("<b>Größere Mengen:</b> auf Anfrage möglich. Bitte senden Sie uns dazu eine Nachricht.", "13px", "#222222", "6px")
 )
 
 EN = wrap(
-    title("Drawer guide roller, compatible with USM Haller", "Replacement roller for pedestals and double pedestals", "Condition: [CHECK: New / New: other]")
+    title("Drawer guide roller, compatible with USM Haller", "Replacement roller for pedestals and double pedestals", "New")
     + notice("Important notice:", NOTE_EN)
     + kv([("Item", "Guide roller for drawers"),
           ("Use", "Pedestals and double pedestals, carries the drawers on the heavy-duty frame"),
           ("Material", "Iron"),
           ("Mounting", "Mounting holes at both ends"),
-          ("Condition", "[CHECK: New]")])
+          ("Condition", "New")])
     + p("Please compare the mounting points with your furniture before purchase. We cannot guarantee a 100% fit with all original parts; minor manufacturing tolerances are possible.", "12.5px", MUTED, "8px")
     + p("<b>Included:</b> 1 guide roller. <b>Not included:</b> screws, drawers, frame, tools.")
     + p("<b>Larger quantities:</b> available on request. Please send us a message.", "13px", "#222222", "6px")
