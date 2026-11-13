@@ -54,13 +54,12 @@ DE = wrap(
     + notice("Wichtiger Hinweis:", NOTE_DE)
     + kv([("Artikel", "Führungsrolle (Auszugrolle) für Schubladen"),
           ("Verwendung", "Container und Doppelcontainer, Aufnahme der Schubladen am Schwerlastrahmen"),
-          ("Material", "Stahl [PRÜFEN: z. B. verzinkt], Laufrolle"),
-          ("Länge", "ca. [PRÜFEN] mm"),
+          ("Material", "Eisen"),
           ("Befestigung", "Montagelöcher an beiden Enden"),
           ("Zustand", "[PRÜFEN: Neu]")])
-    + p("Bitte vergleiche Maße und Befestigungspunkte vor dem Kauf mit deinem Möbel. Eine 100-%ige Passgenauigkeit zu allen Originalteilen können wir nicht zusichern, geringe Fertigungstoleranzen sind möglich.", "12.5px", MUTED, "8px")
+    + p("Bitte vergleiche die Befestigungspunkte vor dem Kauf mit deinem Möbel. Eine 100-%ige Passgenauigkeit zu allen Originalteilen können wir nicht zusichern, geringe Fertigungstoleranzen sind möglich.", "12.5px", MUTED, "8px")
     + p("<b>Lieferumfang:</b> 1 Stück Führungsrolle. <b>Nicht enthalten:</b> Schrauben, Schubladen, Rahmen, Werkzeug.")
-    + p("<b>Größere Mengen oder andere Maße:</b> auf Anfrage möglich. Bitte senden Sie uns dazu eine Nachricht.", "13px", "#222222", "6px")
+    + p("<b>Größere Mengen:</b> auf Anfrage möglich. Bitte senden Sie uns dazu eine Nachricht.", "13px", "#222222", "6px")
 )
 
 EN = wrap(
@@ -68,13 +67,12 @@ EN = wrap(
     + notice("Important notice:", NOTE_EN)
     + kv([("Item", "Guide roller for drawers"),
           ("Use", "Pedestals and double pedestals, carries the drawers on the heavy-duty frame"),
-          ("Material", "Steel [CHECK: e.g. galvanised], roller wheel"),
-          ("Length", "ca. [CHECK] mm"),
+          ("Material", "Iron"),
           ("Mounting", "Mounting holes at both ends"),
           ("Condition", "[CHECK: New]")])
-    + p("Please compare dimensions and mounting points with your furniture before purchase. We cannot guarantee a 100% fit with all original parts; minor manufacturing tolerances are possible.", "12.5px", MUTED, "8px")
+    + p("Please compare the mounting points with your furniture before purchase. We cannot guarantee a 100% fit with all original parts; minor manufacturing tolerances are possible.", "12.5px", MUTED, "8px")
     + p("<b>Included:</b> 1 guide roller. <b>Not included:</b> screws, drawers, frame, tools.")
-    + p("<b>Larger quantities or other sizes:</b> available on request. Please send us a message.", "13px", "#222222", "6px")
+    + p("<b>Larger quantities:</b> available on request. Please send us a message.", "13px", "#222222", "6px")
 )
 
 code = ("<!-- ===== DEUTSCH ===== -->\n" + bar("Deutsch") + "\n" + DE + "\n\n<div style=\"height:18px;\"></div>\n"
